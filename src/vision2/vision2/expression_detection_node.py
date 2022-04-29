@@ -78,6 +78,7 @@ class ExpressionDetection(Node):
     def detect_expression(self, msg_face_imgs,msg_ids):
         #try:
             # todo: handle msgs, detect expressions, send coords, expression, id array to next step (ai and vizualisation_node)
+            
 
             # get face images
             msg_images = msg_face_imgs.face_images
@@ -122,6 +123,11 @@ class ExpressionDetection(Node):
                                 #bottom_right=Point2(x=int(x1+w), y=int(y1+h)))
 
                 #need to build messages + include ids
+                def timer_callback(self):
+                    msg = String()
+                    msg.data = predicted_emotion
+                    self.publisher_.publish(msg)
+                    self.get_logger().info('Publishing: "%s"' % msg.data)
 
 
 

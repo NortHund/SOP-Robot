@@ -56,7 +56,6 @@ class Vision2(Node):
             .string_value
         )
         # For face coordinates for object tracker
-        # todo -> create vision2_msgs and give 42x42 face pictures
         # with coordinates to expression_tracker_node
         face_topic = (
             self.declare_parameter(
@@ -138,7 +137,6 @@ class Vision2(Node):
         except:
             print("error")
 
-
 def main(args=None):
     rclpy.init(args=args)
 
@@ -148,7 +146,6 @@ def main(args=None):
 
     visions.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

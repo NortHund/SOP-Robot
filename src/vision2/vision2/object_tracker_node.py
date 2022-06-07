@@ -14,10 +14,8 @@ import message_filters
 
 # for sensor_msg to image and back
 bridge = CvBridge()
-# init tracker list
-# there should be some better way with services
+# init trackers
 trackers = []
-# need to fix ids when there is vision2_msgs
 ids = []
 
 
@@ -63,7 +61,7 @@ class ObjectTracker(Node):
         # headerless messages.
         self.sync = message_filters.ApproximateTimeSynchronizer(
             (self.faces_sub, self.image_sub), 4, 0.1, allow_headerless=True)
-        #
+
         self.sync.registerCallback(self.track_object)
         # visualize tracking
         self.face_img_publisher = self.create_publisher(
@@ -73,7 +71,6 @@ class ObjectTracker(Node):
             Faces, faces_id_topic, 10)
 
     # Handles tracking
-
     def track_object(self, faces_msg, img_msg):
         # convert msg to image
         cv2_bgr_img = bridge.imgmsg_to_cv2(img_msg, "bgr8")
@@ -98,23 +95,22 @@ class ObjectTracker(Node):
             for tracker in trackers:
                 # update every tracker and get tracking quality
                 quality = tracker.update(cv2_bgr_img)
-                # if quality under value, we stop tracking
+                # if quality under value, stop tracking
                 if quality < 8:
-                    # append index number of tracker we dont want anymore
+                    # append index number of unwanted tracker
                     trackers_delete.append(trackers.index(tracker))
-
                 else:
-                    # if we continue tracking we get position of each tracker
+                    # continue tracking position of each tracker
                     t_pos = tracker.get_position()
 
                     t_x = int(t_pos.left())
                     t_y = int(t_pos.top())
                     t_w = int(t_pos.width())
                     t_h = int(t_pos.height())
-                    # we draw rextangles of tracker to converted image
+                    # draw rextangles of tracker to converted image
                     cv2.rectangle(cv2_bgr_img, (t_x,  t_y),
                                   (t_x+t_w, t_y+t_h), (0, 0, 255), 2)
-                    # also include id of tracker as identification
+                    # include id of tracker as identification
                     cv2.putText(cv2_bgr_img, ("ID: " + str(ids[trackers.index(tracker)])),
                                 (t_x, t_y), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
 
@@ -124,14 +120,14 @@ class ObjectTracker(Node):
                     # append msg list
                     faces_ids_msg.append(face_id_msg)
 
-                # last we pop unwanted trackers
+                # pop unwanted trackers
             for index_to_remove in trackers_delete:
                 trackers.pop(index_to_remove-i)
                 ids.pop(index_to_remove-i)
                 i = i+1
         except:
             print("error")
-        # first we check if we have any new faces to track
+        #check if  any new faces to track
         if len(faces) > len(trackers):
             # loop every face coordinate
             for face in faces:
@@ -174,13 +170,11 @@ class ObjectTracker(Node):
                     tracker.start_track(cv2_bgr_img, dlib.rectangle(
                         topleft_x-10, topleft_y-30, bottomright_x+5, bottomright_y+5))
                     # we append our trakcer list
-
                     trackers.append(tracker)
                     if(len(ids) == 0):
                         ids.append(1)
                     else:
                         ids.append(ids[len(ids)-1]+1)
-        # print(cv2_bgr_img.shape)
 
         # we publish img for vizualisation
         self.face_img_publisher.publish(
@@ -188,11 +182,7 @@ class ObjectTracker(Node):
 
         self.face_id_publisher.publish(Faces(faces=faces_ids_msg))
 
-        # todo: we need to info as msg and also handle vizualisation elsewhere
-        # where we also include data from other nodes.
-        # also need to scale down pictures for performance and think about way
-        # how to handle tracking for example every 5th or 10th frame
-
+        # todo: handle vizualisation in seperate node
 
 def main(args=None):
 

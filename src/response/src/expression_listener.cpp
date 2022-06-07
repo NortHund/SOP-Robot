@@ -23,10 +23,12 @@ private:
     if (msg->emotion == "happy") { 
         printf("Terve!\n");
         system("canberra-gtk-play -f /workspace/sounds/hello.oga");
+        system("ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory \"{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.5, 0.0, 0.0, 0.0], time_from_start: { sec: 1, nanosec: 0 } } ] } }\" ");
     }
     if (msg->emotion == "angry") { 
         printf("apua!\n");
         system("canberra-gtk-play -f /workspace/sounds/help.oga");
+        system("ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory \"{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.0, 0.0, 0.0, 0.0], time_from_start: { sec: 1, nanosec: 0 } } ] } }\" ");
     }
   }
   rclcpp::Subscription<vision2_msgs::msg::Face>::SharedPtr subscription_;       // CHANGE

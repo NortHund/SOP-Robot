@@ -1,9 +1,9 @@
+from json.encoder import INFINITY
 import rclpy
 from rclpy.node import Node
 import cv2
 import numpy
 import os
-
 
 from ament_index_python.packages import get_package_share_directory
 
@@ -18,24 +18,6 @@ from keras.preprocessing.image import img_to_array
 from cv_bridge import CvBridge, CvBridgeError
 
 bridge = CvBridge()
-
-# Need to fix everything here after vision2_msgs are working
-
-class MinimalPublisher(Node):
-
-    def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
-        timer_period = 0.5  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
-
-    def timer_callback(self):
-        msg = String()
-        msg.data = '%s' % self.i
-        self.publisher_.publish(msg)
-        self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
 
 
 class ExpressionDetection(Node):
@@ -70,43 +52,107 @@ class ExpressionDetection(Node):
             "/face_ids",
         )
 
+        # for publisher which publish everything
+        faces_details_topic = (
+            self.declare_parameter(
+                "face_details_topic", "face_details"
+            )
+            .get_parameter_value()
+            .string_value
+        )
+
         self.sync = message_filters.ApproximateTimeSynchronizer(
             (self.faces_sub, self.image_sub), 4, 0.1, allow_headerless=True)
 
         self.sync.registerCallback(self.detect_expression)
 
-    def detect_expression(self, msg_face_imgs,msg_ids):
-        #try:
-            # todo: handle msgs, detect expressions, send coords, expression, id array to next step (ai and vizualisation_node)
-            
+        # Publish expression, coordinates, tracker ids
+        self.face_details_publisher = self.create_publisher(
+            Faces, faces_details_topic, 10)
 
-            # get face images
-            msg_images = msg_face_imgs.face_images
-            # get face info
-            msg_face_info = msg_face_imgs.face_info
-            # init array for face images
-            faces_img_array = []
+    def detect_expression(self, msg_face_imgs, msg_ids):
+        # try:
+        # todo: optimize for multiple faces
+        # get face images
+        msg_images = msg_face_imgs.face_images
+        # get face info
+        msg_face_info = msg_face_imgs.face_info
+        # get face ids
+        msg_face_ids = msg_ids.faces
 
-            # get face images to array
-            for img in msg_images:
-                #print(img)
-                faces_img_array.append(bridge.imgmsg_to_cv2(img.face_image, "mono8"))
-            
-            # init array for face info
-            face_info_array = []
+        # init array for face images
+        faces_img_array = []
 
-            # get face info to array
-            for info in msg_face_info:
-                face_info_array.append(((info.top_left.x, info.top_left.y),
-                         (info.bottom_right.x, info.bottom_right.y)))
-            
-            # 
+        # get face images to array
+        for img in msg_images:
+            faces_img_array.append(
+                bridge.imgmsg_to_cv2(img.face_image, "mono8"))
 
-            print(face_info_array)
-            msg_faces_details = []
+        # init array for face coord
+        face_coord_array = []
+        # get face coord to array
+        for info in msg_face_info:
+            face_coord_array.append(((info.top_left.x, info.top_left.y),
+                                     (info.bottom_right.x, info.bottom_right.y)))
+        # init array for face ids
+        face_ids_array = []
 
+        # get face ids to array
+        for info in msg_face_ids:
+            face_ids_array.append(((info.top_left.x, info.top_left.y),
+                                   (info.bottom_right.x, info.bottom_right.y), info.id))
+
+        face_coord_center = []
+
+        for face_coords in face_coord_array:
+            temp1, temp2 = face_coords
+            face_coord_center.append(
+                ((temp1[0]+0.5*temp2[0]), (temp1[1]+0.5*temp2[1])))
+
+        face_ids_center = []
+
+        for face_id in face_ids_array:
+            temp1, temp2, temp3 = face_id
+            face_ids_center.append(
+                ((temp1[0]+0.5*temp2[0]), (temp1[1]+0.5*temp2[1]), temp3))
+
+        #sorted_ids_coords = face_ids_array
+        sorted_ids_coords = []
+
+        for face_id_position in face_ids_center:
+            dist = INFINITY
+            new_index = 0
+            for face_coord_position in face_coord_center:
+                if numpy.sqrt((face_coord_position[0]-face_id_position[0])**2+(face_coord_position[1]-face_id_position[1])**2) < dist:
+                    new_index = face_coord_center.index(
+                        face_coord_position)
+                    dist = numpy.sqrt((face_coord_position[0]-face_id_position[0])**2+(face_coord_position[1]-face_id_position[1])**2)
+
+            try:
+                # sorted_ids_coords[new_index] = face_ids_array[face_ids_center.index(
+                # face_id_position)]
+                sorted_ids_coords.append(face_ids_array[new_index])
+                # except IndexError:
+            except:
+                pass
+
+        msg_faces_details = []
+
+        #print(sorted_ids_coords)
+
+
+        #print("faces_img_array len: ", len(faces_img_array))
+        #print("sorted_ids_coords len: ", len(sorted_ids_coords))
+
+        i = 0
+        if (len(faces_img_array) <= len(sorted_ids_coords)):
             for face in faces_img_array:
-
+                try:
+                    temp_msg_det = sorted_ids_coords[i]
+                    i = i+1
+                except IndexError:
+                    # except:
+                    pass
                 temp = img_to_array(face)
                 temp = numpy.expand_dims(temp, axis=0)
 
@@ -117,25 +163,25 @@ class ExpressionDetection(Node):
                             "Neutral", "Sad", "Surprised")
 
                 predicted_emotion = emotions[index]
-                print(predicted_emotion)
-                #face_info_array[int(faces_img_array.index(face))]
-                #msg_face_details = Face(top_left=Point2(x=int(x1), y=int(y1)),
-                                #bottom_right=Point2(x=int(x1+w), y=int(y1+h)))
-
-                #need to build messages + include ids
-                def timer_callback(self):
-                    msg = String()
-                    msg.data = predicted_emotion
-                    self.publisher_.publish(msg)
-                    self.get_logger().info('Publishing: "%s"' % msg.data)
+                if index == 3:
+                    print("Terve!")
 
 
+                try:
+                    face_id_msg = Face(top_left=Point2(x=int(temp_msg_det[0][0]), y=int(temp_msg_det[0][1])), bottom_right=Point2(
+                        x=int(temp_msg_det[1][0]), y=int(temp_msg_det[1][1])), id=int(temp_msg_det[2]), emotion=predicted_emotion)
 
+                    msg_faces_details.append(face_id_msg)
+                except UnboundLocalError:
+                    pass
 
-            #self.face_img_publisher.publish(bridge.cv2_to_imgmsg(blank_image, "bgr8"))
+            self.face_details_publisher.publish(Faces(faces=msg_faces_details))
+            
+            print("Send msg to face_details topic")
+            print(msg_faces_details)
 
-        #except:
-           # print("error")
+        # except:
+        # print("error")
 
 
 def main(args=None):

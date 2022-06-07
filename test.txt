@@ -1,0 +1,20 @@
+//Tilt head to side -- Console
+ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.5, 0.0, 0.0, 0.0], time_from_start: { sec: 1, nanosec: 0 } } ] } }"
+
+//Tilt head to side -- Code
+system("ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory \"{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.5, 0.0, 0.0, 0.0], time_from_start: { sec: 1, nanosec: 0 } } ] } }\" ");
+
+//Open jaw slightly --Console
+ros2 action send_goal /jaw_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{ trajectory: { joint_names: [head_jaw_joint], points: [ { positions: [0.1], time_from_start: { sec: 1, nanosec: 0 } } ] } }" 
+
+//Open jaw slightly --Code
+system("ros2 action send_goal /jaw_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory \"{ trajectory: { joint_names: [head_jaw_joint], points: [ { positions: [0.1], time_from_start: { sec: 1, nanosec: 0 } } ] } }\" ");
+
+//Tilt head back --Console
+ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.0, 0.0, 0.0, 0.5], time_from_start: { sec: 1, nanosec: 0 } } ] } }"
+
+//Tilt head back --Code
+system("ros2 action send_goal /head_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory \"{ trajectory: { joint_names: [head_pan_joint, head_tilt_right_joint, head_tilt_left_joint, head_tilt_vertical_joint], points: [ { positions: [0.5, 0.0, 0.0, 0.0], time_from_start: { sec: 1, nanosec: 0 } } ] } }\" ");
+
+
+

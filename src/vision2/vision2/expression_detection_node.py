@@ -19,6 +19,7 @@ from cv_bridge import CvBridge, CvBridgeError
 
 bridge = CvBridge()
 
+expression_list = []
 
 class ExpressionDetection(Node):
 
@@ -146,38 +147,98 @@ class ExpressionDetection(Node):
 
         i = 0
         if (len(faces_img_array) <= len(sorted_ids_coords)):
+            detected_round = False
             for face in faces_img_array:
+                is_on_list = False
+                #check if expression list is null
+                #***********************************************
+                if len(expression_list) > 0:
+                    for item in expression_list:
+                        if item[0] == sorted_ids_coords[i][2]:
+                            is_on_list = True
+                    if not is_on_list:
+                        for item in expression_list:
+                            #print("muut falseksi")
+                            item[1] = False
+                        expression_list.append([sorted_ids_coords[i][2], True, ""])
+                else:
+                    expression_list.append([sorted_ids_coords[i][2], True, ""])
+                    #print("lisatty ensimmainen listalle")
+
+                #print(expression_list)
+
+                #*********************************************
+
+                pop_these = len(expression_list) - len(faces_img_array)
+
+                while pop_these > 0:
+                    try:
+                        expression_list.pop()
+                        pop_these = pop_these -1
+                        #print("popped")
+                    except:
+                        pass
+
+                #**********************************************
+
                 try:
                     temp_msg_det = sorted_ids_coords[i]
                     i = i+1
                 except IndexError:
                     # except:
                     pass
-                temp = img_to_array(face)
-                temp = numpy.expand_dims(temp, axis=0)
+                j = 0
+                needs_detection = False
+                while j < len(expression_list):
+                    #print(j)
+                    #print(i)
+                    #print("kek")
+                    if sorted_ids_coords[i-1][2] == expression_list[j][0]:
+                        needs_detection = expression_list[j][1]
+                        break
+                    j = j+1
 
-                predictions = self.classifier.predict(temp)
-
-                index = numpy.argmax(predictions[0])
-                emotions = ("Angry", "Disgust", "Fear", "Happy",
+                if needs_detection and not detected_round:
+                    temp = img_to_array(face)
+                    temp = numpy.expand_dims(temp, axis=0)
+                    predictions = self.classifier.predict(temp)
+                    index = numpy.argmax(predictions[0])
+                    emotions = ("Angry", "Disgust", "Fear", "Happy",
                             "Neutral", "Sad", "Surprised")
+                    predicted_emotion = emotions[index]
 
-                predicted_emotion = emotions[index]
-                if index == 3:
-                    print("Terve!")
+                    expression_list[j][2] = predicted_emotion
+                    print("detected emotion for: ", j)
+                    detected_round = True
+
+                    if(len(expression_list)==1):
+                        pass
+                    else:
+                        expression_list[j][1] = False
+                        if j == 0:
+                            expression_list[len(expression_list)-1][1] = True
+                        else:
+                            expression_list[j-1][1] = True
+
+                else:
+                    predicted_emotion = expression_list[j][2]
 
 
-                try:
-                    face_id_msg = Face(top_left=Point2(x=int(temp_msg_det[0][0]), y=int(temp_msg_det[0][1])), bottom_right=Point2(
-                        x=int(temp_msg_det[1][0]), y=int(temp_msg_det[1][1])), id=int(temp_msg_det[2]), emotion=predicted_emotion)
 
-                    msg_faces_details.append(face_id_msg)
-                except UnboundLocalError:
-                    pass
+                
 
+                #try:
+                #print("hep)")
+                face_id_msg = Face(top_left=Point2(x=int(temp_msg_det[0][0]), y=int(temp_msg_det[0][1])), bottom_right=Point2(
+                    x=int(temp_msg_det[1][0]), y=int(temp_msg_det[1][1])), id=int(temp_msg_det[2]), emotion=predicted_emotion)
+
+                msg_faces_details.append(face_id_msg)
+                #except UnboundLocalError:
+                    #print("error")
+                    #pass
+                #i = i + 1
             self.face_details_publisher.publish(Faces(faces=msg_faces_details))
-            
-            print("Send msg to face_details topic")
+            #print("Send msg to face_details topic")
             print(msg_faces_details)
 
         # except:

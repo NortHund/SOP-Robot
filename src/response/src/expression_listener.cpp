@@ -3,7 +3,11 @@
 #include <iostream>
 
 #include "rclcpp/rclcpp.hpp"
-#include "vision2_msgs/msg/face.hpp"     // CHANGE
+#include "vision2_msgs/msg/face.hpp"
+//#include "vision2_msgs/msg/faceimage.hpp"
+//#include "vision2_msgs/msg/faceimages.hpp"
+//#include "vision2_msgs/msg/faces.hpp"
+//#include "vision2_msgs/msg/point2.hpp"    // CHANGE
 using std::placeholders::_1;
 
 class MinimalSubscriber : public rclcpp::Node
@@ -13,7 +17,7 @@ public:
   : Node("minimal_subscriber")
   {
     subscription_ = this->create_subscription<vision2_msgs::msg::Face>(          // CHANGE
-      "topic", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+      "face_details", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
   }
 
 private:

@@ -25,7 +25,8 @@ setup(
         'console_scripts': [
             'vision2_node = vision2.vision2_node:main',
             'object_tracker_node = vision2.object_tracker_node:main',
-            'expression_detection_node = vision2.expression_detection_node:main'
+            'expression_detection_node = vision2.expression_detection_node:main',
+            'response = vision2.response:main'
         ],
     },
 )

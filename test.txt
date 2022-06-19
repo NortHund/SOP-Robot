@@ -18,3 +18,7 @@ system("ros2 action send_goal /head_controller/follow_joint_trajectory control_m
 
 //Launch Robo
 ros2 launch robot robot.fake.launch.py
+
+//
+colcon build
+. install/setup.bash

@@ -3,7 +3,7 @@
 *~
 .o
 .pyc
-
+.Trash*
 .vscode/*
 !.vscode/c_cpp_properties.json
 

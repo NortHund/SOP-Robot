@@ -28,7 +28,7 @@ def generate_launch_description():
             }
         ],
     )
-
+    '''
     object_tracker_node = Node(
         package="vision2",
         executable="object_tracker_node",
@@ -40,6 +40,8 @@ def generate_launch_description():
             }
         ],
     )
+    '''
 
 
-    return LaunchDescription([vision_node, object_tracker_node, camera_node])
+    #return LaunchDescription([vision_node, object_tracker_node, camera_node])
+    return LaunchDescription([vision_node, camera_node])

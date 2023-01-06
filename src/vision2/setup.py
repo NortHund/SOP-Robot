@@ -12,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'classifier'), glob('classifier/*')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*'))
     ],
     install_requires=['setuptools'],
@@ -26,7 +27,7 @@ setup(
             'vision2_node = vision2.vision2_node:main',
             'object_tracker_node = vision2.object_tracker_node:main',
             'expression_detection_node = vision2.expression_detection_node:main',
-            'response = vision2.response:main'
+            'vision2_action_msgs_node = vision2.vision2_action_msgs_node:main'
         ],
     },
 )

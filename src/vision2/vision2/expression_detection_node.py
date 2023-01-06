@@ -13,7 +13,9 @@ import message_filters
 
 from vision2_msgs.msg import Faces, Face, Point2, FaceImage, FaceImages
 from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+#from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
+
 
 from cv_bridge import CvBridge, CvBridgeError
 

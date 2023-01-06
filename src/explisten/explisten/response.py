@@ -10,6 +10,7 @@ from vision2_msgs.msg import Faces, Face, Point2, FaceImage, FaceImages
 class Vision2ActionMsgs(Node):
 
     def __init__(self):
+        print("init")
         super().__init__('vision2_action_msgs')
         self.subscription = self.create_subscription(
             Faces,
@@ -19,6 +20,7 @@ class Vision2ActionMsgs(Node):
         self.subscription  # prevent unused variable warning
 
     def handle_action_msgs(self, faces_details):
+        print("handle")
         print(faces_details)
         print(type(faces_details))
         detailstr = str(faces_details)
@@ -44,6 +46,7 @@ class Vision2ActionMsgs(Node):
 
 
 def main(args=None):
+    print("starting")
     rclpy.init(args=args)
 
     exp_listener = Vision2ActionMsgs()

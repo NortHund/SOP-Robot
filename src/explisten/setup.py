@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'response = vision2.response:main'
+            'response = explisten.response:main'
         ],
     },
 )

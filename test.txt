@@ -22,3 +22,12 @@ ros2 launch robot robot.fake.launch.py
 //
 colcon build
 . install/setup.bash
+
+//aja kaikki nodet:
+ros2 launch vision2 vision2.test.launch.py
+
+ros2 run vision2 expression_detection_node
+ros2 run vision2 response
+
+
+

@@ -20,6 +20,7 @@ system("ros2 action send_goal /head_controller/follow_joint_trajectory control_m
 ros2 launch robot robot.fake.launch.py
 
 //
+colcon build --packages-select vision2
 colcon build
 . install/setup.bash
 
@@ -28,6 +29,10 @@ ros2 launch vision2 vision2.test.launch.py
 
 ros2 run vision2 expression_detection_node
 ros2 run vision2 response
+ros2 run vision2 vision2_action_msgs_node
 
 
 
+server_is_ready() returns true if action server is ready
+
+if server_is_ready -> send_goal_async ?

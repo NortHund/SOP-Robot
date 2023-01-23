@@ -4,15 +4,21 @@ from rclpy.action import ActionClient
 from std_msgs.msg import String
 from vision2_msgs.msg import Faces, Face, Point2, FaceImage, FaceImages
 
+#import actionlib
+
 from control_msgs.action import FollowJointTrajectory
 from trajectory_msgs.msg import JointTrajectoryPoint
 from trajectory_msgs.msg import JointTrajectory
 from builtin_interfaces.msg import Duration
 
+import time
 import re
 
-class Vision2ActionMsgs(Node):
 
+
+class Vision2ActionMsgs(Node):
+    
+    
     def __init__(self):
         super().__init__('vision2_action_msgs')
 
@@ -25,10 +31,45 @@ class Vision2ActionMsgs(Node):
             self.handle_action_msgs,
             10,
         )
+        global globalstatus
+        globalstatus = 0
+        global time1
+        time1 = 0
+        global time2
+        time2 = 0
+
+    def goal_response_callback(self, future):
+        goal_handle = future.result()
+        if not goal_handle.accepted:
+            self.get_logger().info('Goal rejected :(')
+            return
+
+        self.get_logger().info('Goal accepted :)')
+
+        self._get_result_future = goal_handle.get_result_async()
+        self._get_result_future.add_done_callback(self.get_result_callback)
+
+    def feedback_callback(self, feedback):
+        self.get_logger().info('Received feedback: {0}'.format(feedback.feedback))
+
+    def get_result_callback(self, future):
+        result = future.result().result
+        status = future.result().status
+        global globalstatus 
+        globalstatus = future.result().status
+        self.get_logger().info('Result: {0}'.format(result))
+        self.get_logger().info('status: {0}'.format(status))
+       
+
+    
+
+
+
 
     def handle_action_msgs(self, faces_details):
         # todo... 
         # parse message (face_details)...
+        #time.sleep(5)
         print(faces_details)
         print(type(faces_details))
         detailstr = str(faces_details)
@@ -105,26 +146,56 @@ class Vision2ActionMsgs(Node):
         # happy look towards? neutral reset position? angry -> lookaway?
         # goal is https://docs.ros2.org/foxy/api/trajectory_msgs/msg/JointTrajectoryPoint.html "positions"
         # print(faces_details)
-
+        time1 = time.perf_counter()
         
         self.send_goal(goal)
+        #self.wait_for_result(15)
+        #time.sleep(15)
+        
+        
 
     def send_goal(self, goal):
 
-        head_joints = ['head_pan_joint', 
-                        'head_tilt_right_joint', 
-                        'head_tilt_left_joint', 
-                        'head_tilt_vertical_joint']
+        global time1 
+        global time2
+        time1 = time.perf_counter()
+        
+        if time1 - time2 > 3:
+            head_joints = ['head_pan_joint', 
+                            'head_tilt_right_joint', 
+                            'head_tilt_left_joint', 
+                            'head_tilt_vertical_joint']
 
-        # "correct" duration might be in lecture videos
-        duration = Duration(sec=0,nanosec=0)
-        msg1 = [JointTrajectoryPoint(positions=goal,time_from_start=duration)]
-        msg2 = JointTrajectory(joint_names=head_joints,points=msg1)
-        self._action_client.wait_for_server()
-        goal_msg = FollowJointTrajectory.Goal()
-        goal_msg.trajectory = msg2
+            # "correct" duration might be in lecture videos
+            duration = Duration(sec=1,nanosec=0)
+            msg1 = [JointTrajectoryPoint(positions=goal,time_from_start=duration)]
+            msg2 = JointTrajectory(joint_names=head_joints,points=msg1)
+            #self.get_logger().info('Waiting for action server...')
+            self._action_client.wait_for_server()
+            #self.get_logger().info('Sending goal request...')
+            goal_msg = FollowJointTrajectory.Goal()
+            goal_msg.trajectory = msg2
+            
+            
+            self._send_goal_future = self._action_client.send_goal_async(
+                goal_msg,
+                feedback_callback=self.feedback_callback)
+            #time.sleep(10)
+            self._send_goal_future.add_done_callback(self.goal_response_callback)
+            serverstatus = globalstatus
+            
+            time2 = time.perf_counter()
+            print(serverstatus)
+        if self._action_client.server_is_ready():
+            #self._action_client.send_goal_async(goal_msg)
+            print("server availabel goal")
+        
+        return 1
+        #return self._action_client.send_goal(goal_msg)
+        
+        #return self._action_client.get_result()
 
-        return self._action_client.send_goal_async(goal_msg)
+        #return self._action_client.send_goal_async(goal_msg)
 
 def main(args=None):
     rclpy.init(args=args)
@@ -132,6 +203,7 @@ def main(args=None):
     vision2_action_msgs = Vision2ActionMsgs()
 
     rclpy.spin(vision2_action_msgs)
+    
 
     vision2_action_msgs.destroy_node()
     rclpy.shutdown()

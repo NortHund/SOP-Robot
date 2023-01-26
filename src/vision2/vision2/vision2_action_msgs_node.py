@@ -4,17 +4,14 @@ from rclpy.action import ActionClient
 from std_msgs.msg import String
 from vision2_msgs.msg import Faces, Face, Point2, FaceImage, FaceImages
 
-#import actionlib
+from action_msgs.msg import GoalStatus
 
 from control_msgs.action import FollowJointTrajectory
 from trajectory_msgs.msg import JointTrajectoryPoint
 from trajectory_msgs.msg import JointTrajectory
 from builtin_interfaces.msg import Duration
 
-import time
 import re
-
-
 
 class Vision2ActionMsgs(Node):
     
@@ -33,10 +30,6 @@ class Vision2ActionMsgs(Node):
         )
         global globalstatus
         globalstatus = 0
-        global time1
-        time1 = 0
-        global time2
-        time2 = 0
 
     def goal_response_callback(self, future):
         goal_handle = future.result()
@@ -53,27 +46,21 @@ class Vision2ActionMsgs(Node):
         self.get_logger().info('Received feedback: {0}'.format(feedback.feedback))
 
     def get_result_callback(self, future):
-        result = future.result().result
         status = future.result().status
-        global globalstatus 
-        globalstatus = future.result().status
-        self.get_logger().info('Result: {0}'.format(result))
-        self.get_logger().info('status: {0}'.format(status))
-       
+        if status == GoalStatus.STATUS_SUCCEEDED:
+            self.get_logger().info('Goal succeeded!')
+            global globalstatus
+            globalstatus = 0
+        else:
+            self.get_logger().info('Goal failed')
 
-    
-
-
-
+        # Shutdown after receiving a result
+        #rclpy.shutdown()
 
     def handle_action_msgs(self, faces_details):
-        # todo... 
-        # parse message (face_details)...
-        #time.sleep(5)
         print(faces_details)
         print(type(faces_details))
         detailstr = str(faces_details)
-        #wlist = detailstr.split()
         wlist = re.findall(r'\w+', detailstr)
         print(wlist)
         
@@ -123,10 +110,8 @@ class Vision2ActionMsgs(Node):
         
         if maxfaceemotion == "Happy":
             faceexp = 1
-            #wait(2)
         elif maxfaceemotion == "Angry":
             faceexp = 2
-            #wait(2)
         
         
         if faceexp == 1:
@@ -141,60 +126,37 @@ class Vision2ActionMsgs(Node):
             else:
                 goal = [-0.6, 0.0, 0.0, 0.0]
         
-        # Calculate closest person
-        # calculate projected goal position based on expression.. 
-        # happy look towards? neutral reset position? angry -> lookaway?
-        # goal is https://docs.ros2.org/foxy/api/trajectory_msgs/msg/JointTrajectoryPoint.html "positions"
-        # print(faces_details)
-        time1 = time.perf_counter()
         
         self.send_goal(goal)
-        #self.wait_for_result(15)
-        #time.sleep(15)
-        
+
         
 
     def send_goal(self, goal):
-
-        global time1 
-        global time2
-        time1 = time.perf_counter()
+        global globalstatus
         
-        if time1 - time2 > 3:
-            head_joints = ['head_pan_joint', 
-                            'head_tilt_right_joint', 
-                            'head_tilt_left_joint', 
-                            'head_tilt_vertical_joint']
+        head_joints = ['head_pan_joint', 
+                        'head_tilt_right_joint', 
+                        'head_tilt_left_joint', 
+                        'head_tilt_vertical_joint']
 
-            # "correct" duration might be in lecture videos
-            duration = Duration(sec=1,nanosec=0)
-            msg1 = [JointTrajectoryPoint(positions=goal,time_from_start=duration)]
-            msg2 = JointTrajectory(joint_names=head_joints,points=msg1)
-            #self.get_logger().info('Waiting for action server...')
-            self._action_client.wait_for_server()
-            #self.get_logger().info('Sending goal request...')
-            goal_msg = FollowJointTrajectory.Goal()
-            goal_msg.trajectory = msg2
-            
-            
+        duration = Duration(sec=1,nanosec=0)
+        msg1 = [JointTrajectoryPoint(positions=goal,time_from_start=duration)]
+        msg2 = JointTrajectory(joint_names=head_joints,points=msg1)
+        
+        self.get_logger().info('Waiting for action server...')
+        self._action_client.wait_for_server()
+        self.get_logger().info('Sending goal request...')
+        goal_msg = FollowJointTrajectory.Goal()
+        goal_msg.trajectory = msg2
+        
+        if globalstatus == 0:
             self._send_goal_future = self._action_client.send_goal_async(
                 goal_msg,
                 feedback_callback=self.feedback_callback)
-            #time.sleep(10)
             self._send_goal_future.add_done_callback(self.goal_response_callback)
-            serverstatus = globalstatus
+            globalstatus = 1
             
-            time2 = time.perf_counter()
-            print(serverstatus)
-        if self._action_client.server_is_ready():
-            #self._action_client.send_goal_async(goal_msg)
-            print("server availabel goal")
-        
-        return 1
         #return self._action_client.send_goal(goal_msg)
-        
-        #return self._action_client.get_result()
-
         #return self._action_client.send_goal_async(goal_msg)
 
 def main(args=None):

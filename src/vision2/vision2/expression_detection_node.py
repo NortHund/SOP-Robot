@@ -77,7 +77,6 @@ class ExpressionDetection(Node):
             Faces, faces_details_topic, 10)
 
     def detect_expression(self, msg_face_imgs, msg_ids):
-        print("kek")
         msg_images = msg_face_imgs.face_images
         msg_face_info = msg_face_imgs.face_info
         msg_face_ids = msg_ids.faces
@@ -133,8 +132,9 @@ class ExpressionDetection(Node):
 
         i = 0
         if (len(faces_img_array) <= len(sorted_ids_coords)):
-            detected_round = False
+            #detected_round = False
             for face in faces_img_array:
+                detected_round = False
                 is_on_list = False
                 if len(expression_list) > 0:
                     for item in expression_list:

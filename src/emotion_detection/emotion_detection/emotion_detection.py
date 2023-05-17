@@ -42,8 +42,12 @@ class EmotionDetection(Node):
         self._buffsize = 3
         self.predicted_emotions = deque([], maxlen=self._buffsize) 
 
-        self.emotions = ("Angry", "Disgust", "Fear", "Happy",
-                            "Sad", "Surprised", "Neutral")
+        #self.emotions = ("Angry", "Disgust", "Fear", "Happy",
+        #                    "Sad", "Surprised", "Neutral")
+        
+        self.emotions = ("Angry", "Fear", "Happy",
+                            "Neutral", "Sad", "Surprised")
+        
         self.emotion = None
         self.sending_emotion = False
         self.emotion_buffer_lock = Lock()		
@@ -122,7 +126,7 @@ class EmotionDetection(Node):
         # run the inference
         pixels = img_to_array(cv_img)
         pixels = np.expand_dims(pixels, axis=0)
-        predictions = self.FER_model.predict(pixels, verbose=0)
+        predictions = self.FER_model.predict(pixels/255, verbose=0)
         index = np.argmax(predictions[0])
 
 

@@ -33,6 +33,7 @@ setup(
             'face_detection = ' + package_name + '.face_detection:main',
             'emotion_detection = ' + package_name + '.emotion_detection:main',
             'action_client = ' + package_name + '.action_client:main',
+            'logger = ' + package_name + '.logger:main',
         ],
     },
 )

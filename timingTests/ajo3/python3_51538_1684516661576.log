@@ -1,0 +1,249 @@
+[INFO] [1684516661.904861007] [action_client]: [*] Initializing action_client node...
+[INFO] [1684516662.110039607] [action_client]: [*] Initializing action_client node DONE!
+[INFO] [1684516678.339897027] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516678.341849966] [action_client]: timing e_r 16.233222246170044
+[INFO] [1684516679.154076050] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516679.155032079] [action_client]: timing e_r 0.8112719058990479
+[INFO] [1684516680.422594067] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516680.430483411] [action_client]: timing e_r 1.2678260803222656
+[INFO] [1684516682.091105500] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516682.376700426] [action_client]: Timer turned off
+[INFO] [1684516682.377884050] [action_client]: timing e_r 1.9460136890411377
+[INFO] [1684516682.391349545] [action_client]: Goal accepted :)
+[INFO] [1684516684.386469557] [action_client]: Goal succeeded!
+[INFO] [1684516686.389014477] [action_client]: Resetting robot to original position
+[INFO] [1684516686.392704697] [action_client]: Goal accepted :)
+[INFO] [1684516688.393682305] [action_client]: Goal succeeded!
+[INFO] [1684516688.394887498] [action_client]: Resetting robot done!
+[INFO] [1684516688.399020942] [action_client]: Started emotion node!
+[INFO] [1684516688.607090982] [action_client]: Timer restarted!
+[INFO] [1684516690.223786805] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516690.225107854] [action_client]: timing e_r 1.616731882095337
+[INFO] [1684516691.455365996] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516691.456491787] [action_client]: timing e_r 1.2302539348602295
+[INFO] [1684516693.541776367] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516693.542718192] [action_client]: timing e_r 2.085315227508545
+[INFO] [1684516694.157619752] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516694.163496996] [action_client]: timing e_r 0.6151325702667236
+[INFO] [1684516694.909415120] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516694.913224910] [action_client]: timing e_r 0.7459874153137207
+[INFO] [1684516696.863686997] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516697.213488485] [action_client]: Timer turned off
+[INFO] [1684516697.214682822] [action_client]: timing e_r 2.3002560138702393
+[INFO] [1684516697.233659322] [action_client]: Goal accepted :)
+[INFO] [1684516699.226321933] [action_client]: Goal succeeded!
+[INFO] [1684516701.229609206] [action_client]: Resetting robot to original position
+[INFO] [1684516701.234427857] [action_client]: Goal accepted :)
+[INFO] [1684516703.234323947] [action_client]: Goal succeeded!
+[INFO] [1684516703.236204790] [action_client]: Resetting robot done!
+[INFO] [1684516703.240492885] [action_client]: Started emotion node!
+[INFO] [1684516703.454059390] [action_client]: Timer restarted!
+[INFO] [1684516705.214535555] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516705.576895763] [action_client]: Timer turned off
+[INFO] [1684516705.578123949] [action_client]: timing e_r 2.121429920196533
+[INFO] [1684516705.601861313] [action_client]: Goal accepted :)
+[INFO] [1684516707.598650174] [action_client]: Goal succeeded!
+[INFO] [1684516709.605473777] [action_client]: Resetting robot to original position
+[INFO] [1684516709.609569077] [action_client]: Goal accepted :)
+[INFO] [1684516711.614356933] [action_client]: Goal succeeded!
+[INFO] [1684516711.616807125] [action_client]: Resetting robot done!
+[INFO] [1684516711.622298410] [action_client]: Started emotion node!
+[INFO] [1684516711.836019028] [action_client]: Timer restarted!
+[INFO] [1684516713.406676006] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516713.627693494] [action_client]: Timer turned off
+[INFO] [1684516713.629101548] [action_client]: timing e_r 1.791757345199585
+[INFO] [1684516713.647562531] [action_client]: Goal accepted :)
+[INFO] [1684516715.640337385] [action_client]: Goal succeeded!
+[INFO] [1684516717.645140018] [action_client]: Resetting robot to original position
+[INFO] [1684516717.648754222] [action_client]: Goal accepted :)
+[INFO] [1684516719.652654352] [action_client]: Goal succeeded!
+[INFO] [1684516719.654440109] [action_client]: Resetting robot done!
+[INFO] [1684516719.658745665] [action_client]: Started emotion node!
+[INFO] [1684516719.879041612] [action_client]: Timer restarted!
+[INFO] [1684516721.690749811] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516721.895576782] [action_client]: Timer turned off
+[INFO] [1684516721.896432234] [action_client]: timing e_r 2.015599012374878
+[INFO] [1684516721.921212123] [action_client]: Goal accepted :)
+[INFO] [1684516723.922150200] [action_client]: Goal succeeded!
+[INFO] [1684516725.926558881] [action_client]: Resetting robot to original position
+[INFO] [1684516725.932118937] [action_client]: Goal accepted :)
+[INFO] [1684516727.939802711] [action_client]: Goal succeeded!
+[INFO] [1684516727.941551791] [action_client]: Resetting robot done!
+[INFO] [1684516727.945178538] [action_client]: Started emotion node!
+[INFO] [1684516728.165151620] [action_client]: Timer restarted!
+[INFO] [1684516729.764047407] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516729.765203771] [action_client]: timing e_r 1.597459316253662
+[INFO] [1684516731.082716686] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516731.084326875] [action_client]: timing e_r 1.3175382614135742
+[INFO] [1684516732.282382600] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516732.284490250] [action_client]: timing e_r 1.198103666305542
+[INFO] [1684516733.217976872] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516733.235909117] [action_client]: timing e_r 0.9334945678710938
+[INFO] [1684516734.455429818] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516734.462195983] [action_client]: timing e_r 1.2145731449127197
+[INFO] [1684516735.267306190] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516735.274191535] [action_client]: timing e_r 0.8098962306976318
+[INFO] [1684516736.260489097] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516736.275567453] [action_client]: timing e_r 0.9915273189544678
+[INFO] [1684516739.599592935] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516739.624105448] [action_client]: timing e_r 3.3225040435791016
+[INFO] [1684516740.596179026] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516740.597134716] [action_client]: timing e_r 0.9720418453216553
+[INFO] [1684516741.285831108] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516741.287580123] [action_client]: timing e_r 0.6886396408081055
+[INFO] [1684516742.509648358] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516742.513523617] [action_client]: timing e_r 1.2220110893249512
+[INFO] [1684516743.887498408] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516743.903910673] [action_client]: timing e_r 1.3764638900756836
+[INFO] [1684516744.825603854] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516744.826897167] [action_client]: timing e_r 0.9217026233673096
+[INFO] [1684516746.577505410] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516746.745615120] [action_client]: Timer turned off
+[INFO] [1684516746.746894922] [action_client]: timing e_r 1.9187400341033936
+[INFO] [1684516746.763115102] [action_client]: Goal accepted :)
+[INFO] [1684516748.756671996] [action_client]: Goal succeeded!
+[INFO] [1684516750.763746198] [action_client]: Resetting robot to original position
+[INFO] [1684516750.772551328] [action_client]: Goal accepted :)
+[INFO] [1684516752.771032923] [action_client]: Goal succeeded!
+[INFO] [1684516752.772141357] [action_client]: Resetting robot done!
+[INFO] [1684516752.775061274] [action_client]: Started emotion node!
+[INFO] [1684516752.997196834] [action_client]: Timer restarted!
+[INFO] [1684516761.337669973] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516761.338582516] [action_client]: timing e_r 8.340392351150513
+[INFO] [1684516762.347041272] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516762.370767341] [action_client]: timing e_r 1.0106546878814697
+[INFO] [1684516763.606374700] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516763.950699230] [action_client]: Timer turned off
+[INFO] [1684516763.951237950] [action_client]: timing e_r 1.5777554512023926
+[INFO] [1684516763.957771968] [action_client]: Goal accepted :)
+[INFO] [1684516765.957378273] [action_client]: Goal succeeded!
+[INFO] [1684516767.961281899] [action_client]: Resetting robot to original position
+[INFO] [1684516767.965536670] [action_client]: Goal accepted :)
+[INFO] [1684516769.967251423] [action_client]: Goal succeeded!
+[INFO] [1684516769.968710611] [action_client]: Resetting robot done!
+[INFO] [1684516769.974623452] [action_client]: Started emotion node!
+[INFO] [1684516770.192246194] [action_client]: Timer restarted!
+[INFO] [1684516771.772448792] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516772.009942983] [action_client]: Timer turned off
+[INFO] [1684516772.011058039] [action_client]: timing e_r 1.8177330493927002
+[INFO] [1684516772.047975028] [action_client]: Goal accepted :)
+[INFO] [1684516774.029457568] [action_client]: Goal succeeded!
+[INFO] [1684516776.032043747] [action_client]: Resetting robot to original position
+[INFO] [1684516776.035868005] [action_client]: Goal accepted :)
+[INFO] [1684516778.037745984] [action_client]: Goal succeeded!
+[INFO] [1684516778.038872027] [action_client]: Resetting robot done!
+[INFO] [1684516778.043918921] [action_client]: Started emotion node!
+[INFO] [1684516778.256133739] [action_client]: Timer restarted!
+[INFO] [1684516780.080772709] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516780.463760391] [action_client]: Timer turned off
+[INFO] [1684516780.464951182] [action_client]: timing e_r 2.2076261043548584
+[INFO] [1684516780.480657263] [action_client]: Goal accepted :)
+[INFO] [1684516782.473093756] [action_client]: Goal succeeded!
+[INFO] [1684516784.477535659] [action_client]: Resetting robot to original position
+[INFO] [1684516784.487105055] [action_client]: Goal accepted :)
+[INFO] [1684516786.489142209] [action_client]: Goal succeeded!
+[INFO] [1684516786.490646696] [action_client]: Resetting robot done!
+[INFO] [1684516786.495815759] [action_client]: Started emotion node!
+[INFO] [1684516786.705950119] [action_client]: Timer restarted!
+[INFO] [1684516788.342130491] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516788.649701309] [action_client]: Timer turned off
+[INFO] [1684516788.654299693] [action_client]: timing e_r 1.943739414215088
+[INFO] [1684516788.685033168] [action_client]: Goal accepted :)
+[INFO] [1684516790.676065521] [action_client]: Goal succeeded!
+[INFO] [1684516792.682087750] [action_client]: Resetting robot to original position
+[INFO] [1684516792.688212178] [action_client]: Goal accepted :)
+[INFO] [1684516794.690084950] [action_client]: Goal succeeded!
+[INFO] [1684516794.692536270] [action_client]: Resetting robot done!
+[INFO] [1684516794.697007440] [action_client]: Started emotion node!
+[INFO] [1684516794.908044490] [action_client]: Timer restarted!
+[INFO] [1684516802.801802362] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516803.129787515] [action_client]: Timer turned off
+[INFO] [1684516803.130730586] [action_client]: timing e_r 8.220453262329102
+[INFO] [1684516803.149164811] [action_client]: Goal accepted :)
+[INFO] [1684516805.134816774] [action_client]: Goal succeeded!
+[INFO] [1684516807.137358910] [action_client]: Resetting robot to original position
+[INFO] [1684516807.146841438] [action_client]: Goal accepted :)
+[INFO] [1684516809.150633970] [action_client]: Goal succeeded!
+[INFO] [1684516809.154069117] [action_client]: Resetting robot done!
+[INFO] [1684516809.159789048] [action_client]: Started emotion node!
+[INFO] [1684516809.384365670] [action_client]: Timer restarted!
+[INFO] [1684516811.249834014] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516811.250928608] [action_client]: timing e_r 1.8643429279327393
+[INFO] [1684516812.390579458] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516812.396724683] [action_client]: timing e_r 1.14005708694458
+[INFO] [1684516813.330863553] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516813.336939965] [action_client]: timing e_r 0.9341237545013428
+[INFO] [1684516815.429327785] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516815.430384806] [action_client]: timing e_r 2.09236478805542
+[INFO] [1684516816.522232400] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516816.530079025] [action_client]: timing e_r 1.0918684005737305
+[INFO] [1684516818.419669173] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516818.432290513] [action_client]: timing e_r 1.8913424015045166
+[INFO] [1684516819.515047577] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516819.516507530] [action_client]: timing e_r 1.0804104804992676
+[INFO] [1684516820.360430518] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516820.581808005] [action_client]: Timer turned off
+[INFO] [1684516820.583038566] [action_client]: timing e_r 1.065326452255249
+[INFO] [1684516820.609637257] [action_client]: Goal accepted :)
+[INFO] [1684516822.605298440] [action_client]: Goal succeeded!
+[INFO] [1684516824.611777166] [action_client]: Resetting robot to original position
+[INFO] [1684516824.619978002] [action_client]: Goal accepted :)
+[INFO] [1684516826.631056097] [action_client]: Goal succeeded!
+[INFO] [1684516826.632090781] [action_client]: Resetting robot done!
+[INFO] [1684516826.634964284] [action_client]: Started emotion node!
+[INFO] [1684516826.854147619] [action_client]: Timer restarted!
+[INFO] [1684516828.523425418] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516828.532743376] [action_client]: timing e_r 1.6763627529144287
+[INFO] [1684516829.543525776] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516829.544611673] [action_client]: timing e_r 1.0008633136749268
+[INFO] [1684516830.575157515] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516830.580833752] [action_client]: timing e_r 1.0325608253479004
+[INFO] [1684516831.750135654] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516831.752336248] [action_client]: timing e_r 1.1585922241210938
+[INFO] [1684516833.160026736] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516833.421685049] [action_client]: Timer turned off
+[INFO] [1684516833.423553775] [action_client]: timing e_r 1.6693127155303955
+[INFO] [1684516833.445515380] [action_client]: Goal accepted :)
+[INFO] [1684516835.435763631] [action_client]: Goal succeeded!
+[INFO] [1684516837.439606343] [action_client]: Resetting robot to original position
+[INFO] [1684516837.446006724] [action_client]: Goal accepted :)
+[INFO] [1684516839.445684708] [action_client]: Goal succeeded!
+[INFO] [1684516839.446571930] [action_client]: Resetting robot done!
+[INFO] [1684516839.452479690] [action_client]: Started emotion node!
+[INFO] [1684516839.674454690] [action_client]: Timer restarted!
+[INFO] [1684516841.240654686] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516841.241809754] [action_client]: timing e_r 1.5661964416503906
+[INFO] [1684516841.984502176] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516841.990717691] [action_client]: timing e_r 0.7427599430084229
+[INFO] [1684516843.161798243] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516843.162874633] [action_client]: timing e_r 1.1661505699157715
+[INFO] [1684516844.098160613] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516844.106115018] [action_client]: timing e_r 0.9352710247039795
+[INFO] [1684516844.828995810] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516844.848100591] [action_client]: timing e_r 0.7232232093811035
+[INFO] [1684516846.156852958] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516846.157939844] [action_client]: timing e_r 1.3086905479431152
+[INFO] [1684516847.189923285] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516847.190725322] [action_client]: timing e_r 1.0319972038269043
+[INFO] [1684516848.589300051] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516848.590265806] [action_client]: timing e_r 1.398710012435913
+[INFO] [1684516849.781944705] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516849.782801163] [action_client]: timing e_r 1.1916882991790771
+[INFO] [1684516850.607848188] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516850.611637702] [action_client]: timing e_r 0.8251032829284668
+[INFO] [1684516851.534335333] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516851.537259637] [action_client]: timing e_r 0.9227430820465088
+[INFO] [1684516853.152668083] [action_client]: Emotion accepted -> proceeding...
+[INFO] [1684516853.521719934] [action_client]: Timer turned off
+[INFO] [1684516853.523963370] [action_client]: timing e_r 1.9844772815704346
+[INFO] [1684516853.539172519] [action_client]: Goal accepted :)
+[INFO] [1684516855.537267909] [action_client]: Goal succeeded!
+[INFO] [1684516857.541606751] [action_client]: Resetting robot to original position
+[INFO] [1684516857.548065259] [action_client]: Goal accepted :)
+[INFO] [1684516859.546735540] [action_client]: Goal succeeded!
+[INFO] [1684516859.547806728] [action_client]: Resetting robot done!
+[INFO] [1684516859.553498010] [action_client]: Started emotion node!
+[INFO] [1684516859.782882989] [action_client]: Timer restarted!
+[INFO] [1684516861.567040543] [action_client]: Emotion denied -> exiting...
+[INFO] [1684516861.568241567] [action_client]: timing e_r 1.7841389179229736
+[INFO] [1684516861.660468379] [action_client]: exiting...

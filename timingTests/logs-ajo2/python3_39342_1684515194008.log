@@ -1,0 +1,1463 @@
+[INFO] [1684515194.272066326] [face_recognition]: [*] Initializing face_recognition node...
+[INFO] [1684515194.881724655] [face_recognition]: [*] Initializing face_recognition node DONE!
+[INFO] [1684515195.089593466] [face_recognition]: Publishing video frame: 1
+[INFO] [1684515195.094488123] [face_recognition]: timing f_p 0.11936330795288086
+[INFO] [1684515195.269571129] [face_recognition]: Publishing video frame: 2
+[INFO] [1684515195.270655586] [face_recognition]: timing f_p 0.17229962348937988
+[INFO] [1684515195.442348162] [face_recognition]: Publishing video frame: 3
+[INFO] [1684515195.443809140] [face_recognition]: timing f_p 0.17101621627807617
+[INFO] [1684515195.576426971] [face_recognition]: Publishing video frame: 4
+[INFO] [1684515195.577572599] [face_recognition]: timing f_p 0.13158845901489258
+[INFO] [1684515195.726249278] [face_recognition]: Publishing video frame: 5
+[INFO] [1684515195.729133472] [face_recognition]: timing f_p 0.14841985702514648
+[INFO] [1684515195.867645687] [face_recognition]: Publishing video frame: 6
+[INFO] [1684515195.868490038] [face_recognition]: timing f_p 0.13802027702331543
+[INFO] [1684515196.040963089] [face_recognition]: Publishing video frame: 7
+[INFO] [1684515196.041878939] [face_recognition]: timing f_p 0.17213773727416992
+[INFO] [1684515196.163866861] [face_recognition]: Publishing video frame: 8
+[INFO] [1684515196.165668537] [face_recognition]: timing f_p 0.1225442886352539
+[INFO] [1684515196.279909445] [face_recognition]: Publishing video frame: 9
+[INFO] [1684515196.282273351] [face_recognition]: timing f_p 0.11326026916503906
+[INFO] [1684515196.429048103] [face_recognition]: Publishing video frame: 10
+[INFO] [1684515196.430896042] [face_recognition]: timing f_p 0.14513444900512695
+[INFO] [1684515196.561311191] [face_recognition]: Publishing video frame: 11
+[INFO] [1684515196.562938996] [face_recognition]: timing f_p 0.1294393539428711
+[INFO] [1684515196.709653613] [face_recognition]: Publishing video frame: 12
+[INFO] [1684515196.710951471] [face_recognition]: timing f_p 0.14548444747924805
+[INFO] [1684515196.868833170] [face_recognition]: Publishing video frame: 13
+[INFO] [1684515196.870416820] [face_recognition]: timing f_p 0.1570725440979004
+[INFO] [1684515197.016966669] [face_recognition]: Publishing video frame: 14
+[INFO] [1684515197.018811211] [face_recognition]: timing f_p 0.14623403549194336
+[INFO] [1684515197.171813449] [face_recognition]: Publishing video frame: 15
+[INFO] [1684515197.173005342] [face_recognition]: timing f_p 0.15217256546020508
+[INFO] [1684515197.364423568] [face_recognition]: Publishing video frame: 16
+[INFO] [1684515197.366422262] [face_recognition]: timing f_p 0.1909475326538086
+[INFO] [1684515197.496184358] [face_recognition]: Publishing video frame: 17
+[INFO] [1684515197.497382668] [face_recognition]: timing f_p 0.12864327430725098
+[INFO] [1684515197.613668836] [face_recognition]: Publishing video frame: 18
+[INFO] [1684515197.615222155] [face_recognition]: timing f_p 0.11484098434448242
+[INFO] [1684515197.743589199] [face_recognition]: Publishing video frame: 19
+[INFO] [1684515197.745573778] [face_recognition]: timing f_p 0.12778449058532715
+[INFO] [1684515197.886416172] [face_recognition]: Publishing video frame: 20
+[INFO] [1684515197.887695195] [face_recognition]: timing f_p 0.13865399360656738
+[INFO] [1684515198.026522716] [face_recognition]: Publishing video frame: 21
+[INFO] [1684515198.027774762] [face_recognition]: timing f_p 0.13835835456848145
+[INFO] [1684515198.157765268] [face_recognition]: Publishing video frame: 22
+[INFO] [1684515198.158803372] [face_recognition]: timing f_p 0.12938904762268066
+[INFO] [1684515198.293204553] [face_recognition]: Publishing video frame: 23
+[INFO] [1684515198.294213868] [face_recognition]: timing f_p 0.13383150100708008
+[INFO] [1684515198.420670343] [face_recognition]: Publishing video frame: 24
+[INFO] [1684515198.421777544] [face_recognition]: timing f_p 0.1258525848388672
+[INFO] [1684515198.539115955] [face_recognition]: Publishing video frame: 25
+[INFO] [1684515198.540266033] [face_recognition]: timing f_p 0.11670136451721191
+[INFO] [1684515198.654302650] [face_recognition]: Publishing video frame: 26
+[INFO] [1684515198.655391692] [face_recognition]: timing f_p 0.1132042407989502
+[INFO] [1684515198.826450919] [face_recognition]: Publishing video frame: 27
+[INFO] [1684515198.838181223] [face_recognition]: timing f_p 0.18098711967468262
+[INFO] [1684515198.998623783] [face_recognition]: Publishing video frame: 28
+[INFO] [1684515199.001682018] [face_recognition]: timing f_p 0.15992283821105957
+[INFO] [1684515199.179774910] [face_recognition]: Publishing video frame: 29
+[INFO] [1684515199.181073962] [face_recognition]: timing f_p 0.1761035919189453
+[INFO] [1684515199.326247454] [face_recognition]: Publishing video frame: 30
+[INFO] [1684515199.327163877] [face_recognition]: timing f_p 0.14443731307983398
+[INFO] [1684515199.403574887] [face_recognition]: Publishing video frame: 31
+[INFO] [1684515199.405206139] [face_recognition]: timing f_p 0.07580804824829102
+[INFO] [1684515199.507339024] [face_recognition]: Publishing video frame: 32
+[INFO] [1684515199.510097978] [face_recognition]: timing f_p 0.1032710075378418
+[INFO] [1684515199.652876413] [face_recognition]: Publishing video frame: 33
+[INFO] [1684515199.654266565] [face_recognition]: timing f_p 0.1408371925354004
+[INFO] [1684515199.815836680] [face_recognition]: Publishing video frame: 34
+[INFO] [1684515199.817013257] [face_recognition]: timing f_p 0.16103434562683105
+[INFO] [1684515199.958287903] [face_recognition]: Publishing video frame: 35
+[INFO] [1684515199.959746889] [face_recognition]: timing f_p 0.14078021049499512
+[INFO] [1684515200.106973977] [face_recognition]: Publishing video frame: 36
+[INFO] [1684515200.107957641] [face_recognition]: timing f_p 0.1467909812927246
+[INFO] [1684515200.233893428] [face_recognition]: Publishing video frame: 37
+[INFO] [1684515200.236977507] [face_recognition]: timing f_p 0.12725305557250977
+[INFO] [1684515200.389926987] [face_recognition]: Publishing video frame: 38
+[INFO] [1684515200.391839096] [face_recognition]: timing f_p 0.1522204875946045
+[INFO] [1684515200.532672390] [face_recognition]: Publishing video frame: 39
+[INFO] [1684515200.534413037] [face_recognition]: timing f_p 0.13997244834899902
+[INFO] [1684515200.692304841] [face_recognition]: Publishing video frame: 40
+[INFO] [1684515200.694628747] [face_recognition]: timing f_p 0.15892624855041504
+[INFO] [1684515200.815864134] [face_recognition]: Publishing video frame: 41
+[INFO] [1684515200.817660280] [face_recognition]: timing f_p 0.11932206153869629
+[INFO] [1684515200.982848412] [face_recognition]: Publishing video frame: 42
+[INFO] [1684515200.984355346] [face_recognition]: timing f_p 0.16448974609375
+[INFO] [1684515201.106221114] [face_recognition]: Publishing video frame: 43
+[INFO] [1684515201.109139193] [face_recognition]: timing f_p 0.12270927429199219
+[INFO] [1684515201.232833013] [face_recognition]: Publishing video frame: 44
+[INFO] [1684515201.235711537] [face_recognition]: timing f_p 0.12454843521118164
+[INFO] [1684515201.394022615] [face_recognition]: Publishing video frame: 45
+[INFO] [1684515201.395619524] [face_recognition]: timing f_p 0.15735936164855957
+[INFO] [1684515201.574142837] [face_recognition]: Publishing video frame: 46
+[INFO] [1684515201.587395236] [face_recognition]: timing f_p 0.17805147171020508
+[INFO] [1684515201.770876679] [face_recognition]: Publishing video frame: 47
+[INFO] [1684515201.772325388] [face_recognition]: timing f_p 0.1829853057861328
+[INFO] [1684515201.917649119] [face_recognition]: Publishing video frame: 48
+[INFO] [1684515201.920764806] [face_recognition]: timing f_p 0.14496660232543945
+[INFO] [1684515202.087696869] [face_recognition]: Publishing video frame: 49
+[INFO] [1684515202.088802529] [face_recognition]: timing f_p 0.16587066650390625
+[INFO] [1684515202.224771828] [face_recognition]: Publishing video frame: 50
+[INFO] [1684515202.225753607] [face_recognition]: timing f_p 0.13539814949035645
+[INFO] [1684515202.375921000] [face_recognition]: Publishing video frame: 51
+[INFO] [1684515202.377453196] [face_recognition]: timing f_p 0.14992332458496094
+[INFO] [1684515202.519257516] [face_recognition]: Publishing video frame: 52
+[INFO] [1684515202.520677184] [face_recognition]: timing f_p 0.1409313678741455
+[INFO] [1684515202.628514041] [face_recognition]: Publishing video frame: 53
+[INFO] [1684515202.629921226] [face_recognition]: timing f_p 0.10696673393249512
+[INFO] [1684515202.747706921] [face_recognition]: Publishing video frame: 54
+[INFO] [1684515202.748824633] [face_recognition]: timing f_p 0.11008810997009277
+[INFO] [1684515202.979588749] [face_recognition]: Publishing video frame: 55
+[INFO] [1684515202.980508943] [face_recognition]: timing f_p 0.22897696495056152
+[INFO] [1684515203.163278707] [face_recognition]: Publishing video frame: 56
+[INFO] [1684515203.165642509] [face_recognition]: timing f_p 0.18382000923156738
+[INFO] [1684515203.386199572] [face_recognition]: Publishing video frame: 57
+[INFO] [1684515203.387793528] [face_recognition]: timing f_p 0.21738648414611816
+[INFO] [1684515203.575915236] [face_recognition]: Publishing video frame: 58
+[INFO] [1684515203.577546659] [face_recognition]: timing f_p 0.1874988079071045
+[INFO] [1684515203.739633678] [face_recognition]: Publishing video frame: 59
+[INFO] [1684515203.741084891] [face_recognition]: timing f_p 0.16134095191955566
+[INFO] [1684515203.893744352] [face_recognition]: Publishing video frame: 60
+[INFO] [1684515203.894825665] [face_recognition]: timing f_p 0.15207719802856445
+[INFO] [1684515204.042088435] [face_recognition]: Publishing video frame: 61
+[INFO] [1684515204.042703350] [face_recognition]: timing f_p 0.1453263759613037
+[INFO] [1684515204.176262701] [face_recognition]: Publishing video frame: 62
+[INFO] [1684515204.177579121] [face_recognition]: timing f_p 0.13312315940856934
+[INFO] [1684515204.308770387] [face_recognition]: Publishing video frame: 63
+[INFO] [1684515204.314197824] [face_recognition]: timing f_p 0.12981963157653809
+[INFO] [1684515204.464619886] [face_recognition]: Publishing video frame: 64
+[INFO] [1684515204.465444240] [face_recognition]: timing f_p 0.14980220794677734
+[INFO] [1684515204.587233639] [face_recognition]: Publishing video frame: 65
+[INFO] [1684515204.588278430] [face_recognition]: timing f_p 0.12113428115844727
+[INFO] [1684515204.684847068] [face_recognition]: Publishing video frame: 66
+[INFO] [1684515204.686015979] [face_recognition]: timing f_p 0.09617400169372559
+[INFO] [1684515204.796228340] [face_recognition]: Publishing video frame: 67
+[INFO] [1684515204.797483497] [face_recognition]: timing f_p 0.10978078842163086
+[INFO] [1684515204.896097287] [face_recognition]: Publishing video frame: 68
+[INFO] [1684515204.897221721] [face_recognition]: timing f_p 0.0980982780456543
+[INFO] [1684515205.064929829] [face_recognition]: Publishing video frame: 69
+[INFO] [1684515205.065790770] [face_recognition]: timing f_p 0.16723370552062988
+[INFO] [1684515205.178140476] [face_recognition]: Publishing video frame: 70
+[INFO] [1684515205.180178943] [face_recognition]: timing f_p 0.11207723617553711
+[INFO] [1684515205.335733963] [face_recognition]: Publishing video frame: 71
+[INFO] [1684515205.336878539] [face_recognition]: timing f_p 0.15482425689697266
+[INFO] [1684515205.520891023] [face_recognition]: Publishing video frame: 72
+[INFO] [1684515205.522041843] [face_recognition]: timing f_p 0.18356943130493164
+[INFO] [1684515205.669134633] [face_recognition]: Publishing video frame: 73
+[INFO] [1684515205.671734932] [face_recognition]: timing f_p 0.1475977897644043
+[INFO] [1684515205.866399670] [face_recognition]: Publishing video frame: 74
+[INFO] [1684515205.876801783] [face_recognition]: timing f_p 0.19419217109680176
+[INFO] [1684515206.045936375] [face_recognition]: Publishing video frame: 75
+[INFO] [1684515206.046639153] [face_recognition]: timing f_p 0.16866278648376465
+[INFO] [1684515206.236781420] [face_recognition]: Publishing video frame: 76
+[INFO] [1684515206.241993844] [face_recognition]: timing f_p 0.1921539306640625
+[INFO] [1684515206.477510968] [face_recognition]: Publishing video frame: 77
+[INFO] [1684515206.478741545] [face_recognition]: timing f_p 0.23231291770935059
+[INFO] [1684515206.602629223] [face_recognition]: Publishing video frame: 78
+[INFO] [1684515206.615900830] [face_recognition]: timing f_p 0.12338376045227051
+[INFO] [1684515206.737384260] [face_recognition]: Publishing video frame: 79
+[INFO] [1684515206.739623953] [face_recognition]: timing f_p 0.12160062789916992
+[INFO] [1684515206.905372869] [face_recognition]: Publishing video frame: 80
+[INFO] [1684515206.909428410] [face_recognition]: timing f_p 0.1650710105895996
+[INFO] [1684515207.082024580] [face_recognition]: Publishing video frame: 81
+[INFO] [1684515207.083698922] [face_recognition]: timing f_p 0.17142534255981445
+[INFO] [1684515207.187519742] [face_recognition]: Publishing video frame: 82
+[INFO] [1684515207.189126214] [face_recognition]: timing f_p 0.10305571556091309
+[INFO] [1684515207.310583813] [face_recognition]: Publishing video frame: 83
+[INFO] [1684515207.315641979] [face_recognition]: timing f_p 0.11949324607849121
+[INFO] [1684515207.460316384] [face_recognition]: Publishing video frame: 84
+[INFO] [1684515207.461486639] [face_recognition]: timing f_p 0.14395570755004883
+[INFO] [1684515207.615237810] [face_recognition]: Publishing video frame: 85
+[INFO] [1684515207.616516793] [face_recognition]: timing f_p 0.15332484245300293
+[INFO] [1684515207.781355308] [face_recognition]: Publishing video frame: 86
+[INFO] [1684515207.785382987] [face_recognition]: timing f_p 0.1644446849822998
+[INFO] [1684515207.951547379] [face_recognition]: Publishing video frame: 87
+[INFO] [1684515207.955324346] [face_recognition]: timing f_p 0.16784238815307617
+[INFO] [1684515208.154672519] [face_recognition]: Publishing video frame: 88
+[INFO] [1684515208.155919807] [face_recognition]: timing f_p 0.19571948051452637
+[INFO] [1684515208.323956219] [face_recognition]: Publishing video frame: 89
+[INFO] [1684515208.328648233] [face_recognition]: timing f_p 0.16977524757385254
+[INFO] [1684515208.530625617] [face_recognition]: Publishing video frame: 90
+[INFO] [1684515208.532960645] [face_recognition]: timing f_p 0.19919967651367188
+[INFO] [1684515208.704758282] [face_recognition]: Publishing video frame: 91
+[INFO] [1684515208.709976300] [face_recognition]: timing f_p 0.1742420196533203
+[INFO] [1684515208.922007253] [face_recognition]: Publishing video frame: 92
+[INFO] [1684515208.925645838] [face_recognition]: timing f_p 0.20991230010986328
+[INFO] [1684515209.209981674] [face_recognition]: Publishing video frame: 93
+[INFO] [1684515209.212314340] [face_recognition]: timing f_p 0.28398633003234863
+[INFO] [1684515209.377948075] [face_recognition]: Publishing video frame: 94
+[INFO] [1684515209.381298100] [face_recognition]: timing f_p 0.16410613059997559
+[INFO] [1684515209.583687092] [face_recognition]: Publishing video frame: 95
+[INFO] [1684515209.584802071] [face_recognition]: timing f_p 0.20183944702148438
+[INFO] [1684515209.755934736] [face_recognition]: Publishing video frame: 96
+[INFO] [1684515209.757941396] [face_recognition]: timing f_p 0.17064237594604492
+[INFO] [1684515209.946144008] [face_recognition]: Publishing video frame: 97
+[INFO] [1684515209.947342395] [face_recognition]: timing f_p 0.18628883361816406
+[INFO] [1684515210.108475780] [face_recognition]: Publishing video frame: 98
+[INFO] [1684515210.109486584] [face_recognition]: timing f_p 0.16052818298339844
+[INFO] [1684515216.798102072] [face_recognition]: Publishing video frame: 99
+[INFO] [1684515216.800422538] [face_recognition]: timing f_p 0.32953333854675293
+[INFO] [1684515216.960152788] [face_recognition]: Publishing video frame: 100
+[INFO] [1684515216.963036780] [face_recognition]: timing f_p 0.15804743766784668
+[INFO] [1684515217.119140129] [face_recognition]: Publishing video frame: 101
+[INFO] [1684515217.137868078] [face_recognition]: timing f_p 0.1660611629486084
+[INFO] [1684515217.346355160] [face_recognition]: Publishing video frame: 102
+[INFO] [1684515217.347604041] [face_recognition]: timing f_p 0.20462536811828613
+[INFO] [1684515217.541958032] [face_recognition]: Publishing video frame: 103
+[INFO] [1684515217.545643514] [face_recognition]: timing f_p 0.19362449645996094
+[INFO] [1684515217.689055795] [face_recognition]: Publishing video frame: 104
+[INFO] [1684515217.695067098] [face_recognition]: timing f_p 0.1425471305847168
+[INFO] [1684515217.997684257] [face_recognition]: Publishing video frame: 105
+[INFO] [1684515218.002343364] [face_recognition]: timing f_p 0.30382680892944336
+[INFO] [1684515218.245817256] [face_recognition]: Publishing video frame: 106
+[INFO] [1684515218.247293654] [face_recognition]: timing f_p 0.24086594581604004
+[INFO] [1684515218.408498995] [face_recognition]: Publishing video frame: 107
+[INFO] [1684515218.413834928] [face_recognition]: timing f_p 0.16065001487731934
+[INFO] [1684515224.092329646] [face_recognition]: Publishing video frame: 108
+[INFO] [1684515224.100213291] [face_recognition]: timing f_p 0.31948137283325195
+[INFO] [1684515224.247814605] [face_recognition]: Publishing video frame: 109
+[INFO] [1684515224.250654445] [face_recognition]: timing f_p 0.14455819129943848
+[INFO] [1684515224.426516983] [face_recognition]: Publishing video frame: 110
+[INFO] [1684515224.428626305] [face_recognition]: timing f_p 0.174757719039917
+[INFO] [1684515224.547187078] [face_recognition]: Publishing video frame: 111
+[INFO] [1684515224.551608603] [face_recognition]: timing f_p 0.11760377883911133
+[INFO] [1684515224.715417282] [face_recognition]: Publishing video frame: 112
+[INFO] [1684515224.716952562] [face_recognition]: timing f_p 0.16188907623291016
+[INFO] [1684515224.936979915] [face_recognition]: Publishing video frame: 113
+[INFO] [1684515224.938547949] [face_recognition]: timing f_p 0.2144153118133545
+[INFO] [1684515225.095958526] [face_recognition]: Publishing video frame: 114
+[INFO] [1684515225.097968885] [face_recognition]: timing f_p 0.15674567222595215
+[INFO] [1684515225.262607881] [face_recognition]: Publishing video frame: 115
+[INFO] [1684515225.264055494] [face_recognition]: timing f_p 0.16354608535766602
+[INFO] [1684515225.489531260] [face_recognition]: Publishing video frame: 116
+[INFO] [1684515225.501032757] [face_recognition]: timing f_p 0.21891140937805176
+[INFO] [1684515225.641047766] [face_recognition]: Publishing video frame: 117
+[INFO] [1684515225.648064335] [face_recognition]: timing f_p 0.13883447647094727
+[INFO] [1684515232.308426559] [face_recognition]: Publishing video frame: 118
+[INFO] [1684515232.311986468] [face_recognition]: timing f_p 0.3011045455932617
+[INFO] [1684515232.462098407] [face_recognition]: Publishing video frame: 119
+[INFO] [1684515232.464751762] [face_recognition]: timing f_p 0.15110397338867188
+[INFO] [1684515232.618106200] [face_recognition]: Publishing video frame: 120
+[INFO] [1684515232.626703970] [face_recognition]: timing f_p 0.15680599212646484
+[INFO] [1684515232.805220847] [face_recognition]: Publishing video frame: 121
+[INFO] [1684515232.809317527] [face_recognition]: timing f_p 0.1782822608947754
+[INFO] [1684515232.997696801] [face_recognition]: Publishing video frame: 122
+[INFO] [1684515232.999534350] [face_recognition]: timing f_p 0.18575406074523926
+[INFO] [1684515233.177543141] [face_recognition]: Publishing video frame: 123
+[INFO] [1684515233.179049506] [face_recognition]: timing f_p 0.1775813102722168
+[INFO] [1684515233.406788636] [face_recognition]: Publishing video frame: 124
+[INFO] [1684515233.410036010] [face_recognition]: timing f_p 0.22636127471923828
+[INFO] [1684515233.654470294] [face_recognition]: Publishing video frame: 125
+[INFO] [1684515233.655603287] [face_recognition]: timing f_p 0.24323034286499023
+[INFO] [1684515233.781422458] [face_recognition]: Publishing video frame: 126
+[INFO] [1684515233.782479260] [face_recognition]: timing f_p 0.12543654441833496
+[INFO] [1684515240.408368993] [face_recognition]: Publishing video frame: 127
+[INFO] [1684515240.423977755] [face_recognition]: timing f_p 0.273845911026001
+[INFO] [1684515240.527784273] [face_recognition]: Publishing video frame: 128
+[INFO] [1684515240.529756767] [face_recognition]: timing f_p 0.10357928276062012
+[INFO] [1684515240.669996209] [face_recognition]: Publishing video frame: 129
+[INFO] [1684515240.671806044] [face_recognition]: timing f_p 0.139329195022583
+[INFO] [1684515240.875088473] [face_recognition]: Publishing video frame: 130
+[INFO] [1684515240.880242098] [face_recognition]: timing f_p 0.1944880485534668
+[INFO] [1684515241.112342885] [face_recognition]: Publishing video frame: 131
+[INFO] [1684515241.113312342] [face_recognition]: timing f_p 0.2315971851348877
+[INFO] [1684515241.225262084] [face_recognition]: Publishing video frame: 132
+[INFO] [1684515241.226420949] [face_recognition]: timing f_p 0.11163902282714844
+[INFO] [1684515241.394796096] [face_recognition]: Publishing video frame: 133
+[INFO] [1684515241.397579930] [face_recognition]: timing f_p 0.1676790714263916
+[INFO] [1684515241.621141545] [face_recognition]: Publishing video frame: 134
+[INFO] [1684515241.633287584] [face_recognition]: timing f_p 0.23248696327209473
+[INFO] [1684515241.955689196] [face_recognition]: Publishing video frame: 135
+[INFO] [1684515241.956959872] [face_recognition]: timing f_p 0.32103991508483887
+[INFO] [1684515242.129232868] [face_recognition]: Publishing video frame: 136
+[INFO] [1684515242.130547871] [face_recognition]: timing f_p 0.17180943489074707
+[INFO] [1684515248.835377326] [face_recognition]: Publishing video frame: 137
+[INFO] [1684515248.836717408] [face_recognition]: timing f_p 0.3385434150695801
+[INFO] [1684515248.982093486] [face_recognition]: Publishing video frame: 138
+[INFO] [1684515248.983329476] [face_recognition]: timing f_p 0.1449880599975586
+[INFO] [1684515249.121900905] [face_recognition]: Publishing video frame: 139
+[INFO] [1684515249.123646593] [face_recognition]: timing f_p 0.1379225254058838
+[INFO] [1684515249.259301159] [face_recognition]: Publishing video frame: 140
+[INFO] [1684515249.262082817] [face_recognition]: timing f_p 0.13705921173095703
+[INFO] [1684515249.404748815] [face_recognition]: Publishing video frame: 141
+[INFO] [1684515249.406125390] [face_recognition]: timing f_p 0.14143610000610352
+[INFO] [1684515249.569768711] [face_recognition]: Publishing video frame: 142
+[INFO] [1684515249.571399583] [face_recognition]: timing f_p 0.16282010078430176
+[INFO] [1684515249.829070331] [face_recognition]: Publishing video frame: 143
+[INFO] [1684515249.832177172] [face_recognition]: timing f_p 0.2571883201599121
+[INFO] [1684515250.037440558] [face_recognition]: Publishing video frame: 144
+[INFO] [1684515250.038780589] [face_recognition]: timing f_p 0.20430898666381836
+[INFO] [1684515250.171048950] [face_recognition]: Publishing video frame: 145
+[INFO] [1684515250.174041281] [face_recognition]: timing f_p 0.13150453567504883
+[INFO] [1684515250.386982079] [face_recognition]: Publishing video frame: 146
+[INFO] [1684515250.389454338] [face_recognition]: timing f_p 0.21219539642333984
+[INFO] [1684515250.588324743] [face_recognition]: Publishing video frame: 147
+[INFO] [1684515250.592921895] [face_recognition]: timing f_p 0.19854998588562012
+[INFO] [1684515250.745054998] [face_recognition]: Publishing video frame: 148
+[INFO] [1684515250.745815957] [face_recognition]: timing f_p 0.15051031112670898
+[INFO] [1684515250.942026749] [face_recognition]: Publishing video frame: 149
+[INFO] [1684515250.945291328] [face_recognition]: timing f_p 0.19642114639282227
+[INFO] [1684515251.169355554] [face_recognition]: Publishing video frame: 150
+[INFO] [1684515251.171829605] [face_recognition]: timing f_p 0.2243485450744629
+[INFO] [1684515251.361809362] [face_recognition]: Publishing video frame: 151
+[INFO] [1684515251.363109354] [face_recognition]: timing f_p 0.18720722198486328
+[INFO] [1684515251.535949704] [face_recognition]: Publishing video frame: 152
+[INFO] [1684515251.536822865] [face_recognition]: timing f_p 0.17208218574523926
+[INFO] [1684515251.713908301] [face_recognition]: Publishing video frame: 153
+[INFO] [1684515251.714962448] [face_recognition]: timing f_p 0.17663240432739258
+[INFO] [1684515251.876283924] [face_recognition]: Publishing video frame: 154
+[INFO] [1684515251.877108189] [face_recognition]: timing f_p 0.16073155403137207
+[INFO] [1684515252.183419479] [face_recognition]: Publishing video frame: 155
+[INFO] [1684515252.187244497] [face_recognition]: timing f_p 0.30776429176330566
+[INFO] [1684515252.334097945] [face_recognition]: Publishing video frame: 156
+[INFO] [1684515252.337005621] [face_recognition]: timing f_p 0.14542031288146973
+[INFO] [1684515252.496070498] [face_recognition]: Publishing video frame: 157
+[INFO] [1684515252.497309237] [face_recognition]: timing f_p 0.15688681602478027
+[INFO] [1684515252.663760119] [face_recognition]: Publishing video frame: 158
+[INFO] [1684515252.664963572] [face_recognition]: timing f_p 0.16584348678588867
+[INFO] [1684515252.876059344] [face_recognition]: Publishing video frame: 159
+[INFO] [1684515252.877078494] [face_recognition]: timing f_p 0.21027207374572754
+[INFO] [1684515253.089355991] [face_recognition]: Publishing video frame: 160
+[INFO] [1684515253.097601706] [face_recognition]: timing f_p 0.2185804843902588
+[INFO] [1684515253.328246157] [face_recognition]: Publishing video frame: 161
+[INFO] [1684515253.329287104] [face_recognition]: timing f_p 0.2279667854309082
+[INFO] [1684515253.433546151] [face_recognition]: Publishing video frame: 162
+[INFO] [1684515253.434301116] [face_recognition]: timing f_p 0.1037130355834961
+[INFO] [1684515253.571241549] [face_recognition]: Publishing video frame: 163
+[INFO] [1684515253.573213993] [face_recognition]: timing f_p 0.13631272315979004
+[INFO] [1684515253.738007426] [face_recognition]: Publishing video frame: 164
+[INFO] [1684515253.744449206] [face_recognition]: timing f_p 0.16322612762451172
+[INFO] [1684515254.008406998] [face_recognition]: Publishing video frame: 165
+[INFO] [1684515254.010111098] [face_recognition]: timing f_p 0.2635221481323242
+[INFO] [1684515254.198064221] [face_recognition]: Publishing video frame: 166
+[INFO] [1684515254.199858034] [face_recognition]: timing f_p 0.18792128562927246
+[INFO] [1684515254.402058466] [face_recognition]: Publishing video frame: 167
+[INFO] [1684515254.403318726] [face_recognition]: timing f_p 0.1944746971130371
+[INFO] [1684515254.596914550] [face_recognition]: Publishing video frame: 168
+[INFO] [1684515254.616669838] [face_recognition]: timing f_p 0.19300055503845215
+[INFO] [1684515254.791886703] [face_recognition]: Publishing video frame: 169
+[INFO] [1684515254.792869759] [face_recognition]: timing f_p 0.17438411712646484
+[INFO] [1684515254.992363798] [face_recognition]: Publishing video frame: 170
+[INFO] [1684515254.995717603] [face_recognition]: timing f_p 0.20093131065368652
+[INFO] [1684515255.196148230] [face_recognition]: Publishing video frame: 171
+[INFO] [1684515255.197441522] [face_recognition]: timing f_p 0.1986846923828125
+[INFO] [1684515255.371027774] [face_recognition]: Publishing video frame: 172
+[INFO] [1684515255.372012125] [face_recognition]: timing f_p 0.17229652404785156
+[INFO] [1684515255.496771147] [face_recognition]: Publishing video frame: 173
+[INFO] [1684515255.499179610] [face_recognition]: timing f_p 0.12404084205627441
+[INFO] [1684515255.701280064] [face_recognition]: Publishing video frame: 174
+[INFO] [1684515255.703065761] [face_recognition]: timing f_p 0.20145344734191895
+[INFO] [1684515255.866081163] [face_recognition]: Publishing video frame: 175
+[INFO] [1684515255.868316833] [face_recognition]: timing f_p 0.16218996047973633
+[INFO] [1684515256.034615634] [face_recognition]: Publishing video frame: 176
+[INFO] [1684515256.035924632] [face_recognition]: timing f_p 0.16362261772155762
+[INFO] [1684515256.168284748] [face_recognition]: Publishing video frame: 177
+[INFO] [1684515256.170489855] [face_recognition]: timing f_p 0.1324453353881836
+[INFO] [1684515256.365837535] [face_recognition]: Publishing video frame: 178
+[INFO] [1684515256.372901182] [face_recognition]: timing f_p 0.19572782516479492
+[INFO] [1684515256.541394707] [face_recognition]: Publishing video frame: 179
+[INFO] [1684515256.542612020] [face_recognition]: timing f_p 0.16534161567687988
+[INFO] [1684515256.696946165] [face_recognition]: Publishing video frame: 180
+[INFO] [1684515256.701563689] [face_recognition]: timing f_p 0.1560964584350586
+[INFO] [1684515256.948488320] [face_recognition]: Publishing video frame: 181
+[INFO] [1684515256.949630725] [face_recognition]: timing f_p 0.24184942245483398
+[INFO] [1684515257.107708815] [face_recognition]: Publishing video frame: 182
+[INFO] [1684515257.108570487] [face_recognition]: timing f_p 0.15780401229858398
+[INFO] [1684515257.327759737] [face_recognition]: Publishing video frame: 183
+[INFO] [1684515257.329109933] [face_recognition]: timing f_p 0.21874284744262695
+[INFO] [1684515257.485886206] [face_recognition]: Publishing video frame: 184
+[INFO] [1684515257.487929578] [face_recognition]: timing f_p 0.1566767692565918
+[INFO] [1684515257.670297653] [face_recognition]: Publishing video frame: 185
+[INFO] [1684515257.671845753] [face_recognition]: timing f_p 0.17142486572265625
+[INFO] [1684515257.795109336] [face_recognition]: Publishing video frame: 186
+[INFO] [1684515257.796299110] [face_recognition]: timing f_p 0.12238216400146484
+[INFO] [1684515257.987056468] [face_recognition]: Publishing video frame: 187
+[INFO] [1684515257.988028158] [face_recognition]: timing f_p 0.1899876594543457
+[INFO] [1684515258.224743610] [face_recognition]: Publishing video frame: 188
+[INFO] [1684515258.225644331] [face_recognition]: timing f_p 0.23557162284851074
+[INFO] [1684515258.396724732] [face_recognition]: Publishing video frame: 189
+[INFO] [1684515258.399214836] [face_recognition]: timing f_p 0.1708366870880127
+[INFO] [1684515258.546401405] [face_recognition]: Publishing video frame: 190
+[INFO] [1684515258.549432476] [face_recognition]: timing f_p 0.13736248016357422
+[INFO] [1684515258.682709715] [face_recognition]: Publishing video frame: 191
+[INFO] [1684515258.684034567] [face_recognition]: timing f_p 0.13249802589416504
+[INFO] [1684515258.818283789] [face_recognition]: Publishing video frame: 192
+[INFO] [1684515258.821126537] [face_recognition]: timing f_p 0.1333000659942627
+[INFO] [1684515259.037961225] [face_recognition]: Publishing video frame: 193
+[INFO] [1684515259.039013453] [face_recognition]: timing f_p 0.2162303924560547
+[INFO] [1684515259.212065582] [face_recognition]: Publishing video frame: 194
+[INFO] [1684515259.214157784] [face_recognition]: timing f_p 0.17139673233032227
+[INFO] [1684515259.378800182] [face_recognition]: Publishing video frame: 195
+[INFO] [1684515259.388237695] [face_recognition]: timing f_p 0.14665484428405762
+[INFO] [1684515259.557275828] [face_recognition]: Publishing video frame: 196
+[INFO] [1684515259.561001256] [face_recognition]: timing f_p 0.1660470962524414
+[INFO] [1684515259.778174750] [face_recognition]: Publishing video frame: 197
+[INFO] [1684515259.779070562] [face_recognition]: timing f_p 0.21415114402770996
+[INFO] [1684515259.987302415] [face_recognition]: Publishing video frame: 198
+[INFO] [1684515259.995040610] [face_recognition]: timing f_p 0.20744943618774414
+[INFO] [1684515260.140799400] [face_recognition]: Publishing video frame: 199
+[INFO] [1684515260.142466333] [face_recognition]: timing f_p 0.14517927169799805
+[INFO] [1684515260.376574877] [face_recognition]: Publishing video frame: 200
+[INFO] [1684515260.377580663] [face_recognition]: timing f_p 0.23282575607299805
+[INFO] [1684515260.533749927] [face_recognition]: Publishing video frame: 201
+[INFO] [1684515260.534962575] [face_recognition]: timing f_p 0.15571379661560059
+[INFO] [1684515260.711908232] [face_recognition]: Publishing video frame: 202
+[INFO] [1684515260.713443634] [face_recognition]: timing f_p 0.17651915550231934
+[INFO] [1684515260.898915979] [face_recognition]: Publishing video frame: 203
+[INFO] [1684515260.900353305] [face_recognition]: timing f_p 0.18472766876220703
+[INFO] [1684515261.172227479] [face_recognition]: Publishing video frame: 204
+[INFO] [1684515261.173243033] [face_recognition]: timing f_p 0.27072763442993164
+[INFO] [1684515261.320051653] [face_recognition]: Publishing video frame: 205
+[INFO] [1684515261.322063777] [face_recognition]: timing f_p 0.14550042152404785
+[INFO] [1684515261.453570945] [face_recognition]: Publishing video frame: 206
+[INFO] [1684515261.455525080] [face_recognition]: timing f_p 0.13049912452697754
+[INFO] [1684515261.643672157] [face_recognition]: Publishing video frame: 207
+[INFO] [1684515261.645449016] [face_recognition]: timing f_p 0.18738555908203125
+[INFO] [1684515261.807173335] [face_recognition]: Publishing video frame: 208
+[INFO] [1684515261.813830219] [face_recognition]: timing f_p 0.16107654571533203
+[INFO] [1684515261.998259096] [face_recognition]: Publishing video frame: 209
+[INFO] [1684515261.999829276] [face_recognition]: timing f_p 0.1794757843017578
+[INFO] [1684515262.216837964] [face_recognition]: Publishing video frame: 210
+[INFO] [1684515262.219226852] [face_recognition]: timing f_p 0.21635174751281738
+[INFO] [1684515262.377368610] [face_recognition]: Publishing video frame: 211
+[INFO] [1684515262.378346729] [face_recognition]: timing f_p 0.15759611129760742
+[INFO] [1684515262.550387389] [face_recognition]: Publishing video frame: 212
+[INFO] [1684515262.552611316] [face_recognition]: timing f_p 0.17179179191589355
+[INFO] [1684515262.770585699] [face_recognition]: Publishing video frame: 213
+[INFO] [1684515262.772786006] [face_recognition]: timing f_p 0.21722078323364258
+[INFO] [1684515262.951614595] [face_recognition]: Publishing video frame: 214
+[INFO] [1684515262.953687397] [face_recognition]: timing f_p 0.1780688762664795
+[INFO] [1684515263.177588666] [face_recognition]: Publishing video frame: 215
+[INFO] [1684515263.180446637] [face_recognition]: timing f_p 0.22304081916809082
+[INFO] [1684515263.335700244] [face_recognition]: Publishing video frame: 216
+[INFO] [1684515263.337171715] [face_recognition]: timing f_p 0.15444254875183105
+[INFO] [1684515263.510143105] [face_recognition]: Publishing video frame: 217
+[INFO] [1684515263.511069610] [face_recognition]: timing f_p 0.17261290550231934
+[INFO] [1684515263.648830469] [face_recognition]: Publishing video frame: 218
+[INFO] [1684515263.651379915] [face_recognition]: timing f_p 0.1383805274963379
+[INFO] [1684515263.798086954] [face_recognition]: Publishing video frame: 219
+[INFO] [1684515263.801282126] [face_recognition]: timing f_p 0.14639496803283691
+[INFO] [1684515264.056114048] [face_recognition]: Publishing video frame: 220
+[INFO] [1684515264.057303125] [face_recognition]: timing f_p 0.24995017051696777
+[INFO] [1684515264.198290318] [face_recognition]: Publishing video frame: 221
+[INFO] [1684515264.204125845] [face_recognition]: timing f_p 0.14374470710754395
+[INFO] [1684515264.385496944] [face_recognition]: Publishing video frame: 222
+[INFO] [1684515264.391198328] [face_recognition]: timing f_p 0.18082475662231445
+[INFO] [1684515264.552832473] [face_recognition]: Publishing video frame: 223
+[INFO] [1684515264.553847025] [face_recognition]: timing f_p 0.16110467910766602
+[INFO] [1684515264.760400187] [face_recognition]: Publishing video frame: 224
+[INFO] [1684515264.789051122] [face_recognition]: timing f_p 0.2314586639404297
+[INFO] [1684515264.993569913] [face_recognition]: Publishing video frame: 225
+[INFO] [1684515264.997015676] [face_recognition]: timing f_p 0.19419217109680176
+[INFO] [1684515265.147131238] [face_recognition]: Publishing video frame: 226
+[INFO] [1684515265.149552233] [face_recognition]: timing f_p 0.14799880981445312
+[INFO] [1684515265.314264113] [face_recognition]: Publishing video frame: 227
+[INFO] [1684515265.317750702] [face_recognition]: timing f_p 0.16634440422058105
+[INFO] [1684515265.471379415] [face_recognition]: Publishing video frame: 228
+[INFO] [1684515265.473997156] [face_recognition]: timing f_p 0.15215253829956055
+[INFO] [1684515265.692695007] [face_recognition]: Publishing video frame: 229
+[INFO] [1684515265.694417983] [face_recognition]: timing f_p 0.21829652786254883
+[INFO] [1684515265.936390118] [face_recognition]: Publishing video frame: 230
+[INFO] [1684515265.938410451] [face_recognition]: timing f_p 0.24094796180725098
+[INFO] [1684515266.090368105] [face_recognition]: Publishing video frame: 231
+[INFO] [1684515266.108765871] [face_recognition]: timing f_p 0.1512434482574463
+[INFO] [1684515266.329110877] [face_recognition]: Publishing video frame: 232
+[INFO] [1684515266.330145473] [face_recognition]: timing f_p 0.21888113021850586
+[INFO] [1684515266.483444235] [face_recognition]: Publishing video frame: 233
+[INFO] [1684515266.491319212] [face_recognition]: timing f_p 0.15225529670715332
+[INFO] [1684515266.652355921] [face_recognition]: Publishing video frame: 234
+[INFO] [1684515266.653430536] [face_recognition]: timing f_p 0.16042017936706543
+[INFO] [1684515266.829935429] [face_recognition]: Publishing video frame: 235
+[INFO] [1684515266.831914312] [face_recognition]: timing f_p 0.17579221725463867
+[INFO] [1684515267.015698137] [face_recognition]: Publishing video frame: 236
+[INFO] [1684515267.016933807] [face_recognition]: timing f_p 0.18314146995544434
+[INFO] [1684515267.276606753] [face_recognition]: Publishing video frame: 237
+[INFO] [1684515267.282551567] [face_recognition]: timing f_p 0.26297640800476074
+[INFO] [1684515267.505299100] [face_recognition]: Publishing video frame: 238
+[INFO] [1684515267.506724962] [face_recognition]: timing f_p 0.22117137908935547
+[INFO] [1684515267.657937904] [face_recognition]: Publishing video frame: 239
+[INFO] [1684515267.660093201] [face_recognition]: timing f_p 0.15073251724243164
+[INFO] [1684515267.838103736] [face_recognition]: Publishing video frame: 240
+[INFO] [1684515267.839441723] [face_recognition]: timing f_p 0.17721915245056152
+[INFO] [1684515268.001307776] [face_recognition]: Publishing video frame: 241
+[INFO] [1684515268.002999323] [face_recognition]: timing f_p 0.16135025024414062
+[INFO] [1684515268.207276422] [face_recognition]: Publishing video frame: 242
+[INFO] [1684515268.208943910] [face_recognition]: timing f_p 0.20368599891662598
+[INFO] [1684515268.372529993] [face_recognition]: Publishing video frame: 243
+[INFO] [1684515268.375345073] [face_recognition]: timing f_p 0.1630077362060547
+[INFO] [1684515268.529676944] [face_recognition]: Publishing video frame: 244
+[INFO] [1684515268.531231991] [face_recognition]: timing f_p 0.14676427841186523
+[INFO] [1684515268.718230934] [face_recognition]: Publishing video frame: 245
+[INFO] [1684515268.720728829] [face_recognition]: timing f_p 0.18622589111328125
+[INFO] [1684515268.859801062] [face_recognition]: Publishing video frame: 246
+[INFO] [1684515268.861238193] [face_recognition]: timing f_p 0.13853859901428223
+[INFO] [1684515269.025753751] [face_recognition]: Publishing video frame: 247
+[INFO] [1684515269.026974428] [face_recognition]: timing f_p 0.16397738456726074
+[INFO] [1684515269.155702099] [face_recognition]: Publishing video frame: 248
+[INFO] [1684515269.157510758] [face_recognition]: timing f_p 0.1282665729522705
+[INFO] [1684515269.392097926] [face_recognition]: Publishing video frame: 249
+[INFO] [1684515269.403649085] [face_recognition]: timing f_p 0.24100756645202637
+[INFO] [1684515269.583758969] [face_recognition]: Publishing video frame: 250
+[INFO] [1684515269.585900682] [face_recognition]: timing f_p 0.1688673496246338
+[INFO] [1684515269.745411673] [face_recognition]: Publishing video frame: 251
+[INFO] [1684515269.747042986] [face_recognition]: timing f_p 0.15855073928833008
+[INFO] [1684515269.869185506] [face_recognition]: Publishing video frame: 252
+[INFO] [1684515269.871086088] [face_recognition]: timing f_p 0.1217498779296875
+[INFO] [1684515270.042029665] [face_recognition]: Publishing video frame: 253
+[INFO] [1684515270.045572670] [face_recognition]: timing f_p 0.17158269882202148
+[INFO] [1684515270.185920990] [face_recognition]: Publishing video frame: 254
+[INFO] [1684515270.187498207] [face_recognition]: timing f_p 0.13822436332702637
+[INFO] [1684515270.339649244] [face_recognition]: Publishing video frame: 255
+[INFO] [1684515270.341830074] [face_recognition]: timing f_p 0.1527423858642578
+[INFO] [1684515270.481282274] [face_recognition]: Publishing video frame: 256
+[INFO] [1684515270.492298515] [face_recognition]: timing f_p 0.13745760917663574
+[INFO] [1684515277.185687515] [face_recognition]: Publishing video frame: 257
+[INFO] [1684515277.188739502] [face_recognition]: timing f_p 0.31993770599365234
+[INFO] [1684515277.325040813] [face_recognition]: Publishing video frame: 258
+[INFO] [1684515277.326220352] [face_recognition]: timing f_p 0.13482451438903809
+[INFO] [1684515277.476036393] [face_recognition]: Publishing video frame: 259
+[INFO] [1684515277.478439357] [face_recognition]: timing f_p 0.14886927604675293
+[INFO] [1684515277.632203989] [face_recognition]: Publishing video frame: 260
+[INFO] [1684515277.634883814] [face_recognition]: timing f_p 0.15451645851135254
+[INFO] [1684515277.841393802] [face_recognition]: Publishing video frame: 261
+[INFO] [1684515277.842248108] [face_recognition]: timing f_p 0.2013859748840332
+[INFO] [1684515277.988546353] [face_recognition]: Publishing video frame: 262
+[INFO] [1684515277.989493325] [face_recognition]: timing f_p 0.14585661888122559
+[INFO] [1684515278.138864757] [face_recognition]: Publishing video frame: 263
+[INFO] [1684515278.140958486] [face_recognition]: timing f_p 0.1489570140838623
+[INFO] [1684515278.281744737] [face_recognition]: Publishing video frame: 264
+[INFO] [1684515278.283146037] [face_recognition]: timing f_p 0.1386568546295166
+[INFO] [1684515278.423888068] [face_recognition]: Publishing video frame: 265
+[INFO] [1684515278.425393386] [face_recognition]: timing f_p 0.13916778564453125
+[INFO] [1684515278.654501047] [face_recognition]: Publishing video frame: 266
+[INFO] [1684515278.657659401] [face_recognition]: timing f_p 0.23023366928100586
+[INFO] [1684515278.816486730] [face_recognition]: Publishing video frame: 267
+[INFO] [1684515278.824737139] [face_recognition]: timing f_p 0.1638023853302002
+[INFO] [1684515278.989562733] [face_recognition]: Publishing video frame: 268
+[INFO] [1684515278.992286639] [face_recognition]: timing f_p 0.16370344161987305
+[INFO] [1684515279.156291946] [face_recognition]: Publishing video frame: 269
+[INFO] [1684515279.157462104] [face_recognition]: timing f_p 0.16302728652954102
+[INFO] [1684515279.390564355] [face_recognition]: Publishing video frame: 270
+[INFO] [1684515279.391930203] [face_recognition]: timing f_p 0.23241782188415527
+[INFO] [1684515279.595718502] [face_recognition]: Publishing video frame: 271
+[INFO] [1684515279.598688046] [face_recognition]: timing f_p 0.19421052932739258
+[INFO] [1684515286.201360251] [face_recognition]: Publishing video frame: 272
+[INFO] [1684515286.205312383] [face_recognition]: timing f_p 0.2599601745605469
+[INFO] [1684515286.337730932] [face_recognition]: Publishing video frame: 273
+[INFO] [1684515286.339355483] [face_recognition]: timing f_p 0.13006854057312012
+[INFO] [1684515286.514282381] [face_recognition]: Publishing video frame: 274
+[INFO] [1684515286.515440052] [face_recognition]: timing f_p 0.17116856575012207
+[INFO] [1684515286.672239973] [face_recognition]: Publishing video frame: 275
+[INFO] [1684515286.673275214] [face_recognition]: timing f_p 0.15637755393981934
+[INFO] [1684515286.893027947] [face_recognition]: Publishing video frame: 276
+[INFO] [1684515286.893966498] [face_recognition]: timing f_p 0.21924281120300293
+[INFO] [1684515287.065297045] [face_recognition]: Publishing video frame: 277
+[INFO] [1684515287.066895505] [face_recognition]: timing f_p 0.1700906753540039
+[INFO] [1684515287.226497837] [face_recognition]: Publishing video frame: 278
+[INFO] [1684515287.228650919] [face_recognition]: timing f_p 0.15863585472106934
+[INFO] [1684515287.457903557] [face_recognition]: Publishing video frame: 279
+[INFO] [1684515287.459000651] [face_recognition]: timing f_p 0.22865796089172363
+[INFO] [1684515287.707310806] [face_recognition]: Publishing video frame: 280
+[INFO] [1684515287.716893091] [face_recognition]: timing f_p 0.2483224868774414
+[INFO] [1684515287.837825041] [face_recognition]: Publishing video frame: 281
+[INFO] [1684515287.841048496] [face_recognition]: timing f_p 0.12170195579528809
+[INFO] [1684515294.495367520] [face_recognition]: Publishing video frame: 282
+[INFO] [1684515294.500970908] [face_recognition]: timing f_p 0.3131401538848877
+[INFO] [1684515294.644604448] [face_recognition]: Publishing video frame: 283
+[INFO] [1684515294.645567095] [face_recognition]: timing f_p 0.14287471771240234
+[INFO] [1684515294.834774799] [face_recognition]: Publishing video frame: 284
+[INFO] [1684515294.836189047] [face_recognition]: timing f_p 0.18861150741577148
+[INFO] [1684515295.038642946] [face_recognition]: Publishing video frame: 285
+[INFO] [1684515295.043200683] [face_recognition]: timing f_p 0.20203137397766113
+[INFO] [1684515295.223056220] [face_recognition]: Publishing video frame: 286
+[INFO] [1684515295.227000025] [face_recognition]: timing f_p 0.180098295211792
+[INFO] [1684515295.405035601] [face_recognition]: Publishing video frame: 287
+[INFO] [1684515295.406191706] [face_recognition]: timing f_p 0.17509722709655762
+[INFO] [1684515295.613948248] [face_recognition]: Publishing video frame: 288
+[INFO] [1684515295.615423985] [face_recognition]: timing f_p 0.20718741416931152
+[INFO] [1684515295.735350883] [face_recognition]: Publishing video frame: 289
+[INFO] [1684515295.736434394] [face_recognition]: timing f_p 0.119384765625
+[INFO] [1684515295.858548939] [face_recognition]: Publishing video frame: 290
+[INFO] [1684515295.861218473] [face_recognition]: timing f_p 0.12165307998657227
+[INFO] [1684515296.096768009] [face_recognition]: Publishing video frame: 291
+[INFO] [1684515296.097824559] [face_recognition]: timing f_p 0.2342841625213623
+[INFO] [1684515296.277812571] [face_recognition]: Publishing video frame: 292
+[INFO] [1684515296.281195511] [face_recognition]: timing f_p 0.18108463287353516
+[INFO] [1684515296.471488069] [face_recognition]: Publishing video frame: 293
+[INFO] [1684515296.472532731] [face_recognition]: timing f_p 0.18993115425109863
+[INFO] [1684515296.642499344] [face_recognition]: Publishing video frame: 294
+[INFO] [1684515296.645507324] [face_recognition]: timing f_p 0.17038965225219727
+[INFO] [1684515296.888126224] [face_recognition]: Publishing video frame: 295
+[INFO] [1684515296.891389450] [face_recognition]: timing f_p 0.24408602714538574
+[INFO] [1684515297.140879588] [face_recognition]: Publishing video frame: 296
+[INFO] [1684515297.141959222] [face_recognition]: timing f_p 0.24495983123779297
+[INFO] [1684515297.336349683] [face_recognition]: Publishing video frame: 297
+[INFO] [1684515297.337613102] [face_recognition]: timing f_p 0.19350242614746094
+[INFO] [1684515297.488005948] [face_recognition]: Publishing video frame: 298
+[INFO] [1684515297.490259654] [face_recognition]: timing f_p 0.149810791015625
+[INFO] [1684515297.724286566] [face_recognition]: Publishing video frame: 299
+[INFO] [1684515297.730949169] [face_recognition]: timing f_p 0.23186254501342773
+[INFO] [1684515297.896304546] [face_recognition]: Publishing video frame: 300
+[INFO] [1684515297.898560504] [face_recognition]: timing f_p 0.16428732872009277
+[INFO] [1684515298.050965624] [face_recognition]: Publishing video frame: 301
+[INFO] [1684515298.052832690] [face_recognition]: timing f_p 0.14784002304077148
+[INFO] [1684515298.221820022] [face_recognition]: Publishing video frame: 302
+[INFO] [1684515298.223055631] [face_recognition]: timing f_p 0.1683807373046875
+[INFO] [1684515298.387234655] [face_recognition]: Publishing video frame: 303
+[INFO] [1684515298.389534927] [face_recognition]: timing f_p 0.16335749626159668
+[INFO] [1684515298.617421230] [face_recognition]: Publishing video frame: 304
+[INFO] [1684515298.618786529] [face_recognition]: timing f_p 0.22564268112182617
+[INFO] [1684515298.800838022] [face_recognition]: Publishing video frame: 305
+[INFO] [1684515298.805810349] [face_recognition]: timing f_p 0.18178534507751465
+[INFO] [1684515299.011829285] [face_recognition]: Publishing video frame: 306
+[INFO] [1684515299.013170266] [face_recognition]: timing f_p 0.20442605018615723
+[INFO] [1684515299.199117013] [face_recognition]: Publishing video frame: 307
+[INFO] [1684515299.200803520] [face_recognition]: timing f_p 0.18542242050170898
+[INFO] [1684515299.448850812] [face_recognition]: Publishing video frame: 308
+[INFO] [1684515299.463394640] [face_recognition]: timing f_p 0.2472231388092041
+[INFO] [1684515299.628848291] [face_recognition]: Publishing video frame: 309
+[INFO] [1684515299.629908439] [face_recognition]: timing f_p 0.16362357139587402
+[INFO] [1684515299.791001041] [face_recognition]: Publishing video frame: 310
+[INFO] [1684515299.792281938] [face_recognition]: timing f_p 0.1609797477722168
+[INFO] [1684515299.972586832] [face_recognition]: Publishing video frame: 311
+[INFO] [1684515299.974779760] [face_recognition]: timing f_p 0.18011832237243652
+[INFO] [1684515300.200419589] [face_recognition]: Publishing video frame: 312
+[INFO] [1684515300.201495806] [face_recognition]: timing f_p 0.2246253490447998
+[INFO] [1684515300.458376702] [face_recognition]: Publishing video frame: 313
+[INFO] [1684515300.460228528] [face_recognition]: timing f_p 0.2563486099243164
+[INFO] [1684515300.614138892] [face_recognition]: Publishing video frame: 314
+[INFO] [1684515300.614964204] [face_recognition]: timing f_p 0.15316247940063477
+[INFO] [1684515307.252038005] [face_recognition]: Publishing video frame: 315
+[INFO] [1684515307.252787657] [face_recognition]: timing f_p 0.268218994140625
+[INFO] [1684515307.374770909] [face_recognition]: Publishing video frame: 316
+[INFO] [1684515307.375947849] [face_recognition]: timing f_p 0.12162327766418457
+[INFO] [1684515307.501951415] [face_recognition]: Publishing video frame: 317
+[INFO] [1684515307.505339606] [face_recognition]: timing f_p 0.1268603801727295
+[INFO] [1684515307.673808828] [face_recognition]: Publishing video frame: 318
+[INFO] [1684515307.675850765] [face_recognition]: timing f_p 0.16636919975280762
+[INFO] [1684515307.833282811] [face_recognition]: Publishing video frame: 319
+[INFO] [1684515307.835819410] [face_recognition]: timing f_p 0.15598821640014648
+[INFO] [1684515308.091435940] [face_recognition]: Publishing video frame: 320
+[INFO] [1684515308.105526786] [face_recognition]: timing f_p 0.25467753410339355
+[INFO] [1684515308.276310311] [face_recognition]: Publishing video frame: 321
+[INFO] [1684515308.277093418] [face_recognition]: timing f_p 0.16992521286010742
+[INFO] [1684515308.532230410] [face_recognition]: Publishing video frame: 322
+[INFO] [1684515308.532805811] [face_recognition]: timing f_p 0.25473594665527344
+[INFO] [1684515308.705543159] [face_recognition]: Publishing video frame: 323
+[INFO] [1684515308.747057364] [face_recognition]: timing f_p 0.17247462272644043
+[INFO] [1684515308.893128804] [face_recognition]: Publishing video frame: 324
+[INFO] [1684515308.897618509] [face_recognition]: timing f_p 0.14797616004943848
+[INFO] [1684515309.100087316] [face_recognition]: Publishing video frame: 325
+[INFO] [1684515309.101255008] [face_recognition]: timing f_p 0.20114684104919434
+[INFO] [1684515309.267323707] [face_recognition]: Publishing video frame: 326
+[INFO] [1684515309.268334047] [face_recognition]: timing f_p 0.16559052467346191
+[INFO] [1684515309.449401235] [face_recognition]: Publishing video frame: 327
+[INFO] [1684515309.450440463] [face_recognition]: timing f_p 0.1739497184753418
+[INFO] [1684515309.716154610] [face_recognition]: Publishing video frame: 328
+[INFO] [1684515309.717595385] [face_recognition]: timing f_p 0.2651984691619873
+[INFO] [1684515309.880294413] [face_recognition]: Publishing video frame: 329
+[INFO] [1684515309.881501055] [face_recognition]: timing f_p 0.14043855667114258
+[INFO] [1684515310.031301107] [face_recognition]: Publishing video frame: 330
+[INFO] [1684515310.032666610] [face_recognition]: timing f_p 0.1491985321044922
+[INFO] [1684515310.157993744] [face_recognition]: Publishing video frame: 331
+[INFO] [1684515310.160661368] [face_recognition]: timing f_p 0.1262650489807129
+[INFO] [1684515310.328326820] [face_recognition]: Publishing video frame: 332
+[INFO] [1684515310.331177356] [face_recognition]: timing f_p 0.16722846031188965
+[INFO] [1684515310.478229024] [face_recognition]: Publishing video frame: 333
+[INFO] [1684515310.480129330] [face_recognition]: timing f_p 0.1462705135345459
+[INFO] [1684515310.680887676] [face_recognition]: Publishing video frame: 334
+[INFO] [1684515310.682721102] [face_recognition]: timing f_p 0.19988012313842773
+[INFO] [1684515310.817301488] [face_recognition]: Publishing video frame: 335
+[INFO] [1684515310.820746993] [face_recognition]: timing f_p 0.13450026512145996
+[INFO] [1684515310.977221715] [face_recognition]: Publishing video frame: 336
+[INFO] [1684515310.982128001] [face_recognition]: timing f_p 0.15738224983215332
+[INFO] [1684515311.120213558] [face_recognition]: Publishing video frame: 337
+[INFO] [1684515311.122254640] [face_recognition]: timing f_p 0.13715624809265137
+[INFO] [1684515311.277586944] [face_recognition]: Publishing video frame: 338
+[INFO] [1684515311.280339006] [face_recognition]: timing f_p 0.15073752403259277
+[INFO] [1684515311.533667488] [face_recognition]: Publishing video frame: 339
+[INFO] [1684515311.536367725] [face_recognition]: timing f_p 0.2489943504333496
+[INFO] [1684515311.676458000] [face_recognition]: Publishing video frame: 340
+[INFO] [1684515311.681141252] [face_recognition]: timing f_p 0.13218188285827637
+[INFO] [1684515311.882908407] [face_recognition]: Publishing video frame: 341
+[INFO] [1684515311.884159747] [face_recognition]: timing f_p 0.19868135452270508
+[INFO] [1684515312.085947638] [face_recognition]: Publishing video frame: 342
+[INFO] [1684515312.088962689] [face_recognition]: timing f_p 0.2028331756591797
+[INFO] [1684515312.220188159] [face_recognition]: Publishing video frame: 343
+[INFO] [1684515312.222884604] [face_recognition]: timing f_p 0.1300516128540039
+[INFO] [1684515318.915649521] [face_recognition]: Publishing video frame: 344
+[INFO] [1684515318.918831499] [face_recognition]: timing f_p 0.33974719047546387
+[INFO] [1684515319.066732408] [face_recognition]: Publishing video frame: 345
+[INFO] [1684515319.069816313] [face_recognition]: timing f_p 0.1473851203918457
+[INFO] [1684515319.189401966] [face_recognition]: Publishing video frame: 346
+[INFO] [1684515319.192336772] [face_recognition]: timing f_p 0.11896562576293945
+[INFO] [1684515319.359013773] [face_recognition]: Publishing video frame: 347
+[INFO] [1684515319.361345507] [face_recognition]: timing f_p 0.16579866409301758
+[INFO] [1684515319.508997265] [face_recognition]: Publishing video frame: 348
+[INFO] [1684515319.511161724] [face_recognition]: timing f_p 0.14545726776123047
+[INFO] [1684515319.721884904] [face_recognition]: Publishing video frame: 349
+[INFO] [1684515319.723573761] [face_recognition]: timing f_p 0.20903325080871582
+[INFO] [1684515319.957790717] [face_recognition]: Publishing video frame: 350
+[INFO] [1684515319.959165496] [face_recognition]: timing f_p 0.23376679420471191
+[INFO] [1684515320.172309823] [face_recognition]: Publishing video frame: 351
+[INFO] [1684515320.175639592] [face_recognition]: timing f_p 0.21183061599731445
+[INFO] [1684515320.356822196] [face_recognition]: Publishing video frame: 352
+[INFO] [1684515320.358872105] [face_recognition]: timing f_p 0.18054890632629395
+[INFO] [1684515320.493614896] [face_recognition]: Publishing video frame: 353
+[INFO] [1684515320.494861388] [face_recognition]: timing f_p 0.13366007804870605
+[INFO] [1684515320.712726462] [face_recognition]: Publishing video frame: 354
+[INFO] [1684515320.713332016] [face_recognition]: timing f_p 0.21639084815979004
+[INFO] [1684515320.838720437] [face_recognition]: Publishing video frame: 355
+[INFO] [1684515320.839779864] [face_recognition]: timing f_p 0.12511253356933594
+[INFO] [1684515321.044740822] [face_recognition]: Publishing video frame: 356
+[INFO] [1684515321.045765161] [face_recognition]: timing f_p 0.20426654815673828
+[INFO] [1684515321.234348134] [face_recognition]: Publishing video frame: 357
+[INFO] [1684515321.246518180] [face_recognition]: timing f_p 0.18820500373840332
+[INFO] [1684515321.556483851] [face_recognition]: Publishing video frame: 358
+[INFO] [1684515321.557457178] [face_recognition]: timing f_p 0.30882716178894043
+[INFO] [1684515321.702302879] [face_recognition]: Publishing video frame: 359
+[INFO] [1684515321.705104561] [face_recognition]: timing f_p 0.14454984664916992
+[INFO] [1684515321.893960336] [face_recognition]: Publishing video frame: 360
+[INFO] [1684515321.899138653] [face_recognition]: timing f_p 0.18819761276245117
+[INFO] [1684515322.114058406] [face_recognition]: Publishing video frame: 361
+[INFO] [1684515322.116297153] [face_recognition]: timing f_p 0.21430253982543945
+[INFO] [1684515322.454817218] [face_recognition]: Publishing video frame: 362
+[INFO] [1684515322.457565618] [face_recognition]: timing f_p 0.3388211727142334
+[INFO] [1684515322.646011196] [face_recognition]: Publishing video frame: 363
+[INFO] [1684515322.649077842] [face_recognition]: timing f_p 0.1873784065246582
+[INFO] [1684515322.810768179] [face_recognition]: Publishing video frame: 364
+[INFO] [1684515322.813127705] [face_recognition]: timing f_p 0.1624772548675537
+[INFO] [1684515322.956405948] [face_recognition]: Publishing video frame: 365
+[INFO] [1684515322.958239059] [face_recognition]: timing f_p 0.14269018173217773
+[INFO] [1684515323.089609715] [face_recognition]: Publishing video frame: 366
+[INFO] [1684515323.096728258] [face_recognition]: timing f_p 0.13585543632507324
+[INFO] [1684515323.290064340] [face_recognition]: Publishing video frame: 367
+[INFO] [1684515323.296677713] [face_recognition]: timing f_p 0.19823265075683594
+[INFO] [1684515323.564543422] [face_recognition]: Publishing video frame: 368
+[INFO] [1684515323.566279140] [face_recognition]: timing f_p 0.2663908004760742
+[INFO] [1684515323.711773488] [face_recognition]: Publishing video frame: 369
+[INFO] [1684515323.714128602] [face_recognition]: timing f_p 0.1453554630279541
+[INFO] [1684515323.888799570] [face_recognition]: Publishing video frame: 370
+[INFO] [1684515323.898657260] [face_recognition]: timing f_p 0.17376041412353516
+[INFO] [1684515324.140008707] [face_recognition]: Publishing video frame: 371
+[INFO] [1684515324.141514099] [face_recognition]: timing f_p 0.2406597137451172
+[INFO] [1684515324.342035218] [face_recognition]: Publishing video frame: 372
+[INFO] [1684515324.351291199] [face_recognition]: timing f_p 0.20760512351989746
+[INFO] [1684515330.922984506] [face_recognition]: Publishing video frame: 373
+[INFO] [1684515330.923986794] [face_recognition]: timing f_p 0.22200441360473633
+[INFO] [1684515331.064263155] [face_recognition]: Publishing video frame: 374
+[INFO] [1684515331.070778657] [face_recognition]: timing f_p 0.14473819732666016
+[INFO] [1684515331.229001655] [face_recognition]: Publishing video frame: 375
+[INFO] [1684515331.233369289] [face_recognition]: timing f_p 0.15475153923034668
+[INFO] [1684515331.460160725] [face_recognition]: Publishing video frame: 376
+[INFO] [1684515331.464825341] [face_recognition]: timing f_p 0.22517013549804688
+[INFO] [1684515331.640375079] [face_recognition]: Publishing video frame: 377
+[INFO] [1684515331.641420801] [face_recognition]: timing f_p 0.1732654571533203
+[INFO] [1684515331.850551814] [face_recognition]: Publishing video frame: 378
+[INFO] [1684515331.852708717] [face_recognition]: timing f_p 0.20871949195861816
+[INFO] [1684515332.025301267] [face_recognition]: Publishing video frame: 379
+[INFO] [1684515332.027955402] [face_recognition]: timing f_p 0.173309326171875
+[INFO] [1684515332.140314912] [face_recognition]: Publishing video frame: 380
+[INFO] [1684515332.142020554] [face_recognition]: timing f_p 0.11181282997131348
+[INFO] [1684515332.385976580] [face_recognition]: Publishing video frame: 381
+[INFO] [1684515332.404188635] [face_recognition]: timing f_p 0.2598545551300049
+[INFO] [1684515332.616308476] [face_recognition]: Publishing video frame: 382
+[INFO] [1684515332.617394096] [face_recognition]: timing f_p 0.21029090881347656
+[INFO] [1684515332.825877819] [face_recognition]: Publishing video frame: 383
+[INFO] [1684515332.826989700] [face_recognition]: timing f_p 0.20798635482788086
+[INFO] [1684515333.073806007] [face_recognition]: Publishing video frame: 384
+[INFO] [1684515333.075832698] [face_recognition]: timing f_p 0.24634337425231934
+[INFO] [1684515333.317155304] [face_recognition]: Publishing video frame: 385
+[INFO] [1684515333.318559478] [face_recognition]: timing f_p 0.24076032638549805
+[INFO] [1684515333.569631355] [face_recognition]: Publishing video frame: 386
+[INFO] [1684515333.570652888] [face_recognition]: timing f_p 0.25029802322387695
+[INFO] [1684515333.777428318] [face_recognition]: Publishing video frame: 387
+[INFO] [1684515333.779026917] [face_recognition]: timing f_p 0.206298828125
+[INFO] [1684515333.959250369] [face_recognition]: Publishing video frame: 388
+[INFO] [1684515333.965456990] [face_recognition]: timing f_p 0.17885637283325195
+[INFO] [1684515334.145334593] [face_recognition]: Publishing video frame: 389
+[INFO] [1684515334.147891487] [face_recognition]: timing f_p 0.18059301376342773
+[INFO] [1684515334.315452513] [face_recognition]: Publishing video frame: 390
+[INFO] [1684515334.316785409] [face_recognition]: timing f_p 0.16509103775024414
+[INFO] [1684515334.501954975] [face_recognition]: Publishing video frame: 391
+[INFO] [1684515334.503004471] [face_recognition]: timing f_p 0.18431520462036133
+[INFO] [1684515334.683615112] [face_recognition]: Publishing video frame: 392
+[INFO] [1684515334.684695688] [face_recognition]: timing f_p 0.18004679679870605
+[INFO] [1684515334.896304748] [face_recognition]: Publishing video frame: 393
+[INFO] [1684515334.898475198] [face_recognition]: timing f_p 0.21118855476379395
+[INFO] [1684515335.150883225] [face_recognition]: Publishing video frame: 394
+[INFO] [1684515335.151965406] [face_recognition]: timing f_p 0.25159692764282227
+[INFO] [1684515335.286666935] [face_recognition]: Publishing video frame: 395
+[INFO] [1684515335.288192331] [face_recognition]: timing f_p 0.13431096076965332
+[INFO] [1684515335.446465609] [face_recognition]: Publishing video frame: 396
+[INFO] [1684515335.447666709] [face_recognition]: timing f_p 0.1578233242034912
+[INFO] [1684515335.636522057] [face_recognition]: Publishing video frame: 397
+[INFO] [1684515335.637757901] [face_recognition]: timing f_p 0.18839049339294434
+[INFO] [1684515335.946100513] [face_recognition]: Publishing video frame: 398
+[INFO] [1684515335.947918816] [face_recognition]: timing f_p 0.3076901435852051
+[INFO] [1684515336.095454662] [face_recognition]: Publishing video frame: 399
+[INFO] [1684515336.100005616] [face_recognition]: timing f_p 0.14689373970031738
+[INFO] [1684515336.235782335] [face_recognition]: Publishing video frame: 400
+[INFO] [1684515336.237206566] [face_recognition]: timing f_p 0.13512253761291504
+[INFO] [1684515336.385455093] [face_recognition]: Publishing video frame: 401
+[INFO] [1684515336.386272229] [face_recognition]: timing f_p 0.14774560928344727
+[INFO] [1684515336.559823528] [face_recognition]: Publishing video frame: 402
+[INFO] [1684515336.561010596] [face_recognition]: timing f_p 0.17312288284301758
+[INFO] [1684515336.681742627] [face_recognition]: Publishing video frame: 403
+[INFO] [1684515336.684762267] [face_recognition]: timing f_p 0.12190818786621094
+[INFO] [1684515336.861721315] [face_recognition]: Publishing video frame: 404
+[INFO] [1684515336.865838551] [face_recognition]: timing f_p 0.17432332038879395
+[INFO] [1684515337.207035411] [face_recognition]: Publishing video frame: 405
+[INFO] [1684515337.209572041] [face_recognition]: timing f_p 0.33359479904174805
+[INFO] [1684515337.381147290] [face_recognition]: Publishing video frame: 406
+[INFO] [1684515337.383679346] [face_recognition]: timing f_p 0.17235970497131348
+[INFO] [1684515337.562831433] [face_recognition]: Publishing video frame: 407
+[INFO] [1684515337.563814318] [face_recognition]: timing f_p 0.17714691162109375
+[INFO] [1684515337.699938182] [face_recognition]: Publishing video frame: 408
+[INFO] [1684515337.704144085] [face_recognition]: timing f_p 0.1358039379119873
+[INFO] [1684515337.887880085] [face_recognition]: Publishing video frame: 409
+[INFO] [1684515337.894814527] [face_recognition]: timing f_p 0.18882179260253906
+[INFO] [1684515338.112076113] [face_recognition]: Publishing video frame: 410
+[INFO] [1684515338.112919924] [face_recognition]: timing f_p 0.21654605865478516
+[INFO] [1684515344.707026352] [face_recognition]: Publishing video frame: 411
+[INFO] [1684515344.710170155] [face_recognition]: timing f_p 0.25626230239868164
+[INFO] [1684515344.844659089] [face_recognition]: Publishing video frame: 412
+[INFO] [1684515344.847532776] [face_recognition]: timing f_p 0.1334836483001709
+[INFO] [1684515344.986757335] [face_recognition]: Publishing video frame: 413
+[INFO] [1684515344.988172269] [face_recognition]: timing f_p 0.1328132152557373
+[INFO] [1684515345.165174804] [face_recognition]: Publishing video frame: 414
+[INFO] [1684515345.167210673] [face_recognition]: timing f_p 0.17666316032409668
+[INFO] [1684515345.342651547] [face_recognition]: Publishing video frame: 415
+[INFO] [1684515345.343844071] [face_recognition]: timing f_p 0.17482876777648926
+[INFO] [1684515345.538040720] [face_recognition]: Publishing video frame: 416
+[INFO] [1684515345.539559171] [face_recognition]: timing f_p 0.19371438026428223
+[INFO] [1684515345.851411803] [face_recognition]: Publishing video frame: 417
+[INFO] [1684515345.859925458] [face_recognition]: timing f_p 0.3150594234466553
+[INFO] [1684515346.051342856] [face_recognition]: Publishing video frame: 418
+[INFO] [1684515346.052464634] [face_recognition]: timing f_p 0.19105195999145508
+[INFO] [1684515346.183761616] [face_recognition]: Publishing video frame: 419
+[INFO] [1684515346.185024012] [face_recognition]: timing f_p 0.13091492652893066
+[INFO] [1684515346.378688480] [face_recognition]: Publishing video frame: 420
+[INFO] [1684515346.380597538] [face_recognition]: timing f_p 0.1932837963104248
+[INFO] [1684515346.601318317] [face_recognition]: Publishing video frame: 421
+[INFO] [1684515346.602470993] [face_recognition]: timing f_p 0.21328997611999512
+[INFO] [1684515346.835215147] [face_recognition]: Publishing video frame: 422
+[INFO] [1684515346.836340168] [face_recognition]: timing f_p 0.2321014404296875
+[INFO] [1684515347.046576536] [face_recognition]: Publishing video frame: 423
+[INFO] [1684515347.050460551] [face_recognition]: timing f_p 0.21163678169250488
+[INFO] [1684515347.229057118] [face_recognition]: Publishing video frame: 424
+[INFO] [1684515347.229941926] [face_recognition]: timing f_p 0.175980806350708
+[INFO] [1684515347.427980696] [face_recognition]: Publishing video frame: 425
+[INFO] [1684515347.431668417] [face_recognition]: timing f_p 0.19960784912109375
+[INFO] [1684515347.631594402] [face_recognition]: Publishing video frame: 426
+[INFO] [1684515347.646465915] [face_recognition]: timing f_p 0.19761180877685547
+[INFO] [1684515347.822116669] [face_recognition]: Publishing video frame: 427
+[INFO] [1684515347.825452923] [face_recognition]: timing f_p 0.17624449729919434
+[INFO] [1684515348.096032375] [face_recognition]: Publishing video frame: 428
+[INFO] [1684515348.105346614] [face_recognition]: timing f_p 0.2698707580566406
+[INFO] [1684515348.285952952] [face_recognition]: Publishing video frame: 429
+[INFO] [1684515348.288369600] [face_recognition]: timing f_p 0.18004083633422852
+[INFO] [1684515348.527878885] [face_recognition]: Publishing video frame: 430
+[INFO] [1684515348.529867311] [face_recognition]: timing f_p 0.23910140991210938
+[INFO] [1684515348.686538518] [face_recognition]: Publishing video frame: 431
+[INFO] [1684515348.688250213] [face_recognition]: timing f_p 0.15627551078796387
+[INFO] [1684515348.850125100] [face_recognition]: Publishing video frame: 432
+[INFO] [1684515348.851695360] [face_recognition]: timing f_p 0.1613600254058838
+[INFO] [1684515349.137361539] [face_recognition]: Publishing video frame: 433
+[INFO] [1684515349.138999647] [face_recognition]: timing f_p 0.28507280349731445
+[INFO] [1684515349.366704798] [face_recognition]: Publishing video frame: 434
+[INFO] [1684515349.368132330] [face_recognition]: timing f_p 0.22498679161071777
+[INFO] [1684515349.505555422] [face_recognition]: Publishing video frame: 435
+[INFO] [1684515349.507261386] [face_recognition]: timing f_p 0.13682055473327637
+[INFO] [1684515349.738030806] [face_recognition]: Publishing video frame: 436
+[INFO] [1684515349.742198880] [face_recognition]: timing f_p 0.22968029975891113
+[INFO] [1684515349.954350557] [face_recognition]: Publishing video frame: 437
+[INFO] [1684515349.957281068] [face_recognition]: timing f_p 0.20365619659423828
+[INFO] [1684515350.095473975] [face_recognition]: Publishing video frame: 438
+[INFO] [1684515350.097038827] [face_recognition]: timing f_p 0.13414239883422852
+[INFO] [1684515350.258462069] [face_recognition]: Publishing video frame: 439
+[INFO] [1684515350.259871286] [face_recognition]: timing f_p 0.16082429885864258
+[INFO] [1684515350.445872980] [face_recognition]: Publishing video frame: 440
+[INFO] [1684515350.446760934] [face_recognition]: timing f_p 0.1853163242340088
+[INFO] [1684515350.631828545] [face_recognition]: Publishing video frame: 441
+[INFO] [1684515350.633464361] [face_recognition]: timing f_p 0.18471360206604004
+[INFO] [1684515350.803851500] [face_recognition]: Publishing video frame: 442
+[INFO] [1684515350.804960472] [face_recognition]: timing f_p 0.16975927352905273
+[INFO] [1684515350.955191430] [face_recognition]: Publishing video frame: 443
+[INFO] [1684515350.956195133] [face_recognition]: timing f_p 0.14946269989013672
+[INFO] [1684515351.139334156] [face_recognition]: Publishing video frame: 444
+[INFO] [1684515351.143041863] [face_recognition]: timing f_p 0.18361163139343262
+[INFO] [1684515351.381695560] [face_recognition]: Publishing video frame: 445
+[INFO] [1684515351.382851839] [face_recognition]: timing f_p 0.23794913291931152
+[INFO] [1684515351.583772914] [face_recognition]: Publishing video frame: 446
+[INFO] [1684515351.587004259] [face_recognition]: timing f_p 0.2004711627960205
+[INFO] [1684515351.827623277] [face_recognition]: Publishing video frame: 447
+[INFO] [1684515351.831081537] [face_recognition]: timing f_p 0.23317861557006836
+[INFO] [1684515351.995368321] [face_recognition]: Publishing video frame: 448
+[INFO] [1684515351.999925942] [face_recognition]: timing f_p 0.16504263877868652
+[INFO] [1684515352.242879138] [face_recognition]: Publishing video frame: 449
+[INFO] [1684515352.253051085] [face_recognition]: timing f_p 0.23997282981872559
+[INFO] [1684515352.487544874] [face_recognition]: Publishing video frame: 450
+[INFO] [1684515352.489074123] [face_recognition]: timing f_p 0.23400640487670898
+[INFO] [1684515352.699973338] [face_recognition]: Publishing video frame: 451
+[INFO] [1684515352.701016431] [face_recognition]: timing f_p 0.20989680290222168
+[INFO] [1684515352.932011225] [face_recognition]: Publishing video frame: 452
+[INFO] [1684515352.938114499] [face_recognition]: timing f_p 0.23053622245788574
+[INFO] [1684515353.099229448] [face_recognition]: Publishing video frame: 453
+[INFO] [1684515353.105624763] [face_recognition]: timing f_p 0.16524481773376465
+[INFO] [1684515353.271094248] [face_recognition]: Publishing video frame: 454
+[INFO] [1684515353.272639133] [face_recognition]: timing f_p 0.1588599681854248
+[INFO] [1684515353.556462922] [face_recognition]: Publishing video frame: 455
+[INFO] [1684515353.557898133] [face_recognition]: timing f_p 0.28353333473205566
+[INFO] [1684515353.705418958] [face_recognition]: Publishing video frame: 456
+[INFO] [1684515353.707004779] [face_recognition]: timing f_p 0.1469573974609375
+[INFO] [1684515353.901100784] [face_recognition]: Publishing video frame: 457
+[INFO] [1684515353.903733504] [face_recognition]: timing f_p 0.1945810317993164
+[INFO] [1684515354.071925606] [face_recognition]: Publishing video frame: 458
+[INFO] [1684515354.084878710] [face_recognition]: timing f_p 0.16597914695739746
+[INFO] [1684515354.245948843] [face_recognition]: Publishing video frame: 459
+[INFO] [1684515354.251246968] [face_recognition]: timing f_p 0.1603562831878662
+[INFO] [1684515354.440881230] [face_recognition]: Publishing video frame: 460
+[INFO] [1684515354.441839071] [face_recognition]: timing f_p 0.18581891059875488
+[INFO] [1684515354.612296865] [face_recognition]: Publishing video frame: 461
+[INFO] [1684515354.615403702] [face_recognition]: timing f_p 0.1696336269378662
+[INFO] [1684515354.800982835] [face_recognition]: Publishing video frame: 462
+[INFO] [1684515354.811625218] [face_recognition]: timing f_p 0.18469619750976562
+[INFO] [1684515355.035843798] [face_recognition]: Publishing video frame: 463
+[INFO] [1684515355.038833504] [face_recognition]: timing f_p 0.22298860549926758
+[INFO] [1684515355.208067857] [face_recognition]: Publishing video frame: 464
+[INFO] [1684515355.209778928] [face_recognition]: timing f_p 0.1630246639251709
+[INFO] [1684515355.405140321] [face_recognition]: Publishing video frame: 465
+[INFO] [1684515355.406443123] [face_recognition]: timing f_p 0.19496536254882812
+[INFO] [1684515355.618470198] [face_recognition]: Publishing video frame: 466
+[INFO] [1684515355.620782322] [face_recognition]: timing f_p 0.21279096603393555
+[INFO] [1684515355.845063965] [face_recognition]: Publishing video frame: 467
+[INFO] [1684515355.847059128] [face_recognition]: timing f_p 0.22364211082458496
+[INFO] [1684515355.990323104] [face_recognition]: Publishing video frame: 468
+[INFO] [1684515355.993296482] [face_recognition]: timing f_p 0.14346599578857422
+[INFO] [1684515356.178163644] [face_recognition]: Publishing video frame: 469
+[INFO] [1684515356.182680452] [face_recognition]: timing f_p 0.1832873821258545
+[INFO] [1684515356.319687936] [face_recognition]: Publishing video frame: 470
+[INFO] [1684515356.321826295] [face_recognition]: timing f_p 0.13130760192871094
+[INFO] [1684515356.480384833] [face_recognition]: Publishing video frame: 471
+[INFO] [1684515356.483329900] [face_recognition]: timing f_p 0.1583399772644043
+[INFO] [1684515356.725295305] [face_recognition]: Publishing video frame: 472
+[INFO] [1684515356.727414137] [face_recognition]: timing f_p 0.24087238311767578
+[INFO] [1684515356.965555701] [face_recognition]: Publishing video frame: 473
+[INFO] [1684515356.966284491] [face_recognition]: timing f_p 0.23380565643310547
+[INFO] [1684515357.139403548] [face_recognition]: Publishing video frame: 474
+[INFO] [1684515357.142878970] [face_recognition]: timing f_p 0.17260050773620605
+[INFO] [1684515363.798170533] [face_recognition]: Publishing video frame: 475
+[INFO] [1684515363.799898955] [face_recognition]: timing f_p 0.303145170211792
+[INFO] [1684515363.930232807] [face_recognition]: Publishing video frame: 476
+[INFO] [1684515363.933273546] [face_recognition]: timing f_p 0.12889480590820312
+[INFO] [1684515364.084480850] [face_recognition]: Publishing video frame: 477
+[INFO] [1684515364.085769602] [face_recognition]: timing f_p 0.15103721618652344
+[INFO] [1684515364.225839992] [face_recognition]: Publishing video frame: 478
+[INFO] [1684515364.227272358] [face_recognition]: timing f_p 0.1394968032836914
+[INFO] [1684515364.416994688] [face_recognition]: Publishing video frame: 479
+[INFO] [1684515364.417674895] [face_recognition]: timing f_p 0.18871474266052246
+[INFO] [1684515364.580619137] [face_recognition]: Publishing video frame: 480
+[INFO] [1684515364.581734728] [face_recognition]: timing f_p 0.16253948211669922
+[INFO] [1684515364.863993337] [face_recognition]: Publishing video frame: 481
+[INFO] [1684515364.868032744] [face_recognition]: timing f_p 0.2841157913208008
+[INFO] [1684515365.042455387] [face_recognition]: Publishing video frame: 482
+[INFO] [1684515365.045153386] [face_recognition]: timing f_p 0.1721651554107666
+[INFO] [1684515365.235049835] [face_recognition]: Publishing video frame: 483
+[INFO] [1684515365.236299157] [face_recognition]: timing f_p 0.18909406661987305
+[INFO] [1684515365.375056621] [face_recognition]: Publishing video frame: 484
+[INFO] [1684515365.376276739] [face_recognition]: timing f_p 0.1381237506866455
+[INFO] [1684515365.495639138] [face_recognition]: Publishing video frame: 485
+[INFO] [1684515365.497873855] [face_recognition]: timing f_p 0.11885976791381836
+[INFO] [1684515365.698304614] [face_recognition]: Publishing video frame: 486
+[INFO] [1684515365.707741100] [face_recognition]: timing f_p 0.20023465156555176
+[INFO] [1684515365.899575146] [face_recognition]: Publishing video frame: 487
+[INFO] [1684515365.902296576] [face_recognition]: timing f_p 0.18909645080566406
+[INFO] [1684515366.135736055] [face_recognition]: Publishing video frame: 488
+[INFO] [1684515366.138217855] [face_recognition]: timing f_p 0.23357224464416504
+[INFO] [1684515366.292426295] [face_recognition]: Publishing video frame: 489
+[INFO] [1684515366.294149939] [face_recognition]: timing f_p 0.1531352996826172
+[INFO] [1684515366.462247903] [face_recognition]: Publishing video frame: 490
+[INFO] [1684515366.465036487] [face_recognition]: timing f_p 0.16524052619934082
+[INFO] [1684515366.587187008] [face_recognition]: Publishing video frame: 491
+[INFO] [1684515366.588590941] [face_recognition]: timing f_p 0.12080025672912598
+[INFO] [1684515366.731779686] [face_recognition]: Publishing video frame: 492
+[INFO] [1684515366.734341126] [face_recognition]: timing f_p 0.1438307762145996
+[INFO] [1684515366.949043114] [face_recognition]: Publishing video frame: 493
+[INFO] [1684515366.950453812] [face_recognition]: timing f_p 0.21245861053466797
+[INFO] [1684515367.176822267] [face_recognition]: Publishing video frame: 494
+[INFO] [1684515367.182946252] [face_recognition]: timing f_p 0.22568798065185547
+[INFO] [1684515367.427672879] [face_recognition]: Publishing video frame: 495
+[INFO] [1684515367.461909703] [face_recognition]: timing f_p 0.2438371181488037
+[INFO] [1684515367.748520874] [face_recognition]: Publishing video frame: 496
+[INFO] [1684515367.749923336] [face_recognition]: timing f_p 0.2862076759338379
+[INFO] [1684515367.941236084] [face_recognition]: Publishing video frame: 497
+[INFO] [1684515367.942831684] [face_recognition]: timing f_p 0.1897590160369873
+[INFO] [1684515368.129213822] [face_recognition]: Publishing video frame: 498
+[INFO] [1684515368.131001751] [face_recognition]: timing f_p 0.18593358993530273
+[INFO] [1684515368.270302185] [face_recognition]: Publishing video frame: 499
+[INFO] [1684515368.276083359] [face_recognition]: timing f_p 0.13865256309509277
+[INFO] [1684515368.438134650] [face_recognition]: Publishing video frame: 500
+[INFO] [1684515368.440244386] [face_recognition]: timing f_p 0.1610100269317627
+[INFO] [1684515368.783831016] [face_recognition]: Publishing video frame: 501
+[INFO] [1684515368.785325899] [face_recognition]: timing f_p 0.3429241180419922
+[INFO] [1684515369.074231960] [face_recognition]: Publishing video frame: 502
+[INFO] [1684515369.079091710] [face_recognition]: timing f_p 0.2883450984954834
+[INFO] [1684515369.316779680] [face_recognition]: Publishing video frame: 503
+[INFO] [1684515369.319409027] [face_recognition]: timing f_p 0.23624324798583984
+[INFO] [1684515369.504107354] [face_recognition]: Publishing video frame: 504
+[INFO] [1684515369.508813137] [face_recognition]: timing f_p 0.18379759788513184
+[INFO] [1684515369.617370956] [face_recognition]: Publishing video frame: 505
+[INFO] [1684515369.620558370] [face_recognition]: timing f_p 0.10937881469726562
+[INFO] [1684515369.774883035] [face_recognition]: Publishing video frame: 506
+[INFO] [1684515369.777691458] [face_recognition]: timing f_p 0.15265774726867676
+[INFO] [1684515370.025251715] [face_recognition]: Publishing video frame: 507
+[INFO] [1684515370.033279265] [face_recognition]: timing f_p 0.24701690673828125
+[INFO] [1684515370.288011936] [face_recognition]: Publishing video frame: 508
+[INFO] [1684515370.290128559] [face_recognition]: timing f_p 0.2540566921234131
+[INFO] [1684515370.456723657] [face_recognition]: Publishing video frame: 509
+[INFO] [1684515370.461053495] [face_recognition]: timing f_p 0.13367009162902832
+[INFO] [1684515370.598298230] [face_recognition]: Publishing video frame: 510
+[INFO] [1684515370.602203835] [face_recognition]: timing f_p 0.1329503059387207
+[INFO] [1684515370.734682374] [face_recognition]: Publishing video frame: 511
+[INFO] [1684515370.736857664] [face_recognition]: timing f_p 0.13191771507263184
+[INFO] [1684515370.876483840] [face_recognition]: Publishing video frame: 512
+[INFO] [1684515370.879343461] [face_recognition]: timing f_p 0.13998889923095703
+[INFO] [1684515371.253807374] [face_recognition]: Publishing video frame: 513
+[INFO] [1684515371.256731130] [face_recognition]: timing f_p 0.36913204193115234
+[INFO] [1684515371.400026706] [face_recognition]: Publishing video frame: 514
+[INFO] [1684515371.401970100] [face_recognition]: timing f_p 0.14293289184570312
+[INFO] [1684515371.561042607] [face_recognition]: Publishing video frame: 515
+[INFO] [1684515371.562383432] [face_recognition]: timing f_p 0.15861010551452637
+[INFO] [1684515371.689022863] [face_recognition]: Publishing video frame: 516
+[INFO] [1684515371.690019055] [face_recognition]: timing f_p 0.12580418586730957
+[INFO] [1684515371.814907401] [face_recognition]: Publishing video frame: 517
+[INFO] [1684515371.816385411] [face_recognition]: timing f_p 0.12292289733886719
+[INFO] [1684515372.090105637] [face_recognition]: Publishing video frame: 518
+[INFO] [1684515372.091049360] [face_recognition]: timing f_p 0.27298903465270996
+[INFO] [1684515372.292856455] [face_recognition]: Publishing video frame: 519
+[INFO] [1684515372.295640619] [face_recognition]: timing f_p 0.20248723030090332
+[INFO] [1684515372.420106802] [face_recognition]: Publishing video frame: 520
+[INFO] [1684515372.421301111] [face_recognition]: timing f_p 0.12244820594787598
+[INFO] [1684515372.586505192] [face_recognition]: Publishing video frame: 521
+[INFO] [1684515372.588027099] [face_recognition]: timing f_p 0.1646740436553955
+[INFO] [1684515372.761408265] [face_recognition]: Publishing video frame: 522
+[INFO] [1684515372.762613118] [face_recognition]: timing f_p 0.17265582084655762
+[INFO] [1684515372.982197672] [face_recognition]: Publishing video frame: 523
+[INFO] [1684515372.986385157] [face_recognition]: timing f_p 0.22023367881774902
+[INFO] [1684515373.231035192] [face_recognition]: Publishing video frame: 524
+[INFO] [1684515373.243315785] [face_recognition]: timing f_p 0.25082993507385254
+[INFO] [1684515373.484621427] [face_recognition]: Publishing video frame: 525
+[INFO] [1684515373.488300587] [face_recognition]: timing f_p 0.2398231029510498
+[INFO] [1684515373.697480456] [face_recognition]: Publishing video frame: 526
+[INFO] [1684515373.698504026] [face_recognition]: timing f_p 0.20873498916625977
+[INFO] [1684515373.839301348] [face_recognition]: Publishing video frame: 527
+[INFO] [1684515373.840939654] [face_recognition]: timing f_p 0.14026379585266113
+[INFO] [1684515374.024917323] [face_recognition]: Publishing video frame: 528
+[INFO] [1684515374.026320993] [face_recognition]: timing f_p 0.18346047401428223
+[INFO] [1684515374.248499986] [face_recognition]: Publishing video frame: 529
+[INFO] [1684515374.256865153] [face_recognition]: timing f_p 0.22517728805541992
+[INFO] [1684515374.576498975] [face_recognition]: Publishing video frame: 530
+[INFO] [1684515374.579159531] [face_recognition]: timing f_p 0.31771397590637207
+[INFO] [1684515374.845360043] [face_recognition]: Publishing video frame: 531
+[INFO] [1684515374.849716430] [face_recognition]: timing f_p 0.26369261741638184
+[INFO] [1684515375.121229960] [face_recognition]: Publishing video frame: 532
+[INFO] [1684515375.123659857] [face_recognition]: timing f_p 0.266071081161499
+[INFO] [1684515375.316721359] [face_recognition]: Publishing video frame: 533
+[INFO] [1684515375.320020784] [face_recognition]: timing f_p 0.1932671070098877
+[INFO] [1684515375.537654677] [face_recognition]: Publishing video frame: 534
+[INFO] [1684515375.539941724] [face_recognition]: timing f_p 0.21775174140930176
+[INFO] [1684515375.839921928] [face_recognition]: Publishing video frame: 535
+[INFO] [1684515375.840997951] [face_recognition]: timing f_p 0.2981133460998535
+[INFO] [1684515375.960203272] [face_recognition]: Publishing video frame: 536
+[INFO] [1684515375.961891444] [face_recognition]: timing f_p 0.11936211585998535
+[INFO] [1684515376.195414172] [face_recognition]: Publishing video frame: 537
+[INFO] [1684515376.196816984] [face_recognition]: timing f_p 0.23324084281921387
+[INFO] [1684515376.453064590] [face_recognition]: Publishing video frame: 538
+[INFO] [1684515376.455366287] [face_recognition]: timing f_p 0.2566986083984375
+[INFO] [1684515376.660650342] [face_recognition]: Publishing video frame: 539
+[INFO] [1684515376.662186681] [face_recognition]: timing f_p 0.20282244682312012
+[INFO] [1684515376.822484047] [face_recognition]: Publishing video frame: 540
+[INFO] [1684515376.823689299] [face_recognition]: timing f_p 0.15962433815002441
+[INFO] [1684515377.033253421] [face_recognition]: Publishing video frame: 541
+[INFO] [1684515377.036853800] [face_recognition]: timing f_p 0.21122241020202637
+[INFO] [1684515377.271063235] [face_recognition]: Publishing video frame: 542
+[INFO] [1684515377.281367296] [face_recognition]: timing f_p 0.23221278190612793
+[INFO] [1684515377.465070920] [face_recognition]: Publishing video frame: 543
+[INFO] [1684515377.468852934] [face_recognition]: timing f_p 0.1850745677947998
+[INFO] [1684515377.610922126] [face_recognition]: Publishing video frame: 544
+[INFO] [1684515377.612619248] [face_recognition]: timing f_p 0.14075374603271484
+[INFO] [1684515377.772445081] [face_recognition]: Publishing video frame: 545
+[INFO] [1684515377.773451948] [face_recognition]: timing f_p 0.15941643714904785
+[INFO] [1684515377.954063471] [face_recognition]: Publishing video frame: 546
+[INFO] [1684515377.955784255] [face_recognition]: timing f_p 0.18027591705322266
+[INFO] [1684515378.063335528] [face_recognition]: Publishing video frame: 547
+[INFO] [1684515378.064413270] [face_recognition]: timing f_p 0.10719966888427734
+[INFO] [1684515378.280052361] [face_recognition]: Publishing video frame: 548
+[INFO] [1684515378.281099764] [face_recognition]: timing f_p 0.21518850326538086
+[INFO] [1684515378.475204285] [face_recognition]: Publishing video frame: 549
+[INFO] [1684515378.482573067] [face_recognition]: timing f_p 0.19689702987670898
+[INFO] [1684515378.585909054] [face_recognition]: Publishing video frame: 550
+[INFO] [1684515378.587424964] [face_recognition]: timing f_p 0.1013331413269043
+[INFO] [1684515378.693366275] [face_recognition]: Publishing video frame: 551
+[INFO] [1684515378.703059431] [face_recognition]: timing f_p 0.10525369644165039
+[INFO] [1684515378.809032382] [face_recognition]: Publishing video frame: 552
+[INFO] [1684515378.810067670] [face_recognition]: timing f_p 0.10474681854248047
+[INFO] [1684515378.998341926] [face_recognition]: Publishing video frame: 553
+[INFO] [1684515379.001394772] [face_recognition]: timing f_p 0.18772530555725098
+[INFO] [1684515379.146947740] [face_recognition]: Publishing video frame: 554
+[INFO] [1684515379.149004505] [face_recognition]: timing f_p 0.14479279518127441
+[INFO] [1684515379.277366862] [face_recognition]: Publishing video frame: 555
+[INFO] [1684515379.278595059] [face_recognition]: timing f_p 0.12725234031677246
+[INFO] [1684515379.461930711] [face_recognition]: Publishing video frame: 556
+[INFO] [1684515379.493345406] [face_recognition]: timing f_p 0.18297719955444336
+[INFO] [1684515379.680521731] [face_recognition]: Publishing video frame: 557
+[INFO] [1684515379.683386484] [face_recognition]: timing f_p 0.18379759788513184
+[INFO] [1684515379.856198431] [face_recognition]: Publishing video frame: 558
+[INFO] [1684515379.860498366] [face_recognition]: timing f_p 0.1726365089416504
+[INFO] [1684515380.137569417] [face_recognition]: Publishing video frame: 559
+[INFO] [1684515380.139499554] [face_recognition]: timing f_p 0.27342939376831055
+[INFO] [1684515380.429444461] [face_recognition]: Publishing video frame: 560
+[INFO] [1684515380.430699837] [face_recognition]: timing f_p 0.28908395767211914
+[INFO] [1684515380.582949330] [face_recognition]: Publishing video frame: 561
+[INFO] [1684515380.585461175] [face_recognition]: timing f_p 0.1519622802734375
+[INFO] [1684515380.752512599] [face_recognition]: Publishing video frame: 562
+[INFO] [1684515380.753558924] [face_recognition]: timing f_p 0.16645216941833496
+[INFO] [1684515381.002550162] [face_recognition]: Publishing video frame: 563
+[INFO] [1684515381.004202037] [face_recognition]: timing f_p 0.24861526489257812
+[INFO] [1684515381.166359324] [face_recognition]: Publishing video frame: 564
+[INFO] [1684515381.167688878] [face_recognition]: timing f_p 0.1616044044494629
+[INFO] [1684515381.297939826] [face_recognition]: Publishing video frame: 565
+[INFO] [1684515381.299186334] [face_recognition]: timing f_p 0.12978410720825195
+[INFO] [1684515381.437961374] [face_recognition]: Publishing video frame: 566
+[INFO] [1684515381.438953591] [face_recognition]: timing f_p 0.13817787170410156
+[INFO] [1684515381.652190425] [face_recognition]: Publishing video frame: 567
+[INFO] [1684515381.652871713] [face_recognition]: timing f_p 0.21268367767333984
+[INFO] [1684515381.870722867] [face_recognition]: Publishing video frame: 568
+[INFO] [1684515381.880359534] [face_recognition]: timing f_p 0.2229902744293213
+[INFO] [1684515382.052306663] [face_recognition]: Publishing video frame: 569
+[INFO] [1684515382.053691791] [face_recognition]: timing f_p 0.17155838012695312
+[INFO] [1684515382.184985472] [face_recognition]: Publishing video frame: 570
+[INFO] [1684515382.188002410] [face_recognition]: timing f_p 0.13092875480651855
+[INFO] [1684515382.462047451] [face_recognition]: Publishing video frame: 571
+[INFO] [1684515382.463798848] [face_recognition]: timing f_p 0.27278566360473633
+[INFO] [1684515382.637311917] [face_recognition]: Publishing video frame: 572
+[INFO] [1684515382.638609628] [face_recognition]: timing f_p 0.17281866073608398
+[INFO] [1684515382.817746881] [face_recognition]: Publishing video frame: 573
+[INFO] [1684515382.821562723] [face_recognition]: timing f_p 0.1785871982574463
+[INFO] [1684515382.958896158] [face_recognition]: Publishing video frame: 574
+[INFO] [1684515382.966826566] [face_recognition]: timing f_p 0.1395103931427002
+[INFO] [1684515383.098062514] [face_recognition]: Publishing video frame: 575
+[INFO] [1684515383.100472157] [face_recognition]: timing f_p 0.12677693367004395
+[INFO] [1684515383.218824479] [face_recognition]: Publishing video frame: 576
+[INFO] [1684515383.221124157] [face_recognition]: timing f_p 0.11667752265930176
+[INFO] [1684515383.329699217] [face_recognition]: Publishing video frame: 577
+[INFO] [1684515383.330697497] [face_recognition]: timing f_p 0.10814929008483887
+[INFO] [1684515383.536269914] [face_recognition]: Publishing video frame: 578
+[INFO] [1684515383.537820679] [face_recognition]: timing f_p 0.2052154541015625
+[INFO] [1684515383.771836766] [face_recognition]: Publishing video frame: 579
+[INFO] [1684515383.773311617] [face_recognition]: timing f_p 0.23309707641601562
+[INFO] [1684515383.869754300] [face_recognition]: Publishing video frame: 580
+[INFO] [1684515383.871440719] [face_recognition]: timing f_p 0.09566092491149902
+[INFO] [1684515383.997617188] [face_recognition]: Publishing video frame: 581
+[INFO] [1684515383.998972331] [face_recognition]: timing f_p 0.12512683868408203
+[INFO] [1684515384.186436194] [face_recognition]: Publishing video frame: 582
+[INFO] [1684515384.188709442] [face_recognition]: timing f_p 0.18683671951293945
+[INFO] [1684515384.539165885] [face_recognition]: Publishing video frame: 583
+[INFO] [1684515384.541269331] [face_recognition]: timing f_p 0.3500709533691406
+[INFO] [1684515384.716147826] [face_recognition]: Publishing video frame: 584
+[INFO] [1684515384.717420195] [face_recognition]: timing f_p 0.17434310913085938
+[INFO] [1684515384.988215910] [face_recognition]: Publishing video frame: 585
+[INFO] [1684515384.988848433] [face_recognition]: timing f_p 0.27013635635375977
+[INFO] [1684515385.224894586] [face_recognition]: Publishing video frame: 586
+[INFO] [1684515385.227782800] [face_recognition]: timing f_p 0.23624777793884277
+[INFO] [1684515385.508819209] [face_recognition]: Publishing video frame: 587
+[INFO] [1684515385.510176704] [face_recognition]: timing f_p 0.2794971466064453
+[INFO] [1684515385.937687928] [face_recognition]: Publishing video frame: 588
+[INFO] [1684515385.940211183] [face_recognition]: timing f_p 0.4268367290496826
+[INFO] [1684515386.152386834] [face_recognition]: Publishing video frame: 589
+[INFO] [1684515386.153759106] [face_recognition]: timing f_p 0.21170949935913086
+[INFO] [1684515386.460524359] [face_recognition]: Publishing video frame: 590
+[INFO] [1684515386.468230117] [face_recognition]: timing f_p 0.3063328266143799
+[INFO] [1684515386.684363868] [face_recognition]: Publishing video frame: 591
+[INFO] [1684515386.693586556] [face_recognition]: timing f_p 0.21574902534484863
+[INFO] [1684515386.847787566] [face_recognition]: Publishing video frame: 592
+[INFO] [1684515386.849036532] [face_recognition]: timing f_p 0.15215373039245605
+[INFO] [1684515387.060369929] [face_recognition]: Publishing video frame: 593
+[INFO] [1684515387.069200465] [face_recognition]: timing f_p 0.2163252830505371
+[INFO] [1684515387.321016966] [face_recognition]: Publishing video frame: 594
+[INFO] [1684515387.323445880] [face_recognition]: timing f_p 0.24924826622009277
+[INFO] [1684515387.525256664] [face_recognition]: Publishing video frame: 595
+[INFO] [1684515387.526671577] [face_recognition]: timing f_p 0.1956777572631836
+[INFO] [1684515387.693502009] [face_recognition]: Publishing video frame: 596
+[INFO] [1684515387.694779470] [face_recognition]: timing f_p 0.16618680953979492
+[INFO] [1684515387.853992651] [face_recognition]: Publishing video frame: 597
+[INFO] [1684515387.855361734] [face_recognition]: timing f_p 0.158888578414917
+[INFO] [1684515388.077009756] [face_recognition]: Publishing video frame: 598
+[INFO] [1684515388.078480869] [face_recognition]: timing f_p 0.22086691856384277
+[INFO] [1684515388.226724544] [face_recognition]: Publishing video frame: 599
+[INFO] [1684515388.229712852] [face_recognition]: timing f_p 0.147230863571167
+[INFO] [1684515388.434496291] [face_recognition]: Publishing video frame: 600
+[INFO] [1684515388.436125511] [face_recognition]: timing f_p 0.20390820503234863
+[INFO] [1684515388.763427714] [face_recognition]: Publishing video frame: 601
+[INFO] [1684515388.770671082] [face_recognition]: timing f_p 0.3266637325286865
+[INFO] [1684515389.027084504] [face_recognition]: Publishing video frame: 602
+[INFO] [1684515389.035108901] [face_recognition]: timing f_p 0.25975799560546875
+[INFO] [1684515389.218922596] [face_recognition]: Publishing video frame: 603
+[INFO] [1684515389.222246220] [face_recognition]: timing f_p 0.1809067726135254
+[INFO] [1684515389.451085748] [face_recognition]: Publishing video frame: 604
+[INFO] [1684515389.460595275] [face_recognition]: timing f_p 0.22624993324279785
+[INFO] [1684515389.598115445] [face_recognition]: Publishing video frame: 605
+[INFO] [1684515389.600225254] [face_recognition]: timing f_p 0.13764023780822754
+[INFO] [1684515389.771748459] [face_recognition]: Publishing video frame: 606
+[INFO] [1684515389.773417813] [face_recognition]: timing f_p 0.17041873931884766
+[INFO] [1684515389.995688506] [face_recognition]: Publishing video frame: 607
+[INFO] [1684515389.997930840] [face_recognition]: timing f_p 0.22159314155578613
+[INFO] [1684515390.242828313] [face_recognition]: Publishing video frame: 608
+[INFO] [1684515390.245110160] [face_recognition]: timing f_p 0.2412581443786621
+[INFO] [1684515390.510895033] [face_recognition]: Publishing video frame: 609
+[INFO] [1684515390.512505830] [face_recognition]: timing f_p 0.26514124870300293
+[INFO] [1684515390.756750285] [face_recognition]: Publishing video frame: 610
+[INFO] [1684515390.757897425] [face_recognition]: timing f_p 0.24350619316101074
+[INFO] [1684515397.539130090] [face_recognition]: Publishing video frame: 611
+[INFO] [1684515397.568558677] [face_recognition]: timing f_p 0.27236390113830566
+[INFO] [1684515397.775896261] [face_recognition]: Publishing video frame: 612
+[INFO] [1684515397.776920721] [face_recognition]: timing f_p 0.20684266090393066
+[INFO] [1684515398.015554345] [face_recognition]: Publishing video frame: 613
+[INFO] [1684515398.018478675] [face_recognition]: timing f_p 0.23819518089294434
+[INFO] [1684515398.222701407] [face_recognition]: Publishing video frame: 614
+[INFO] [1684515398.224616831] [face_recognition]: timing f_p 0.2034749984741211
+[INFO] [1684515398.434909082] [face_recognition]: Publishing video frame: 615
+[INFO] [1684515398.436195054] [face_recognition]: timing f_p 0.20743465423583984
+[INFO] [1684515398.637641906] [face_recognition]: Publishing video frame: 616
+[INFO] [1684515398.638714155] [face_recognition]: timing f_p 0.20097780227661133
+[INFO] [1684515398.847779548] [face_recognition]: Publishing video frame: 617
+[INFO] [1684515398.851810960] [face_recognition]: timing f_p 0.21008896827697754
+[INFO] [1684515399.153097916] [face_recognition]: Publishing video frame: 618
+[INFO] [1684515399.157890294] [face_recognition]: timing f_p 0.299330472946167
+[INFO] [1684515399.360118012] [face_recognition]: Publishing video frame: 619
+[INFO] [1684515399.361862840] [face_recognition]: timing f_p 0.20136189460754395
+[INFO] [1684515399.535905342] [face_recognition]: Publishing video frame: 620
+[INFO] [1684515399.542432340] [face_recognition]: timing f_p 0.17593097686767578
+[INFO] [1684515399.715401643] [face_recognition]: Publishing video frame: 621
+[INFO] [1684515399.716608605] [face_recognition]: timing f_p 0.16762757301330566
+[INFO] [1684515399.881216362] [face_recognition]: Publishing video frame: 622
+[INFO] [1684515399.882418076] [face_recognition]: timing f_p 0.1642322540283203
+[INFO] [1684515400.081516219] [face_recognition]: Publishing video frame: 623
+[INFO] [1684515400.082647073] [face_recognition]: timing f_p 0.19850468635559082
+[INFO] [1684515400.286537056] [face_recognition]: Publishing video frame: 624
+[INFO] [1684515400.296343206] [face_recognition]: timing f_p 0.2034165859222412
+[INFO] [1684515400.470403618] [face_recognition]: Publishing video frame: 625
+[INFO] [1684515400.473016723] [face_recognition]: timing f_p 0.17539238929748535
+[INFO] [1684515400.598851446] [face_recognition]: Publishing video frame: 626
+[INFO] [1684515400.601038595] [face_recognition]: timing f_p 0.12661170959472656
+[INFO] [1684515400.788803378] [face_recognition]: Publishing video frame: 627
+[INFO] [1684515400.789792656] [face_recognition]: timing f_p 0.18493056297302246
+[INFO] [1684515400.926718336] [face_recognition]: Publishing video frame: 628
+[INFO] [1684515400.928761794] [face_recognition]: timing f_p 0.13656306266784668
+[INFO] [1684515401.093438056] [face_recognition]: Publishing video frame: 629
+[INFO] [1684515401.098292210] [face_recognition]: timing f_p 0.1636362075805664
+[INFO] [1684515401.367777700] [face_recognition]: Publishing video frame: 630
+[INFO] [1684515401.371327598] [face_recognition]: timing f_p 0.26430225372314453
+[INFO] [1684515401.595999925] [face_recognition]: Publishing video frame: 631
+[INFO] [1684515401.597116652] [face_recognition]: timing f_p 0.22347140312194824
+[INFO] [1684515408.170290583] [face_recognition]: Publishing video frame: 632
+[INFO] [1684515408.172969666] [face_recognition]: timing f_p 0.22584009170532227
+[INFO] [1684515408.352852442] [face_recognition]: Publishing video frame: 633
+[INFO] [1684515408.354635049] [face_recognition]: timing f_p 0.17772769927978516
+[INFO] [1684515408.473009692] [face_recognition]: Publishing video frame: 634
+[INFO] [1684515408.495637620] [face_recognition]: timing f_p 0.13506031036376953
+[INFO] [1684515408.759638831] [face_recognition]: Publishing video frame: 635
+[INFO] [1684515408.760830904] [face_recognition]: timing f_p 0.26190948486328125
+[INFO] [1684515409.021653173] [face_recognition]: Publishing video frame: 636
+[INFO] [1684515409.026453986] [face_recognition]: timing f_p 0.26321959495544434
+[INFO] [1684515409.245237675] [face_recognition]: Publishing video frame: 637
+[INFO] [1684515409.256522569] [face_recognition]: timing f_p 0.2166733741760254
+[INFO] [1684515409.526814032] [face_recognition]: Publishing video frame: 638
+[INFO] [1684515409.527898406] [face_recognition]: timing f_p 0.26981401443481445
+[INFO] [1684515416.167644682] [face_recognition]: Publishing video frame: 639
+[INFO] [1684515416.168807062] [face_recognition]: timing f_p 0.2413783073425293
+[INFO] [1684515416.294070057] [face_recognition]: Publishing video frame: 640
+[INFO] [1684515416.295767911] [face_recognition]: timing f_p 0.12483882904052734
+[INFO] [1684515416.440670567] [face_recognition]: Publishing video frame: 641
+[INFO] [1684515416.442709178] [face_recognition]: timing f_p 0.14456987380981445
+[INFO] [1684515416.637241222] [face_recognition]: Publishing video frame: 642
+[INFO] [1684515416.638163615] [face_recognition]: timing f_p 0.19370269775390625
+[INFO] [1684515416.840764601] [face_recognition]: Publishing video frame: 643
+[INFO] [1684515416.841944551] [face_recognition]: timing f_p 0.20220041275024414
+[INFO] [1684515417.038820138] [face_recognition]: Publishing video frame: 644
+[INFO] [1684515417.042218500] [face_recognition]: timing f_p 0.19629645347595215
+[INFO] [1684515417.182289452] [face_recognition]: Publishing video frame: 645
+[INFO] [1684515417.183895455] [face_recognition]: timing f_p 0.13457274436950684
+[INFO] [1684515417.354809292] [face_recognition]: Publishing video frame: 646
+[INFO] [1684515417.356535536] [face_recognition]: timing f_p 0.16992735862731934
+[INFO] [1684515417.550341536] [face_recognition]: Publishing video frame: 647
+[INFO] [1684515417.573695254] [face_recognition]: timing f_p 0.19392156600952148
+[INFO] [1684515417.728481280] [face_recognition]: Publishing video frame: 648
+[INFO] [1684515417.729472206] [face_recognition]: timing f_p 0.15435385704040527
+[INFO] [1684515424.366436703] [face_recognition]: Publishing video frame: 649
+[INFO] [1684515424.369419139] [face_recognition]: timing f_p 0.27030277252197266
+[INFO] [1684515424.470219061] [face_recognition]: Publishing video frame: 650
+[INFO] [1684515424.472140455] [face_recognition]: timing f_p 0.10009908676147461
+[INFO] [1684515424.646506954] [face_recognition]: Publishing video frame: 651
+[INFO] [1684515424.649054240] [face_recognition]: timing f_p 0.17406296730041504
+[INFO] [1684515425.044032459] [face_recognition]: Publishing video frame: 652
+[INFO] [1684515425.046980348] [face_recognition]: timing f_p 0.393049955368042
+[INFO] [1684515425.264802945] [face_recognition]: Publishing video frame: 653
+[INFO] [1684515425.279733676] [face_recognition]: timing f_p 0.21707606315612793
+[INFO] [1684515425.529033027] [face_recognition]: Publishing video frame: 654
+[INFO] [1684515425.531171132] [face_recognition]: timing f_p 0.24886679649353027
+[INFO] [1684515425.741480647] [face_recognition]: Publishing video frame: 655
+[INFO] [1684515425.745983039] [face_recognition]: timing f_p 0.20976901054382324
+[INFO] [1684515426.136469671] [face_recognition]: Publishing video frame: 656
+[INFO] [1684515426.140266637] [face_recognition]: timing f_p 0.38991641998291016
+[INFO] [1684515426.459896297] [face_recognition]: Publishing video frame: 657
+[INFO] [1684515426.461408583] [face_recognition]: timing f_p 0.3171508312225342
+[INFO] [1684515433.107071070] [face_recognition]: Publishing video frame: 658
+[INFO] [1684515433.128422259] [face_recognition]: timing f_p 0.2833230495452881
+[INFO] [1684515433.259814331] [face_recognition]: Publishing video frame: 659
+[INFO] [1684515433.262593562] [face_recognition]: timing f_p 0.13099312782287598
+[INFO] [1684515433.384517937] [face_recognition]: Publishing video frame: 660
+[INFO] [1684515433.385521630] [face_recognition]: timing f_p 0.12073397636413574
+[INFO] [1684515433.510982927] [face_recognition]: Publishing video frame: 661
+[INFO] [1684515433.512336831] [face_recognition]: timing f_p 0.12500762939453125
+[INFO] [1684515433.686618040] [face_recognition]: Publishing video frame: 662
+[INFO] [1684515433.692892802] [face_recognition]: timing f_p 0.17413854598999023
+[INFO] [1684515433.864867271] [face_recognition]: Publishing video frame: 663
+[INFO] [1684515433.868213853] [face_recognition]: timing f_p 0.17165827751159668
+[INFO] [1684515434.113367194] [face_recognition]: Publishing video frame: 664
+[INFO] [1684515434.128964545] [face_recognition]: timing f_p 0.2556431293487549
+[INFO] [1684515434.319392882] [face_recognition]: Publishing video frame: 665
+[INFO] [1684515434.321188694] [face_recognition]: timing f_p 0.18570804595947266
+[INFO] [1684515434.488786112] [face_recognition]: Publishing video frame: 666
+[INFO] [1684515434.491330390] [face_recognition]: timing f_p 0.16785311698913574
+[INFO] [1684515434.621199086] [face_recognition]: Publishing video frame: 667
+[INFO] [1684515434.624322464] [face_recognition]: timing f_p 0.12873053550720215
+[INFO] [1684515434.796611279] [face_recognition]: Publishing video frame: 668
+[INFO] [1684515434.797857340] [face_recognition]: timing f_p 0.16546916961669922
+[INFO] [1684515435.021215551] [face_recognition]: Publishing video frame: 669
+[INFO] [1684515435.022553586] [face_recognition]: timing f_p 0.22281455993652344
+[INFO] [1684515435.283302172] [face_recognition]: Publishing video frame: 670
+[INFO] [1684515435.286127121] [face_recognition]: timing f_p 0.2604024410247803
+[INFO] [1684515435.441860955] [face_recognition]: Publishing video frame: 671
+[INFO] [1684515435.449145310] [face_recognition]: timing f_p 0.15411782264709473
+[INFO] [1684515435.607267363] [face_recognition]: Publishing video frame: 672
+[INFO] [1684515435.611126990] [face_recognition]: timing f_p 0.15868091583251953
+[INFO] [1684515435.790234674] [face_recognition]: Publishing video frame: 673
+[INFO] [1684515435.791234383] [face_recognition]: timing f_p 0.1764070987701416
+[INFO] [1684515436.070189696] [face_recognition]: Publishing video frame: 674
+[INFO] [1684515436.071926397] [face_recognition]: timing f_p 0.2782893180847168
+[INFO] [1684515436.322782508] [face_recognition]: Publishing video frame: 675
+[INFO] [1684515436.323647988] [face_recognition]: timing f_p 0.2502741813659668
+[INFO] [1684515436.481464243] [face_recognition]: Publishing video frame: 676
+[INFO] [1684515436.482795684] [face_recognition]: timing f_p 0.15725183486938477
+[INFO] [1684515443.111000967] [face_recognition]: Publishing video frame: 677
+[INFO] [1684515443.111887831] [face_recognition]: timing f_p 0.2701096534729004
+[INFO] [1684515443.237434593] [face_recognition]: Publishing video frame: 678
+[INFO] [1684515443.239135141] [face_recognition]: timing f_p 0.12525582313537598
+[INFO] [1684515443.425852022] [face_recognition]: Publishing video frame: 679
+[INFO] [1684515443.426497835] [face_recognition]: timing f_p 0.1859738826751709
+[INFO] [1684515443.599626998] [face_recognition]: Publishing video frame: 680
+[INFO] [1684515443.601290208] [face_recognition]: timing f_p 0.17359209060668945
+[INFO] [1684515443.966614325] [face_recognition]: Publishing video frame: 681
+[INFO] [1684515443.969218517] [face_recognition]: timing f_p 0.3629016876220703
+[INFO] [1684515444.171674624] [face_recognition]: Publishing video frame: 682
+[INFO] [1684515444.175319308] [face_recognition]: timing f_p 0.20338916778564453
+[INFO] [1684515444.333766968] [face_recognition]: Publishing video frame: 683
+[INFO] [1684515444.343531171] [face_recognition]: timing f_p 0.15609145164489746
+[INFO] [1684515450.942148590] [face_recognition]: Publishing video frame: 684
+[INFO] [1684515450.943427267] [face_recognition]: timing f_p 0.22158074378967285
+[INFO] [1684515451.074421099] [face_recognition]: Publishing video frame: 685
+[INFO] [1684515451.076038118] [face_recognition]: timing f_p 0.1260075569152832
+[INFO] [1684515451.216532322] [face_recognition]: Publishing video frame: 686
+[INFO] [1684515451.218540166] [face_recognition]: timing f_p 0.1410233974456787
+[INFO] [1684515451.390431661] [face_recognition]: Publishing video frame: 687
+[INFO] [1684515451.394140662] [face_recognition]: timing f_p 0.17181086540222168
+[INFO] [1684515451.589401488] [face_recognition]: Publishing video frame: 688
+[INFO] [1684515451.590283827] [face_recognition]: timing f_p 0.19235539436340332
+[INFO] [1684515451.816959377] [face_recognition]: Publishing video frame: 689
+[INFO] [1684515451.819028172] [face_recognition]: timing f_p 0.2264707088470459
+[INFO] [1684515451.988677080] [face_recognition]: Publishing video frame: 690
+[INFO] [1684515451.993280113] [face_recognition]: timing f_p 0.1709451675415039
+[INFO] [1684515452.134499809] [face_recognition]: Publishing video frame: 691
+[INFO] [1684515452.135905245] [face_recognition]: timing f_p 0.13896393775939941
+[INFO] [1684515452.321631121] [face_recognition]: Publishing video frame: 692
+[INFO] [1684515452.325523877] [face_recognition]: timing f_p 0.18787860870361328
+[INFO] [1684515452.499094505] [face_recognition]: Publishing video frame: 693
+[INFO] [1684515452.502061910] [face_recognition]: timing f_p 0.17346692085266113
+[INFO] [1684515452.666555754] [face_recognition]: Publishing video frame: 694
+[INFO] [1684515452.668228403] [face_recognition]: timing f_p 0.15745019912719727
+[INFO] [1684515452.879166536] [face_recognition]: Publishing video frame: 695
+[INFO] [1684515452.890292292] [face_recognition]: timing f_p 0.210707426071167
+[INFO] [1684515453.133013688] [face_recognition]: Publishing video frame: 696
+[INFO] [1684515453.134269292] [face_recognition]: timing f_p 0.23441123962402344
+[INFO] [1684515453.309457695] [face_recognition]: Publishing video frame: 697
+[INFO] [1684515453.310988201] [face_recognition]: timing f_p 0.16982746124267578
+[INFO] [1684515453.481157725] [face_recognition]: Publishing video frame: 698
+[INFO] [1684515453.492799083] [face_recognition]: timing f_p 0.1698148250579834
+[INFO] [1684515453.725400769] [face_recognition]: Publishing video frame: 699
+[INFO] [1684515453.737426475] [face_recognition]: timing f_p 0.23563766479492188
+[INFO] [1684515453.888074733] [face_recognition]: Publishing video frame: 700
+[INFO] [1684515453.889390483] [face_recognition]: timing f_p 0.1497972011566162
+[INFO] [1684515454.047952690] [face_recognition]: Publishing video frame: 701
+[INFO] [1684515454.053577332] [face_recognition]: timing f_p 0.15883898735046387
+[INFO] [1684515454.273373254] [face_recognition]: Publishing video frame: 702
+[INFO] [1684515454.275572838] [face_recognition]: timing f_p 0.21617531776428223
+[INFO] [1684515454.444708181] [face_recognition]: Publishing video frame: 703
+[INFO] [1684515454.445721647] [face_recognition]: timing f_p 0.16852116584777832
+[INFO] [1684515454.645675988] [face_recognition]: Publishing video frame: 704
+[INFO] [1684515454.671912144] [face_recognition]: timing f_p 0.19944262504577637
+[INFO] [1684515454.842488061] [face_recognition]: Publishing video frame: 705
+[INFO] [1684515454.851283226] [face_recognition]: timing f_p 0.17183876037597656
+[INFO] [1684515455.037212055] [face_recognition]: Publishing video frame: 706
+[INFO] [1684515455.038123491] [face_recognition]: timing f_p 0.1827411651611328
+[INFO] [1684515455.206762899] [face_recognition]: Publishing video frame: 707
+[INFO] [1684515455.207449775] [face_recognition]: timing f_p 0.16802692413330078
+[INFO] [1684515455.378697212] [face_recognition]: Publishing video frame: 708
+[INFO] [1684515455.382112989] [face_recognition]: timing f_p 0.17300009727478027
+[INFO] [1684515455.567676183] [face_recognition]: Publishing video frame: 709
+[INFO] [1684515455.569592317] [face_recognition]: timing f_p 0.1853792667388916
+[INFO] [1684515455.805567582] [face_recognition]: Publishing video frame: 710
+[INFO] [1684515455.807694330] [face_recognition]: timing f_p 0.23502826690673828
+[INFO] [1684515456.023626647] [face_recognition]: Publishing video frame: 711
+[INFO] [1684515456.024840332] [face_recognition]: timing f_p 0.21547794342041016
+[INFO] [1684515456.198288736] [face_recognition]: Publishing video frame: 712
+[INFO] [1684515456.200041849] [face_recognition]: timing f_p 0.1725625991821289
+[INFO] [1684515462.865990468] [face_recognition]: Publishing video frame: 713
+[INFO] [1684515462.875728079] [face_recognition]: timing f_p 0.2837796211242676
+[INFO] [1684515463.052062869] [face_recognition]: Publishing video frame: 714
+[INFO] [1684515463.053880606] [face_recognition]: timing f_p 0.17661142349243164
+[INFO] [1684515463.225086183] [face_recognition]: Publishing video frame: 715
+[INFO] [1684515463.226315378] [face_recognition]: timing f_p 0.16912221908569336
+[INFO] [1684515463.449938469] [face_recognition]: Publishing video frame: 716
+[INFO] [1684515463.453455370] [face_recognition]: timing f_p 0.22503185272216797
+[INFO] [1684515463.573605429] [face_recognition]: Publishing video frame: 717
+[INFO] [1684515463.577050002] [face_recognition]: timing f_p 0.11879539489746094
+[INFO] [1684515463.787150127] [face_recognition]: Publishing video frame: 718
+[INFO] [1684515463.788593590] [face_recognition]: timing f_p 0.20827102661132812
+[INFO] [1684515464.050162060] [face_recognition]: Publishing video frame: 719
+[INFO] [1684515464.053292694] [face_recognition]: timing f_p 0.26247644424438477
+[INFO] [1684515464.177659547] [face_recognition]: Publishing video frame: 720
+[INFO] [1684515464.180600690] [face_recognition]: timing f_p 0.12385940551757812
+[INFO] [1684515464.299108441] [face_recognition]: Publishing video frame: 721
+[INFO] [1684515464.301955452] [face_recognition]: timing f_p 0.11754441261291504
+[INFO] [1684515464.433491571] [face_recognition]: Publishing video frame: 722
+[INFO] [1684515464.434451890] [face_recognition]: timing f_p 0.12749052047729492
+[INFO] [1684515464.631288406] [face_recognition]: Publishing video frame: 723
+[INFO] [1684515464.634753133] [face_recognition]: timing f_p 0.19866132736206055
+[INFO] [1684515464.843355746] [face_recognition]: Publishing video frame: 724
+[INFO] [1684515464.844640934] [face_recognition]: timing f_p 0.20699739456176758
+[INFO] [1684515465.063248314] [face_recognition]: Publishing video frame: 725
+[INFO] [1684515465.064348742] [face_recognition]: timing f_p 0.21799564361572266
+[INFO] [1684515465.214369477] [face_recognition]: Publishing video frame: 726
+[INFO] [1684515465.215840104] [face_recognition]: timing f_p 0.14959383010864258
+[INFO] [1684515465.405047379] [face_recognition]: Publishing video frame: 727
+[INFO] [1684515465.408094565] [face_recognition]: timing f_p 0.1891942024230957
+[INFO] [1684515465.535940755] [face_recognition]: Publishing video frame: 728
+[INFO] [1684515465.540822319] [face_recognition]: timing f_p 0.12948989868164062
+[INFO] [1684515465.763776146] [face_recognition]: Publishing video frame: 729
+[INFO] [1684515465.765604151] [face_recognition]: timing f_p 0.22078943252563477
+[INFO] [1684515466.132866468] [face_recognition]: Publishing video frame: 730
+[INFO] [1684515466.136600208] [face_recognition]: timing f_p 0.36573171615600586
+[INFO] [1684515467.903012306] [face_recognition]: exiting...

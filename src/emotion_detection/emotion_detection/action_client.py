@@ -28,7 +28,7 @@ class MainActionClient(Node):
     def __init__(self):
         super().__init__('action_client')
         self.logger = self.get_logger()
-        self.logger.info("[*] init Initializing-action_client-node...")
+        self.logger.info("[*] Initializing action_client node...")
 
         self.accepted_emotions = ("Angry", "Happy", "Sad", "Surprised")
         self.emotion = None
@@ -109,7 +109,7 @@ class MainActionClient(Node):
 
         # emotion in the ACCEPTED emotions list
         if emotion in self.accepted_emotions:
-            self.logger.info("message Emotion_accepted proceeding...")
+            self.logger.info("Emotion accepted -> proceeding...")
 
             self.should_reset = True
             response.bool_value = True
@@ -120,18 +120,18 @@ class MainActionClient(Node):
             # check if timer was successfully turned off
             timer_result = await timer_future
             if timer_result.success == True:
-                self.logger.info("message timer_off Timer_turned_off")
-                self.logger.info('timer emotion_received %s' % (time.time() - self.start_time) )
+                self.logger.info("Timer turned off")
+                self.logger.info('timing e_r %s' % (time.time() - self.start_time) )
             else:
-                self.logger.info("message fail Failed_to_close_timer")
+                self.logger.info("Failed to close timer")
         
             # start send_goal() task
             send_goal_task = aio.create_task(self.send_goal(emotion))
             self.background_tasks.append(send_goal_task)
 
         else:
-            self.logger.info("message denied Emotion_not_in_accepted_values")
-            self.logger.info('timer emotion_received %s' % (time.time() - self.start_time) )
+            self.logger.info("Emotion denied -> exiting...")
+            self.logger.info('timing e_r %s' % (time.time() - self.start_time) )
             self.start_time = time.time()
             response.bool_value = False		
 
@@ -147,7 +147,7 @@ class MainActionClient(Node):
             # select goal position based on the emotion
             goal = self.positions_dict[position]
         else:
-            self.logger.fatal("message fail Received_unknown_emotion")
+            self.logger.fatal("Received unknown emotion")
             sys.exit(1)
 
         # build a GOAL message 
@@ -158,7 +158,7 @@ class MainActionClient(Node):
 
         # check service availability (wait if not available)
         while not self.action_client.wait_for_server(timeout_sec=0.5):
-            self.logger.info("message wait robot_action_server_not_ready,_waiting_again...")
+            self.logger.info("robot action server not ready, waiting again...")
             await aio.sleep(0)
 
         #self.logger.info("Sending goal to robot...")
@@ -167,17 +167,17 @@ class MainActionClient(Node):
         )
         goal_handle = await goal_future
         if not goal_handle.accepted:
-            self.logger.info('message Goal rejected')
+            self.logger.info('Goal rejected :(')
             return
-        self.logger.info('message Goal accepted')
+        self.logger.info('Goal accepted :)')
 
         res = await goal_handle.get_result_async()
         result = res.result
         #status = res.status
         if result.error_code == 0:
-            self.logger.info("message Goal succeeded")
+            self.logger.info("Goal succeeded!")
         else:
-            self.logger.info("message Goal failed")
+            self.logger.info("Goal failed...")
         
         if self.should_reset == True:
             self.should_reset = False
@@ -190,7 +190,7 @@ class MainActionClient(Node):
         '''
         Resets this node to intial state.
         '''
-        self.logger.info("message reset Resetting_robot_to_original_position")
+        self.logger.info("Resetting robot to original position")
             
         # list to prevent garbage collectons from deleting task refrences
         self.background_tasks.clear()
@@ -198,27 +198,27 @@ class MainActionClient(Node):
         # reset robot to it's original position
         await self.send_goal("Original")
 
-        self.logger.info("message reset Resetting_robot_done!")
+        self.logger.info("Resetting robot done!")
 
 
         # start running inference in emotion_detection node
         trigger_future = self.trigger_client.call_async(self.trigger_req)
         trigger_result = await trigger_future
         if trigger_result.success == False:
-            self.logger.fatal("[*] fail Failed_to_start_emotion_node!")
+            self.logger.fatal("[*] Failed to start emotion node!")
             sys.exit(1)
         else:
-            self.logger.info("message start Started_emotion_node!")
+            self.logger.info("Started emotion node!")
 
         # start timer in face_detection node
         timer_future = self.timer_client.call_async(self.start_timer_req)
         timer_result = await timer_future
         # make sure the timer has been started
         if timer_result == False:
-            self.logger.fatal("[*] fail Failed_to_restart_timer!")
+            self.logger.fatal("[*] Failed to restart timer!")
             sys.exit(1)
         else:
-            self.logger.info("message timer_restart Timer_restarted!")
+            self.logger.info("Timer restarted!")
             self.start_time = time.time()
 
 
@@ -243,7 +243,7 @@ def main(args=None):
 
         action_client = MainActionClient()
         if executor.add_node(action_client) == False:
-            action_client.logger.fatal("[*] fail Failed_to_add_a_node_to_the_executor")
+            action_client.logger.fatal("[*] Failed to add a node to the executor")
             sys.exit(1)
 
         try:
@@ -251,7 +251,7 @@ def main(args=None):
             aio.run(spin_async(executor=executor))
 
         except KeyboardInterrupt:
-            action_client.logger.info("[*] exit exiting...")
+            action_client.logger.info("exiting...")
 
         finally:
             # unnecessary kinda

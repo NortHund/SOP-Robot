@@ -1,0 +1,347 @@
+[INFO] [1684516672.322925458] [emotion_detection]: [*] Initializing emotion_detection node...
+[INFO] [1684516675.740620253] [emotion_detection]: [*] Initializing emotion_detection node DONE!
+[INFO] [1684516677.918222948] [emotion_detection]: timing e_a 2.0693700313568115
+[INFO] [1684516678.069285996] [emotion_detection]: timing e_a 2.1170284748077393
+[INFO] [1684516678.325083400] [emotion_detection]: timing e_a 2.1626663208007812
+[INFO] [1684516678.326278591] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516678.556842544] [emotion_detection]: emotion declined!
+[INFO] [1684516678.950685127] [emotion_detection]: timing e_a 0.8789968490600586
+[INFO] [1684516679.082576340] [emotion_detection]: timing e_a 1.1575052738189697
+[INFO] [1684516679.145612151] [emotion_detection]: timing e_a 0.5860183238983154
+[INFO] [1684516679.146750223] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516679.208716777] [emotion_detection]: emotion declined!
+[INFO] [1684516679.843831514] [emotion_detection]: timing e_a 0.8871779441833496
+[INFO] [1684516679.995546426] [emotion_detection]: timing e_a 0.9053254127502441
+[INFO] [1684516680.378224035] [emotion_detection]: timing e_a 0.9492249488830566
+[INFO] [1684516680.413405841] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516680.454426087] [emotion_detection]: emotion declined!
+[INFO] [1684516680.987843090] [emotion_detection]: timing e_a 1.133732795715332
+[INFO] [1684516681.081391944] [emotion_detection]: timing e_a 1.0690340995788574
+[INFO] [1684516681.273671956] [emotion_detection]: timing e_a 0.7482457160949707
+[INFO] [1684516681.744226535] [emotion_detection]: timing e_a 0.7533767223358154
+[INFO] [1684516682.078995015] [emotion_detection]: timing e_a 0.9307708740234375
+[INFO] [1684516682.083576255] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516682.172750537] [emotion_detection]: timing e_a 0.7765703201293945
+[INFO] [1684516682.250140328] [emotion_detection]: timing e_a 0.5029573440551758
+[INFO] [1684516689.485935134] [emotion_detection]: timing e_a 0.5338733196258545
+[INFO] [1684516689.995948438] [emotion_detection]: timing e_a 0.8932814598083496
+[INFO] [1684516690.218222895] [emotion_detection]: timing e_a 0.7242124080657959
+[INFO] [1684516690.219459890] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516690.246353890] [emotion_detection]: emotion declined!
+[INFO] [1684516690.290862279] [emotion_detection]: timing e_a 0.9722731113433838
+[INFO] [1684516690.773427365] [emotion_detection]: timing e_a 0.7647511959075928
+[INFO] [1684516690.926657891] [emotion_detection]: timing e_a 0.5827181339263916
+[INFO] [1684516691.199287016] [emotion_detection]: timing e_a 0.6388270854949951
+[INFO] [1684516691.446611202] [emotion_detection]: timing e_a 0.6280953884124756
+[INFO] [1684516691.450400005] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516691.482462747] [emotion_detection]: emotion declined!
+[INFO] [1684516691.966049632] [emotion_detection]: timing e_a 0.9881703853607178
+[INFO] [1684516692.292830159] [emotion_detection]: timing e_a 1.053720235824585
+[INFO] [1684516692.603209121] [emotion_detection]: timing e_a 1.0083708763122559
+[INFO] [1684516693.072179166] [emotion_detection]: timing e_a 1.0862345695495605
+[INFO] [1684516693.536377554] [emotion_detection]: timing e_a 1.2361009120941162
+[INFO] [1684516693.537677818] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516693.550699989] [emotion_detection]: emotion declined!
+[INFO] [1684516693.570206614] [emotion_detection]: timing e_a 0.9619235992431641
+[INFO] [1684516693.811592327] [emotion_detection]: timing e_a 0.7181951999664307
+[INFO] [1684516694.098795033] [emotion_detection]: timing e_a 0.4560270309448242
+[INFO] [1684516694.151565317] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516694.210916538] [emotion_detection]: emotion declined!
+[INFO] [1684516694.621534417] [emotion_detection]: timing e_a 0.8198742866516113
+[INFO] [1684516694.878026132] [emotion_detection]: timing e_a 0.8926808834075928
+[INFO] [1684516694.885362320] [emotion_detection]: timing e_a 0.6496059894561768
+[INFO] [1684516694.896770910] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516695.018804271] [emotion_detection]: emotion declined!
+[INFO] [1684516695.646594626] [emotion_detection]: timing e_a 1.013056755065918
+[INFO] [1684516695.822407461] [emotion_detection]: timing e_a 0.9388620853424072
+[INFO] [1684516696.042095542] [emotion_detection]: timing e_a 0.953455924987793
+[INFO] [1684516696.804719465] [emotion_detection]: timing e_a 0.9714157581329346
+[INFO] [1684516696.848837633] [emotion_detection]: timing e_a 1.200411319732666
+[INFO] [1684516696.850203626] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516696.863476809] [emotion_detection]: timing e_a 0.8006479740142822
+[INFO] [1684516697.261394084] [emotion_detection]: timing e_a 0.4544639587402344
+[INFO] [1684516704.793129791] [emotion_detection]: timing e_a 0.9870929718017578
+[INFO] [1684516704.873033975] [emotion_detection]: timing e_a 0.9239776134490967
+[INFO] [1684516705.203453035] [emotion_detection]: timing e_a 1.0529053211212158
+[INFO] [1684516705.208326568] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516705.517893215] [emotion_detection]: timing e_a 0.6376330852508545
+[INFO] [1684516705.621840036] [emotion_detection]: timing e_a 0.8149275779724121
+[INFO] [1684516713.246587303] [emotion_detection]: timing e_a 0.9232404232025146
+[INFO] [1684516713.262148311] [emotion_detection]: timing e_a 1.0979268550872803
+[INFO] [1684516713.396376247] [emotion_detection]: timing e_a 0.9097671508789062
+[INFO] [1684516713.398293004] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516713.753613063] [emotion_detection]: timing e_a 0.4640829563140869
+[INFO] [1684516721.181469775] [emotion_detection]: timing e_a 0.8245129585266113
+[INFO] [1684516721.246781929] [emotion_detection]: timing e_a 1.0241203308105469
+[INFO] [1684516721.683950578] [emotion_detection]: timing e_a 1.1749465465545654
+[INFO] [1684516721.686026280] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516722.048313292] [emotion_detection]: timing e_a 0.8476741313934326
+[INFO] [1684516722.158152234] [emotion_detection]: timing e_a 0.8192613124847412
+[INFO] [1684516729.596885714] [emotion_detection]: timing e_a 1.095444679260254
+[INFO] [1684516729.618162865] [emotion_detection]: timing e_a 1.002837896347046
+[INFO] [1684516729.750301291] [emotion_detection]: timing e_a 0.9777352809906006
+[INFO] [1684516729.752728805] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516729.804529340] [emotion_detection]: emotion declined!
+[INFO] [1684516730.304661976] [emotion_detection]: timing e_a 0.6900508403778076
+[INFO] [1684516730.708711396] [emotion_detection]: timing e_a 0.6716485023498535
+[INFO] [1684516731.058836533] [emotion_detection]: timing e_a 0.8483633995056152
+[INFO] [1684516731.063750646] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516731.191684267] [emotion_detection]: emotion declined!
+[INFO] [1684516731.487932097] [emotion_detection]: timing e_a 1.0562553405761719
+[INFO] [1684516731.631939236] [emotion_detection]: timing e_a 0.8771872520446777
+[INFO] [1684516732.277165621] [emotion_detection]: timing e_a 0.7220911979675293
+[INFO] [1684516732.278346477] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516732.290010318] [emotion_detection]: emotion declined!
+[INFO] [1684516732.563879677] [emotion_detection]: timing e_a 1.218285322189331
+[INFO] [1684516733.005624419] [emotion_detection]: timing e_a 1.2095108032226562
+[INFO] [1684516733.189938782] [emotion_detection]: timing e_a 0.7618746757507324
+[INFO] [1684516733.190954142] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516733.244217248] [emotion_detection]: emotion declined!
+[INFO] [1684516733.539787656] [emotion_detection]: timing e_a 0.8720996379852295
+[INFO] [1684516733.776722683] [emotion_detection]: timing e_a 0.7682759761810303
+[INFO] [1684516734.437981509] [emotion_detection]: timing e_a 1.1181166172027588
+[INFO] [1684516734.440758550] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516734.474539734] [emotion_detection]: emotion declined!
+[INFO] [1684516734.707486447] [emotion_detection]: timing e_a 1.1633481979370117
+[INFO] [1684516734.825312082] [emotion_detection]: timing e_a 1.0463595390319824
+[INFO] [1684516735.250799013] [emotion_detection]: timing e_a 0.5702555179595947
+[INFO] [1684516735.252154322] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516735.301813389] [emotion_detection]: emotion declined!
+[INFO] [1684516735.766919429] [emotion_detection]: timing e_a 0.6685647964477539
+[INFO] [1684516735.781673861] [emotion_detection]: timing e_a 0.8955605030059814
+[INFO] [1684516736.161458876] [emotion_detection]: timing e_a 0.7470238208770752
+[INFO] [1684516736.175493442] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516736.338434848] [emotion_detection]: emotion declined!
+[INFO] [1684516736.657566379] [emotion_detection]: timing e_a 0.8875508308410645
+[INFO] [1684516736.849617521] [emotion_detection]: timing e_a 0.9852025508880615
+[INFO] [1684516737.461100941] [emotion_detection]: timing e_a 0.7997238636016846
+[INFO] [1684516737.682631821] [emotion_detection]: timing e_a 1.200014591217041
+[INFO] [1684516738.082095890] [emotion_detection]: timing e_a 1.2151107788085938
+[INFO] [1684516738.284909835] [emotion_detection]: timing e_a 0.7826604843139648
+[INFO] [1684516738.499188709] [emotion_detection]: timing e_a 0.807950496673584
+[INFO] [1684516738.800303833] [emotion_detection]: timing e_a 0.711087703704834
+[INFO] [1684516739.411571093] [emotion_detection]: timing e_a 1.070361614227295
+[INFO] [1684516739.566389529] [emotion_detection]: timing e_a 1.010565996170044
+[INFO] [1684516739.574150902] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516739.686303813] [emotion_detection]: emotion declined!
+[INFO] [1684516739.687205290] [emotion_detection]: timing e_a 0.8646619319915771
+[INFO] [1684516740.183208432] [emotion_detection]: timing e_a 0.7285025119781494
+[INFO] [1684516740.557274854] [emotion_detection]: timing e_a 0.743715763092041
+[INFO] [1684516740.589868748] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516740.623675105] [emotion_detection]: emotion declined!
+[INFO] [1684516740.631004687] [emotion_detection]: timing e_a 0.6479616165161133
+[INFO] [1684516740.979517820] [emotion_detection]: timing e_a 0.6890439987182617
+[INFO] [1684516741.254069591] [emotion_detection]: timing e_a 0.497528076171875
+[INFO] [1684516741.265047870] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516741.343295620] [emotion_detection]: emotion declined!
+[INFO] [1684516741.682076479] [emotion_detection]: timing e_a 0.6996440887451172
+[INFO] [1684516742.153037438] [emotion_detection]: timing e_a 0.9209380149841309
+[INFO] [1684516742.475360403] [emotion_detection]: timing e_a 0.932187557220459
+[INFO] [1684516742.493024007] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516742.552036077] [emotion_detection]: emotion declined!
+[INFO] [1684516742.845702276] [emotion_detection]: timing e_a 0.6871423721313477
+[INFO] [1684516742.846228968] [emotion_detection]: timing e_a 1.1416473388671875
+[INFO] [1684516743.849893781] [emotion_detection]: timing e_a 0.9450061321258545
+[INFO] [1684516743.873557740] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516743.926196074] [emotion_detection]: emotion declined!
+[INFO] [1684516743.942977635] [emotion_detection]: timing e_a 0.8994197845458984
+[INFO] [1684516743.999175448] [emotion_detection]: timing e_a 1.2655010223388672
+[INFO] [1684516744.804939215] [emotion_detection]: timing e_a 0.7939553260803223
+[INFO] [1684516744.813099764] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516744.868025600] [emotion_detection]: emotion declined!
+[INFO] [1684516745.062796399] [emotion_detection]: timing e_a 0.9965848922729492
+[INFO] [1684516745.237878919] [emotion_detection]: timing e_a 1.017484426498413
+[INFO] [1684516745.770483622] [emotion_detection]: timing e_a 0.6915502548217773
+[INFO] [1684516746.372266032] [emotion_detection]: timing e_a 0.5968277454376221
+[INFO] [1684516746.572093452] [emotion_detection]: timing e_a 1.2751171588897705
+[INFO] [1684516746.574038020] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516746.577600967] [emotion_detection]: timing e_a 1.1434438228607178
+[INFO] [1684516746.764764523] [emotion_detection]: timing e_a 0.38778138160705566
+[INFO] [1684516760.986543843] [emotion_detection]: timing e_a 1.0070722103118896
+[INFO] [1684516761.221104923] [emotion_detection]: timing e_a 0.8938374519348145
+[INFO] [1684516761.325492908] [emotion_detection]: timing e_a 1.047698736190796
+[INFO] [1684516761.332571968] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516761.392781461] [emotion_detection]: emotion declined!
+[INFO] [1684516762.164992735] [emotion_detection]: timing e_a 0.7443969249725342
+[INFO] [1684516762.189316164] [emotion_detection]: timing e_a 1.1966302394866943
+[INFO] [1684516762.262006236] [emotion_detection]: timing e_a 1.032719373703003
+[INFO] [1684516762.282493991] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516762.448886931] [emotion_detection]: emotion declined!
+[INFO] [1684516762.795018921] [emotion_detection]: timing e_a 0.6235318183898926
+[INFO] [1684516762.990636563] [emotion_detection]: timing e_a 0.7537720203399658
+[INFO] [1684516763.598877063] [emotion_detection]: timing e_a 0.7957668304443359
+[INFO] [1684516763.602536113] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516763.617457410] [emotion_detection]: timing e_a 1.1661872863769531
+[INFO] [1684516763.838364230] [emotion_detection]: timing e_a 0.8347816467285156
+[INFO] [1684516771.170077975] [emotion_detection]: timing e_a 0.5418992042541504
+[INFO] [1684516771.696060893] [emotion_detection]: timing e_a 0.9737272262573242
+[INFO] [1684516771.744964528] [emotion_detection]: timing e_a 0.881765604019165
+[INFO] [1684516771.765863538] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516772.079904427] [emotion_detection]: timing e_a 0.9073359966278076
+[INFO] [1684516772.190645297] [emotion_detection]: timing e_a 0.49272847175598145
+[INFO] [1684516779.566842978] [emotion_detection]: timing e_a 0.9586374759674072
+[INFO] [1684516779.639325339] [emotion_detection]: timing e_a 0.9274837970733643
+[INFO] [1684516780.076093124] [emotion_detection]: timing e_a 1.160754680633545
+[INFO] [1684516780.076969943] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516780.411090250] [emotion_detection]: timing e_a 0.8398563861846924
+[INFO] [1684516780.451766787] [emotion_detection]: timing e_a 0.7480590343475342
+[INFO] [1684516787.762397835] [emotion_detection]: timing e_a 0.7084870338439941
+[INFO] [1684516787.811036315] [emotion_detection]: timing e_a 0.5720956325531006
+[INFO] [1684516788.329190492] [emotion_detection]: timing e_a 0.9097893238067627
+[INFO] [1684516788.330109082] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516788.691099390] [emotion_detection]: timing e_a 0.9249410629272461
+[INFO] [1684516788.740222745] [emotion_detection]: timing e_a 0.8145649433135986
+[INFO] [1684516795.713537987] [emotion_detection]: timing e_a 0.42670321464538574
+[INFO] [1684516801.339243906] [emotion_detection]: timing e_a 0.2616457939147949
+[INFO] [1684516802.795739526] [emotion_detection]: timing e_a 0.6200909614562988
+[INFO] [1684516802.797852100] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684516803.128547186] [emotion_detection]: timing e_a 0.884899377822876
+[INFO] [1684516803.163760649] [emotion_detection]: timing e_a 0.5730111598968506
+[INFO] [1684516810.788460579] [emotion_detection]: timing e_a 1.0071239471435547
+[INFO] [1684516811.063407510] [emotion_detection]: timing e_a 1.0646705627441406
+[INFO] [1684516811.231103226] [emotion_detection]: timing e_a 1.1009235382080078
+[INFO] [1684516811.232661106] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516811.338656610] [emotion_detection]: emotion declined!
+[INFO] [1684516811.777451370] [emotion_detection]: timing e_a 0.9868218898773193
+[INFO] [1684516812.106372540] [emotion_detection]: timing e_a 1.0284204483032227
+[INFO] [1684516812.328541605] [emotion_detection]: timing e_a 0.9002804756164551
+[INFO] [1684516812.383697682] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516812.417645086] [emotion_detection]: emotion declined!
+[INFO] [1684516812.530430828] [emotion_detection]: timing e_a 0.7489302158355713
+[INFO] [1684516813.185742472] [emotion_detection]: timing e_a 1.0756173133850098
+[INFO] [1684516813.316492100] [emotion_detection]: timing e_a 0.7173352241516113
+[INFO] [1684516813.322567334] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516813.377279134] [emotion_detection]: emotion declined!
+[INFO] [1684516813.391937672] [emotion_detection]: timing e_a 0.9659097194671631
+[INFO] [1684516813.766239880] [emotion_detection]: timing e_a 0.5579731464385986
+[INFO] [1684516813.992476375] [emotion_detection]: timing e_a 0.5520203113555908
+[INFO] [1684516814.437979837] [emotion_detection]: timing e_a 0.7938909530639648
+[INFO] [1684516815.340258360] [emotion_detection]: timing e_a 1.2608284950256348
+[INFO] [1684516815.425388587] [emotion_detection]: timing e_a 1.5517942905426025
+[INFO] [1684516815.426604515] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516815.443050698] [emotion_detection]: emotion declined!
+[INFO] [1684516815.565128052] [emotion_detection]: timing e_a 1.0834569931030273
+[INFO] [1684516816.314256242] [emotion_detection]: timing e_a 0.8951382637023926
+[INFO] [1684516816.508907172] [emotion_detection]: timing e_a 1.0174038410186768
+[INFO] [1684516816.510427914] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516816.570928780] [emotion_detection]: emotion declined!
+[INFO] [1684516816.728242464] [emotion_detection]: timing e_a 1.0510292053222656
+[INFO] [1684516817.419898648] [emotion_detection]: timing e_a 0.975977897644043
+[INFO] [1684516818.133992296] [emotion_detection]: timing e_a 1.3970615863800049
+[INFO] [1684516818.380232486] [emotion_detection]: timing e_a 1.4158046245574951
+[INFO] [1684516818.390606771] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516818.516304680] [emotion_detection]: emotion declined!
+[INFO] [1684516818.643053533] [emotion_detection]: timing e_a 1.2100062370300293
+[INFO] [1684516819.154460971] [emotion_detection]: timing e_a 1.0036778450012207
+[INFO] [1684516819.509287909] [emotion_detection]: timing e_a 0.9895009994506836
+[INFO] [1684516819.510656977] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516819.536200821] [emotion_detection]: emotion declined!
+[INFO] [1684516819.649879016] [emotion_detection]: timing e_a 0.855701208114624
+[INFO] [1684516820.044221304] [emotion_detection]: timing e_a 0.8813915252685547
+[INFO] [1684516820.349278844] [emotion_detection]: timing e_a 0.7422783374786377
+[INFO] [1684516820.352110825] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516820.469870045] [emotion_detection]: timing e_a 0.7055449485778809
+[INFO] [1684516820.675698794] [emotion_detection]: timing e_a 0.6259663105010986
+[INFO] [1684516827.946235473] [emotion_detection]: timing e_a 0.7044777870178223
+[INFO] [1684516828.419125098] [emotion_detection]: timing e_a 1.0060920715332031
+[INFO] [1684516828.474373375] [emotion_detection]: timing e_a 0.898817777633667
+[INFO] [1684516828.495055795] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516828.572727666] [emotion_detection]: emotion declined!
+[INFO] [1684516828.880708439] [emotion_detection]: timing e_a 0.882598876953125
+[INFO] [1684516829.326270524] [emotion_detection]: timing e_a 0.9035346508026123
+[INFO] [1684516829.539935091] [emotion_detection]: timing e_a 0.8925580978393555
+[INFO] [1684516829.540972730] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516829.627905581] [emotion_detection]: emotion declined!
+[INFO] [1684516829.800822321] [emotion_detection]: timing e_a 0.8981962203979492
+[INFO] [1684516830.331105708] [emotion_detection]: timing e_a 1.000598430633545
+[INFO] [1684516830.542271634] [emotion_detection]: timing e_a 0.9074883460998535
+[INFO] [1684516830.548286787] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516830.584290863] [emotion_detection]: timing e_a 0.7554442882537842
+[INFO] [1684516830.612104262] [emotion_detection]: emotion declined!
+[INFO] [1684516830.871186455] [emotion_detection]: timing e_a 0.5349547863006592
+[INFO] [1684516831.442055392] [emotion_detection]: timing e_a 0.742384672164917
+[INFO] [1684516831.743740514] [emotion_detection]: timing e_a 0.7044236660003662
+[INFO] [1684516831.746947997] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516831.784338912] [emotion_detection]: emotion declined!
+[INFO] [1684516831.987946274] [emotion_detection]: timing e_a 1.0971226692199707
+[INFO] [1684516832.200414466] [emotion_detection]: timing e_a 0.7440497875213623
+[INFO] [1684516832.644654467] [emotion_detection]: timing e_a 0.8478569984436035
+[INFO] [1684516832.688061640] [emotion_detection]: timing e_a 0.6891553401947021
+[INFO] [1684516833.152742339] [emotion_detection]: timing e_a 0.947329044342041
+[INFO] [1684516833.154180600] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516833.252825780] [emotion_detection]: timing e_a 0.5987017154693604
+[INFO] [1684516833.330284232] [emotion_detection]: timing e_a 0.5211899280548096
+[INFO] [1684516840.697125379] [emotion_detection]: timing e_a 0.6599881649017334
+[INFO] [1684516841.177356478] [emotion_detection]: timing e_a 0.9952387809753418
+[INFO] [1684516841.204603379] [emotion_detection]: timing e_a 0.8666567802429199
+[INFO] [1684516841.227799168] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516841.353869388] [emotion_detection]: emotion declined!
+[INFO] [1684516841.717539452] [emotion_detection]: timing e_a 1.013631820678711
+[INFO] [1684516841.772984984] [emotion_detection]: timing e_a 0.5686490535736084
+[INFO] [1684516841.965299456] [emotion_detection]: timing e_a 0.5023367404937744
+[INFO] [1684516841.973578524] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516842.003970744] [emotion_detection]: emotion declined!
+[INFO] [1684516842.647598570] [emotion_detection]: timing e_a 0.8416252136230469
+[INFO] [1684516842.773693265] [emotion_detection]: timing e_a 1.0431947708129883
+[INFO] [1684516843.131406798] [emotion_detection]: timing e_a 0.8769755363464355
+[INFO] [1684516843.155962985] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516843.201697388] [emotion_detection]: emotion declined!
+[INFO] [1684516843.658603030] [emotion_detection]: timing e_a 1.007439374923706
+[INFO] [1684516843.821903830] [emotion_detection]: timing e_a 1.0438475608825684
+[INFO] [1684516844.064443588] [emotion_detection]: timing e_a 0.7174909114837646
+[INFO] [1684516844.083175859] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516844.132054068] [emotion_detection]: emotion declined!
+[INFO] [1684516844.136985412] [emotion_detection]: timing e_a 0.4741988182067871
+[INFO] [1684516844.507981285] [emotion_detection]: timing e_a 0.5934679508209229
+[INFO] [1684516844.817946552] [emotion_detection]: timing e_a 0.5132336616516113
+[INFO] [1684516844.824541612] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516844.915121454] [emotion_detection]: emotion declined!
+[INFO] [1684516845.383871173] [emotion_detection]: timing e_a 0.8924472332000732
+[INFO] [1684516845.878885204] [emotion_detection]: timing e_a 1.1689331531524658
+[INFO] [1684516846.147651076] [emotion_detection]: timing e_a 1.1853220462799072
+[INFO] [1684516846.148996079] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516846.180987583] [emotion_detection]: emotion declined!
+[INFO] [1684516846.216651696] [emotion_detection]: timing e_a 0.8043274879455566
+[INFO] [1684516846.648895887] [emotion_detection]: timing e_a 0.7570216655731201
+[INFO] [1684516847.151923918] [emotion_detection]: timing e_a 0.9025986194610596
+[INFO] [1684516847.180952291] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516847.200001366] [emotion_detection]: timing e_a 0.7730550765991211
+[INFO] [1684516847.208749861] [emotion_detection]: emotion declined!
+[INFO] [1684516847.474992138] [emotion_detection]: timing e_a 0.7857787609100342
+[INFO] [1684516848.152773705] [emotion_detection]: timing e_a 0.8076069355010986
+[INFO] [1684516848.579735527] [emotion_detection]: timing e_a 1.0588903427124023
+[INFO] [1684516848.581079485] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516848.615641427] [emotion_detection]: emotion declined!
+[INFO] [1684516848.659205424] [emotion_detection]: timing e_a 0.9692034721374512
+[INFO] [1684516849.095726874] [emotion_detection]: timing e_a 0.9399993419647217
+[INFO] [1684516849.766833447] [emotion_detection]: timing e_a 1.046569585800171
+[INFO] [1684516849.770409867] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516849.802668396] [emotion_detection]: emotion declined!
+[INFO] [1684516849.839519729] [emotion_detection]: timing e_a 0.8788154125213623
+[INFO] [1684516849.958497128] [emotion_detection]: timing e_a 0.8547441959381104
+[INFO] [1684516850.586472423] [emotion_detection]: timing e_a 0.620380163192749
+[INFO] [1684516850.594925469] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516850.650791578] [emotion_detection]: emotion declined!
+[INFO] [1684516850.769915354] [emotion_detection]: timing e_a 0.6494765281677246
+[INFO] [1684516851.072790069] [emotion_detection]: timing e_a 0.7853949069976807
+[INFO] [1684516851.507134266] [emotion_detection]: timing e_a 0.7770097255706787
+[INFO] [1684516851.508525416] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516851.569594259] [emotion_detection]: emotion declined!
+[INFO] [1684516851.752295825] [emotion_detection]: timing e_a 0.8054280281066895
+[INFO] [1684516852.138183835] [emotion_detection]: timing e_a 1.0058724880218506
+[INFO] [1684516852.723750858] [emotion_detection]: timing e_a 1.119779348373413
+[INFO] [1684516853.028535574] [emotion_detection]: timing e_a 1.222076177597046
+[INFO] [1684516853.138374944] [emotion_detection]: timing e_a 0.9948728084564209
+[INFO] [1684516853.145290315] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684516853.419997468] [emotion_detection]: timing e_a 0.38104796409606934
+[INFO] [1684516853.603991358] [emotion_detection]: timing e_a 0.8761825561523438
+[INFO] [1684516860.900396165] [emotion_detection]: timing e_a 0.7316646575927734
+[INFO] [1684516861.171325922] [emotion_detection]: timing e_a 0.7740986347198486
+[INFO] [1684516861.561214662] [emotion_detection]: timing e_a 1.0409722328186035
+[INFO] [1684516861.562485533] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684516861.600780621] [emotion_detection]: emotion declined!
+[INFO] [1684516861.706149618] [emotion_detection]: CTRL + C, exiting...
+[INFO] [1684516862.083742413] [emotion_detection]: timing e_a 1.177293062210083
+[INFO] [1684516862.218065452] [emotion_detection]: timing e_a 0.5661470890045166
+[INFO] [1684516862.268858523] [emotion_detection]: timing e_a 1.084366798400879
+[INFO] [1684516862.270498105] [emotion_detection]: predicted emotion: Neutral

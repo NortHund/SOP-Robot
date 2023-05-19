@@ -33,7 +33,7 @@ class FaceDetection(Node):
     def __init__(self):
         super().__init__("face_recognition")
         self.logger = self.get_logger()
-        self.logger.info("[*] Initializing face_recognition node...")
+        self.logger.info("[*] init Initializing-face_recognition-node...")
 
         self.frame_count = 0
         self.cv_bridge = CvBridge()
@@ -60,7 +60,7 @@ class FaceDetection(Node):
             height, width, _ = frame.shape
             self.YUNET_model.setInputSize((width, height))
         else:
-            self.logger.fatal("[*] Failed to set Yunet input resolution")
+            self.logger.fatal("[*] fail Failed_to_set_Yunet_input_resolution")
             sys.exit(1)			
 
         # publisher for face image messages to emotion_detection node
@@ -83,7 +83,7 @@ class FaceDetection(Node):
             self.timer_control_callback, 	# callback function
         )
 
-        self.logger.info("[*] Initializing face_recognition node DONE!")
+        self.logger.info("[*] init Initializing-face_recognition-node_DONE!")
 
 
 
@@ -100,7 +100,7 @@ class FaceDetection(Node):
                 self._pub_timer.cancel() # turn off timer
                 self.close_webcam()
             else:
-                self.logger.warning("[*] timer request, call from a wrong state")
+                self.logger.warning("[*] fail timer_request,_call_from_a_wrong state")
                 response.success = False
             
         # if timer off
@@ -111,7 +111,7 @@ class FaceDetection(Node):
                 self.open_webcam()
                 self._pub_timer.reset() # start the timer again
             else:
-                self.logger.warning("[*] timer request, call from wrong state")
+                self.logger.warning("[*] fail timer_request,_call_from_wrong state")
                 response.success = False
 
         return response
@@ -122,6 +122,8 @@ class FaceDetection(Node):
         Timer callback that publishes 48x48 grayscale image of detected face
         to 'face_img' topic. 
         '''
+        start_time = time.time()
+        
         try:
             # Capture a frame from webcam
             ret, frame = self.cap.read()
@@ -129,7 +131,7 @@ class FaceDetection(Node):
                 raise WebcamError
 
         except WebcamError:
-            self.logger.error("[*] something went wrong, restarting webcam..")
+            self.logger.error("[*] fail something_went_wrong,_restarting_webcam..")
             # close and try reopening webcam 
             self.close_webcam()
             self.open_webcam()
@@ -166,7 +168,8 @@ class FaceDetection(Node):
                 else:
                     # publish image of face to topic
                     self._image_publisher.publish(image_msg)
-                    self.logger.info(f'Publishing video frame: {self.frame_count}')	
+                    self.logger.info(f'message publishing_video_frame {self.frame_count}')	
+                    self.logger.info('timer frame_published %s' % (time.time() - start_time) )
 
 
     def open_webcam(self):
@@ -175,7 +178,7 @@ class FaceDetection(Node):
         '''
         self.cap = cv2.VideoCapture(0)
         if not self.cap.isOpened():
-            self.logger.fatal("[*] Cannot open a webcam!")
+            self.logger.fatal("[*] fail Cannot_open_a_webcam!")
             sys.exit(1)
 
 
@@ -255,7 +258,7 @@ def main(args=None):
 
         face_detection = FaceDetection()
         if executor.add_node(face_detection) == False:
-            face_detection.get_logger().fatal("[*] Failed to add a node to the executor")
+            face_detection.get_logger().fatal("[*] fail Failed_to_add_a_node_to_the_executor")
             sys.exit(1)
 
         try:
@@ -264,7 +267,7 @@ def main(args=None):
                 executor.spin_once()
 
         except KeyboardInterrupt:
-            face_detection.get_logger().info("exiting...")
+            face_detection.get_logger().info("[*] exit exiting...")
 
         finally:
             # unnecessary kinda

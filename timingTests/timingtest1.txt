@@ -1,0 +1,864 @@
+vagrant@vagrant-ros:/workspace$ ros2 launch emotion_detection main.launch.py
+[INFO] [launch]: All log files can be found below /home/vagrant/.ros/log/2023-05-19-03-53-11-841425-vagrant-ros-2527
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [face_detection-1]: process started with pid [2529]
+[INFO] [emotion_detection-2]: process started with pid [2531]
+[INFO] [action_client-3]: process started with pid [2533]
+[action_client-3] [INFO] [1684468395.259278376] [action_client]: [*] Initializing action_client node...
+[action_client-3] [INFO] [1684468395.698994484] [action_client]: [*] Initializing action_client node DONE!
+[face_detection-1] [INFO] [1684468396.664260468] [face_recognition]: [*] Initializing face_recognition node...
+[face_detection-1] [INFO] [1684468397.492061490] [face_recognition]: [*] Initializing face_recognition node DONE!
+[face_detection-1] [INFO] [1684468397.792943745] [face_recognition]: Publishing video frame: 1
+[face_detection-1] [INFO] [1684468397.916586116] [face_recognition]: Publishing video frame: 2
+[face_detection-1] [INFO] [1684468398.050236910] [face_recognition]: Publishing video frame: 3
+[face_detection-1] [INFO] [1684468398.288849411] [face_recognition]: Publishing video frame: 4
+[face_detection-1] [INFO] [1684468398.383229898] [face_recognition]: Publishing video frame: 5
+[face_detection-1] [INFO] [1684468398.552966019] [face_recognition]: Publishing video frame: 6
+[face_detection-1] [INFO] [1684468398.785690726] [face_recognition]: Publishing video frame: 7
+[face_detection-1] [INFO] [1684468398.884341560] [face_recognition]: Publishing video frame: 8
+[face_detection-1] [INFO] [1684468398.965536141] [face_recognition]: Publishing video frame: 9
+[face_detection-1] [INFO] [1684468399.084729860] [face_recognition]: Publishing video frame: 10
+[face_detection-1] [INFO] [1684468399.277692711] [face_recognition]: Publishing video frame: 11
+[face_detection-1] [INFO] [1684468399.351104043] [face_recognition]: Publishing video frame: 12
+[face_detection-1] [INFO] [1684468399.474622445] [face_recognition]: Publishing video frame: 13
+[face_detection-1] [INFO] [1684468399.645538423] [face_recognition]: Publishing video frame: 14
+[face_detection-1] [INFO] [1684468399.733578905] [face_recognition]: Publishing video frame: 15
+[face_detection-1] [INFO] [1684468399.869766350] [face_recognition]: Publishing video frame: 16
+[face_detection-1] [INFO] [1684468399.965989137] [face_recognition]: Publishing video frame: 17
+[face_detection-1] [INFO] [1684468400.155912934] [face_recognition]: Publishing video frame: 18
+[face_detection-1] [INFO] [1684468400.386037610] [face_recognition]: Publishing video frame: 19
+[face_detection-1] [INFO] [1684468400.640105575] [face_recognition]: Publishing video frame: 20
+[face_detection-1] [INFO] [1684468400.930949212] [face_recognition]: Publishing video frame: 21
+[face_detection-1] [INFO] [1684468401.054649221] [face_recognition]: Publishing video frame: 22
+[face_detection-1] [INFO] [1684468401.307037639] [face_recognition]: Publishing video frame: 23
+[face_detection-1] [INFO] [1684468401.591775932] [face_recognition]: Publishing video frame: 24
+[face_detection-1] [INFO] [1684468401.897560151] [face_recognition]: Publishing video frame: 25
+[face_detection-1] [INFO] [1684468402.070645379] [face_recognition]: Publishing video frame: 26
+[face_detection-1] [INFO] [1684468402.221951149] [face_recognition]: Publishing video frame: 27
+[face_detection-1] [INFO] [1684468402.380512257] [face_recognition]: Publishing video frame: 28
+[face_detection-1] [INFO] [1684468402.505928799] [face_recognition]: Publishing video frame: 29
+[face_detection-1] [INFO] [1684468402.651964732] [face_recognition]: Publishing video frame: 30
+[face_detection-1] [INFO] [1684468402.845723760] [face_recognition]: Publishing video frame: 31
+[face_detection-1] [INFO] [1684468402.980520270] [face_recognition]: Publishing video frame: 32
+[face_detection-1] [INFO] [1684468403.190077533] [face_recognition]: Publishing video frame: 33
+[face_detection-1] [INFO] [1684468403.447707848] [face_recognition]: Publishing video frame: 34
+[face_detection-1] [INFO] [1684468403.664816845] [face_recognition]: Publishing video frame: 35
+[face_detection-1] [INFO] [1684468403.842273147] [face_recognition]: Publishing video frame: 36
+[face_detection-1] [INFO] [1684468403.986676502] [face_recognition]: Publishing video frame: 37
+[face_detection-1] [INFO] [1684468404.125616760] [face_recognition]: Publishing video frame: 38
+[face_detection-1] [INFO] [1684468404.288189527] [face_recognition]: Publishing video frame: 39
+[face_detection-1] [INFO] [1684468404.471008956] [face_recognition]: Publishing video frame: 40
+[face_detection-1] [INFO] [1684468404.796175071] [face_recognition]: Publishing video frame: 41
+[face_detection-1] [INFO] [1684468405.037545227] [face_recognition]: Publishing video frame: 42
+[face_detection-1] [INFO] [1684468405.272216163] [face_recognition]: Publishing video frame: 43
+[face_detection-1] [INFO] [1684468405.532385253] [face_recognition]: Publishing video frame: 44
+[face_detection-1] [INFO] [1684468405.712981628] [face_recognition]: Publishing video frame: 45
+[face_detection-1] [INFO] [1684468405.953324455] [face_recognition]: Publishing video frame: 46
+[face_detection-1] [INFO] [1684468406.108861784] [face_recognition]: Publishing video frame: 47
+[face_detection-1] [INFO] [1684468406.284900481] [face_recognition]: Publishing video frame: 48
+[face_detection-1] [INFO] [1684468406.415621380] [face_recognition]: Publishing video frame: 49
+[face_detection-1] [INFO] [1684468406.545662206] [face_recognition]: Publishing video frame: 50
+[face_detection-1] [INFO] [1684468406.656834384] [face_recognition]: Publishing video frame: 51
+[face_detection-1] [INFO] [1684468406.870152123] [face_recognition]: Publishing video frame: 52
+[face_detection-1] [INFO] [1684468406.974362905] [face_recognition]: Publishing video frame: 53
+[face_detection-1] [INFO] [1684468407.082215773] [face_recognition]: Publishing video frame: 54
+[face_detection-1] [INFO] [1684468407.328789603] [face_recognition]: Publishing video frame: 55
+[face_detection-1] [INFO] [1684468407.529979264] [face_recognition]: Publishing video frame: 56
+[face_detection-1] [INFO] [1684468407.776461723] [face_recognition]: Publishing video frame: 57
+[face_detection-1] [INFO] [1684468407.948835909] [face_recognition]: Publishing video frame: 58
+[face_detection-1] [INFO] [1684468408.120453626] [face_recognition]: Publishing video frame: 59
+[face_detection-1] [INFO] [1684468408.308622975] [face_recognition]: Publishing video frame: 60
+[face_detection-1] [INFO] [1684468408.565677577] [face_recognition]: Publishing video frame: 61
+[face_detection-1] [INFO] [1684468408.758188784] [face_recognition]: Publishing video frame: 62
+[face_detection-1] [INFO] [1684468408.989162131] [face_recognition]: Publishing video frame: 63
+[face_detection-1] [INFO] [1684468409.145608401] [face_recognition]: Publishing video frame: 64
+[face_detection-1] [INFO] [1684468409.453101486] [face_recognition]: Publishing video frame: 65
+[face_detection-1] [INFO] [1684468409.633946115] [face_recognition]: Publishing video frame: 66
+[face_detection-1] [INFO] [1684468409.822358333] [face_recognition]: Publishing video frame: 67
+[face_detection-1] [INFO] [1684468409.986840222] [face_recognition]: Publishing video frame: 68
+[face_detection-1] [INFO] [1684468410.182185869] [face_recognition]: Publishing video frame: 69
+[face_detection-1] [INFO] [1684468410.312363475] [face_recognition]: Publishing video frame: 70
+[face_detection-1] [INFO] [1684468410.438948948] [face_recognition]: Publishing video frame: 71
+[face_detection-1] [INFO] [1684468410.594481098] [face_recognition]: Publishing video frame: 72
+[face_detection-1] [INFO] [1684468410.795350537] [face_recognition]: Publishing video frame: 73
+[face_detection-1] [INFO] [1684468411.116200384] [face_recognition]: Publishing video frame: 74
+[face_detection-1] [INFO] [1684468411.231644014] [face_recognition]: Publishing video frame: 75
+[face_detection-1] [INFO] [1684468411.371349288] [face_recognition]: Publishing video frame: 76
+[face_detection-1] [INFO] [1684468411.479724144] [face_recognition]: Publishing video frame: 77
+[face_detection-1] [INFO] [1684468411.659485573] [face_recognition]: Publishing video frame: 78
+[face_detection-1] [INFO] [1684468411.834143592] [face_recognition]: Publishing video frame: 79
+[face_detection-1] [INFO] [1684468411.971068382] [face_recognition]: Publishing video frame: 80
+[face_detection-1] [INFO] [1684468412.127800960] [face_recognition]: Publishing video frame: 81
+[face_detection-1] [INFO] [1684468412.319538841] [face_recognition]: Publishing video frame: 82
+[face_detection-1] [INFO] [1684468412.512496753] [face_recognition]: Publishing video frame: 83
+[face_detection-1] [INFO] [1684468412.656937679] [face_recognition]: Publishing video frame: 84
+[face_detection-1] [INFO] [1684468412.832489528] [face_recognition]: Publishing video frame: 85
+[face_detection-1] [INFO] [1684468412.982561088] [face_recognition]: Publishing video frame: 86
+[face_detection-1] [INFO] [1684468413.105702326] [face_recognition]: Publishing video frame: 87
+[face_detection-1] [INFO] [1684468413.270522885] [face_recognition]: Publishing video frame: 88
+[face_detection-1] [INFO] [1684468413.418545959] [face_recognition]: Publishing video frame: 89
+[face_detection-1] [INFO] [1684468413.525616641] [face_recognition]: Publishing video frame: 90
+[face_detection-1] [INFO] [1684468413.662490089] [face_recognition]: Publishing video frame: 91
+[face_detection-1] [INFO] [1684468413.795421225] [face_recognition]: Publishing video frame: 92
+[face_detection-1] [INFO] [1684468413.944611406] [face_recognition]: Publishing video frame: 93
+[face_detection-1] [INFO] [1684468414.083496028] [face_recognition]: Publishing video frame: 94
+[face_detection-1] [INFO] [1684468414.267650917] [face_recognition]: Publishing video frame: 95
+[face_detection-1] [INFO] [1684468414.402796903] [face_recognition]: Publishing video frame: 96
+[face_detection-1] [INFO] [1684468414.575866917] [face_recognition]: Publishing video frame: 97
+[face_detection-1] [INFO] [1684468414.731838098] [face_recognition]: Publishing video frame: 98
+[face_detection-1] [INFO] [1684468414.929929902] [face_recognition]: Publishing video frame: 99
+[face_detection-1] [INFO] [1684468415.087240405] [face_recognition]: Publishing video frame: 100
+[face_detection-1] [INFO] [1684468415.260221756] [face_recognition]: Publishing video frame: 101
+[face_detection-1] [INFO] [1684468415.431863571] [face_recognition]: Publishing video frame: 102
+[face_detection-1] [INFO] [1684468415.583925066] [face_recognition]: Publishing video frame: 103
+[face_detection-1] [INFO] [1684468415.693292973] [face_recognition]: Publishing video frame: 104
+[face_detection-1] [INFO] [1684468415.851525591] [face_recognition]: Publishing video frame: 105
+[face_detection-1] [INFO] [1684468415.965152734] [face_recognition]: Publishing video frame: 106
+[face_detection-1] [INFO] [1684468416.081865640] [face_recognition]: Publishing video frame: 107
+[face_detection-1] [INFO] [1684468416.232154785] [face_recognition]: Publishing video frame: 108
+[face_detection-1] [INFO] [1684468416.380741917] [face_recognition]: Publishing video frame: 109
+[face_detection-1] [INFO] [1684468416.525973152] [face_recognition]: Publishing video frame: 110
+[face_detection-1] [INFO] [1684468416.665433610] [face_recognition]: Publishing video frame: 111
+[face_detection-1] [INFO] [1684468416.800010359] [face_recognition]: Publishing video frame: 112
+[face_detection-1] [INFO] [1684468416.926016948] [face_recognition]: Publishing video frame: 113
+[face_detection-1] [INFO] [1684468417.059395760] [face_recognition]: Publishing video frame: 114
+[face_detection-1] [INFO] [1684468417.234109188] [face_recognition]: Publishing video frame: 115
+[face_detection-1] [INFO] [1684468417.390994186] [face_recognition]: Publishing video frame: 116
+[face_detection-1] [INFO] [1684468417.541652727] [face_recognition]: Publishing video frame: 117
+[face_detection-1] [INFO] [1684468417.703243866] [face_recognition]: Publishing video frame: 118
+[face_detection-1] [INFO] [1684468417.842292389] [face_recognition]: Publishing video frame: 119
+[face_detection-1] [INFO] [1684468417.977658433] [face_recognition]: Publishing video frame: 120
+[emotion_detection-2] [INFO] [1684468418.106683865] [emotion_detection]: [*] Initializing emotion_detection node...
+[face_detection-1] [INFO] [1684468418.109796189] [face_recognition]: Publishing video frame: 121
+[face_detection-1] [INFO] [1684468418.345863606] [face_recognition]: Publishing video frame: 122
+[face_detection-1] [INFO] [1684468418.453211876] [face_recognition]: Publishing video frame: 123
+[face_detection-1] [INFO] [1684468418.582685052] [face_recognition]: Publishing video frame: 124
+[face_detection-1] [INFO] [1684468418.715353577] [face_recognition]: Publishing video frame: 125
+[face_detection-1] [INFO] [1684468418.871083697] [face_recognition]: Publishing video frame: 126
+[face_detection-1] [INFO] [1684468419.023868003] [face_recognition]: Publishing video frame: 127
+[face_detection-1] [INFO] [1684468419.197634511] [face_recognition]: Publishing video frame: 128
+[face_detection-1] [INFO] [1684468419.336304041] [face_recognition]: Publishing video frame: 129
+[face_detection-1] [INFO] [1684468419.505543080] [face_recognition]: Publishing video frame: 130
+[face_detection-1] [INFO] [1684468419.669304595] [face_recognition]: Publishing video frame: 131
+[face_detection-1] [INFO] [1684468419.866201763] [face_recognition]: Publishing video frame: 132
+[face_detection-1] [INFO] [1684468420.009805123] [face_recognition]: Publishing video frame: 133
+[face_detection-1] [INFO] [1684468420.151897794] [face_recognition]: Publishing video frame: 134
+[face_detection-1] [INFO] [1684468420.371754754] [face_recognition]: Publishing video frame: 135
+[face_detection-1] [INFO] [1684468420.522236680] [face_recognition]: Publishing video frame: 136
+[face_detection-1] [INFO] [1684468420.669194138] [face_recognition]: Publishing video frame: 137
+[face_detection-1] [INFO] [1684468420.835125398] [face_recognition]: Publishing video frame: 138
+[face_detection-1] [INFO] [1684468420.964319651] [face_recognition]: Publishing video frame: 139
+[face_detection-1] [INFO] [1684468421.089698830] [face_recognition]: Publishing video frame: 140
+[face_detection-1] [INFO] [1684468421.417062013] [face_recognition]: Publishing video frame: 141
+[emotion_detection-2] [INFO] [1684468421.564383157] [emotion_detection]: [*] Initializing emotion_detection node DONE!
+[face_detection-1] [INFO] [1684468421.569163664] [face_recognition]: Publishing video frame: 142
+[face_detection-1] [INFO] [1684468421.690637744] [face_recognition]: Publishing video frame: 143
+[face_detection-1] [INFO] [1684468421.851370555] [face_recognition]: Publishing video frame: 144
+[face_detection-1] [INFO] [1684468422.033528727] [face_recognition]: Publishing video frame: 145
+[face_detection-1] [INFO] [1684468422.211240300] [face_recognition]: Publishing video frame: 146
+[face_detection-1] [INFO] [1684468422.429764251] [face_recognition]: Publishing video frame: 147
+[face_detection-1] [INFO] [1684468422.618613179] [face_recognition]: Publishing video frame: 148
+[face_detection-1] [INFO] [1684468422.750736571] [face_recognition]: Publishing video frame: 149
+[face_detection-1] [INFO] [1684468422.878072568] [face_recognition]: Publishing video frame: 150
+[face_detection-1] [INFO] [1684468423.010845549] [face_recognition]: Publishing video frame: 151
+[face_detection-1] [INFO] [1684468423.189170048] [face_recognition]: Publishing video frame: 152
+[face_detection-1] [INFO] [1684468423.336725788] [face_recognition]: Publishing video frame: 153
+[face_detection-1] [INFO] [1684468423.572440463] [face_recognition]: Publishing video frame: 154
+[face_detection-1] [INFO] [1684468423.800261472] [face_recognition]: Publishing video frame: 155
+[face_detection-1] [INFO] [1684468423.996874251] [face_recognition]: Publishing video frame: 156
+[face_detection-1] [INFO] [1684468424.218179714] [face_recognition]: Publishing video frame: 157
+[emotion_detection-2] [INFO] [1684468424.262857826] [emotion_detection]: predicted emotion: Angry
+[action_client-3] [INFO] [1684468424.268781079] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468424.400786812] [face_recognition]: Publishing video frame: 158
+[face_detection-1] [INFO] [1684468424.528200086] [face_recognition]: Publishing video frame: 159
+[action_client-3] [INFO] [1684468424.554701003] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468424.577044838] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468426.576239496] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468428.578441762] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468428.581735203] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468430.584246942] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468430.584951775] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468430.588882857] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468430.802506415] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468431.135247265] [face_recognition]: Publishing video frame: 160
+[face_detection-1] [INFO] [1684468431.286754990] [face_recognition]: Publishing video frame: 161
+[face_detection-1] [INFO] [1684468431.408259264] [face_recognition]: Publishing video frame: 162
+[face_detection-1] [INFO] [1684468431.523534603] [face_recognition]: Publishing video frame: 163
+[face_detection-1] [INFO] [1684468431.658117485] [face_recognition]: Publishing video frame: 164
+[face_detection-1] [INFO] [1684468431.868427263] [face_recognition]: Publishing video frame: 165
+[face_detection-1] [INFO] [1684468432.058231149] [face_recognition]: Publishing video frame: 166
+[face_detection-1] [INFO] [1684468432.275879542] [face_recognition]: Publishing video frame: 167
+[face_detection-1] [INFO] [1684468432.501082248] [face_recognition]: Publishing video frame: 168
+[face_detection-1] [INFO] [1684468432.639995993] [face_recognition]: Publishing video frame: 169
+[face_detection-1] [INFO] [1684468432.788468029] [face_recognition]: Publishing video frame: 170
+[face_detection-1] [INFO] [1684468433.029947015] [face_recognition]: Publishing video frame: 171
+[face_detection-1] [INFO] [1684468433.119100399] [face_recognition]: Publishing video frame: 172
+[face_detection-1] [INFO] [1684468433.327472319] [face_recognition]: Publishing video frame: 173
+[face_detection-1] [INFO] [1684468433.492031710] [face_recognition]: Publishing video frame: 174
+[face_detection-1] [INFO] [1684468433.642344292] [face_recognition]: Publishing video frame: 175
+[face_detection-1] [INFO] [1684468433.867022153] [face_recognition]: Publishing video frame: 176
+[face_detection-1] [INFO] [1684468434.039598639] [face_recognition]: Publishing video frame: 177
+[emotion_detection-2] [INFO] [1684468434.058780854] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468434.078157437] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468434.100627651] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468434.190204267] [face_recognition]: Publishing video frame: 178
+[face_detection-1] [INFO] [1684468434.373045670] [face_recognition]: Publishing video frame: 179
+[face_detection-1] [INFO] [1684468434.502938664] [face_recognition]: Publishing video frame: 180
+[face_detection-1] [INFO] [1684468434.720902327] [face_recognition]: Publishing video frame: 181
+[face_detection-1] [INFO] [1684468435.027781987] [face_recognition]: Publishing video frame: 182
+[face_detection-1] [INFO] [1684468435.171781170] [face_recognition]: Publishing video frame: 183
+[face_detection-1] [INFO] [1684468435.297174445] [face_recognition]: Publishing video frame: 184
+[face_detection-1] [INFO] [1684468435.458016316] [face_recognition]: Publishing video frame: 185
+[face_detection-1] [INFO] [1684468435.593139704] [face_recognition]: Publishing video frame: 186
+[face_detection-1] [INFO] [1684468435.752424519] [face_recognition]: Publishing video frame: 187
+[emotion_detection-2] [INFO] [1684468435.931239897] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468435.934454418] [action_client]: Emotion denied -> exiting...
+[face_detection-1] [INFO] [1684468435.941886013] [face_recognition]: Publishing video frame: 188
+[emotion_detection-2] [INFO] [1684468435.964760670] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468436.095298759] [face_recognition]: Publishing video frame: 189
+[face_detection-1] [INFO] [1684468436.358001410] [face_recognition]: Publishing video frame: 190
+[face_detection-1] [INFO] [1684468436.590387869] [face_recognition]: Publishing video frame: 191
+[face_detection-1] [INFO] [1684468436.824605204] [face_recognition]: Publishing video frame: 192
+[face_detection-1] [INFO] [1684468437.108035254] [face_recognition]: Publishing video frame: 193
+[face_detection-1] [INFO] [1684468437.286934127] [face_recognition]: Publishing video frame: 194
+[face_detection-1] [INFO] [1684468437.430902740] [face_recognition]: Publishing video frame: 195
+[face_detection-1] [INFO] [1684468437.550288146] [face_recognition]: Publishing video frame: 196
+[face_detection-1] [INFO] [1684468437.751936840] [face_recognition]: Publishing video frame: 197
+[face_detection-1] [INFO] [1684468437.896312262] [face_recognition]: Publishing video frame: 198
+[face_detection-1] [INFO] [1684468438.113353500] [face_recognition]: Publishing video frame: 199
+[face_detection-1] [INFO] [1684468438.291406440] [face_recognition]: Publishing video frame: 200
+[face_detection-1] [INFO] [1684468438.489658374] [face_recognition]: Publishing video frame: 201
+[emotion_detection-2] [INFO] [1684468438.663238665] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468438.666824548] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468438.680820461] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468438.691739391] [face_recognition]: Publishing video frame: 202
+[face_detection-1] [INFO] [1684468438.863118159] [face_recognition]: Publishing video frame: 203
+[face_detection-1] [INFO] [1684468439.027212423] [face_recognition]: Publishing video frame: 204
+[face_detection-1] [INFO] [1684468439.199942563] [face_recognition]: Publishing video frame: 205
+[face_detection-1] [INFO] [1684468439.397002976] [face_recognition]: Publishing video frame: 206
+[face_detection-1] [INFO] [1684468439.642141176] [face_recognition]: Publishing video frame: 207
+[face_detection-1] [INFO] [1684468439.856222750] [face_recognition]: Publishing video frame: 208
+[emotion_detection-2] [INFO] [1684468440.049468092] [emotion_detection]: predicted emotion: Neutral
+[face_detection-1] [INFO] [1684468440.049614050] [face_recognition]: Publishing video frame: 209
+[action_client-3] [INFO] [1684468440.060874422] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468440.074679440] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468440.210168370] [face_recognition]: Publishing video frame: 210
+[face_detection-1] [INFO] [1684468440.341581028] [face_recognition]: Publishing video frame: 211
+[face_detection-1] [INFO] [1684468440.500201062] [face_recognition]: Publishing video frame: 212
+[face_detection-1] [INFO] [1684468440.675141784] [face_recognition]: Publishing video frame: 213
+[face_detection-1] [INFO] [1684468440.822430153] [face_recognition]: Publishing video frame: 214
+[face_detection-1] [INFO] [1684468441.022795481] [face_recognition]: Publishing video frame: 215
+[face_detection-1] [INFO] [1684468441.214031877] [face_recognition]: Publishing video frame: 216
+[emotion_detection-2] [INFO] [1684468441.265356587] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468441.269820648] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468441.276723758] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468441.452396667] [face_recognition]: Publishing video frame: 217
+[face_detection-1] [INFO] [1684468441.638838078] [face_recognition]: Publishing video frame: 218
+[face_detection-1] [INFO] [1684468441.858493725] [face_recognition]: Publishing video frame: 219
+[face_detection-1] [INFO] [1684468442.018148283] [face_recognition]: Publishing video frame: 220
+[face_detection-1] [INFO] [1684468442.166319465] [face_recognition]: Publishing video frame: 221
+[face_detection-1] [INFO] [1684468442.396774817] [face_recognition]: Publishing video frame: 222
+[face_detection-1] [INFO] [1684468442.651946305] [face_recognition]: Publishing video frame: 223
+[face_detection-1] [INFO] [1684468442.811702603] [face_recognition]: Publishing video frame: 224
+[face_detection-1] [INFO] [1684468443.020252972] [face_recognition]: Publishing video frame: 225
+[face_detection-1] [INFO] [1684468443.192012894] [face_recognition]: Publishing video frame: 226
+[face_detection-1] [INFO] [1684468443.355715536] [face_recognition]: Publishing video frame: 227
+[emotion_detection-2] [INFO] [1684468443.583944090] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468443.589536680] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468443.612944444] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468443.694348281] [face_recognition]: Publishing video frame: 228
+[face_detection-1] [INFO] [1684468443.848476395] [face_recognition]: Publishing video frame: 229
+[face_detection-1] [INFO] [1684468444.082786673] [face_recognition]: Publishing video frame: 230
+[face_detection-1] [INFO] [1684468444.213629608] [face_recognition]: Publishing video frame: 231
+[face_detection-1] [INFO] [1684468444.430765772] [face_recognition]: Publishing video frame: 232
+[face_detection-1] [INFO] [1684468444.557190040] [face_recognition]: Publishing video frame: 233
+[face_detection-1] [INFO] [1684468444.692590195] [face_recognition]: Publishing video frame: 234
+[emotion_detection-2] [INFO] [1684468444.878164567] [emotion_detection]: predicted emotion: Surprised
+[action_client-3] [INFO] [1684468444.881561963] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468444.905997178] [face_recognition]: Publishing video frame: 235
+[face_detection-1] [INFO] [1684468445.124495600] [face_recognition]: Publishing video frame: 236
+[action_client-3] [INFO] [1684468445.137192096] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468445.152215132] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468447.143341944] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468449.145502244] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468449.149232890] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468451.151536183] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468451.152381305] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468451.155407619] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468451.371777305] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468451.698152160] [face_recognition]: Publishing video frame: 237
+[face_detection-1] [INFO] [1684468451.854826915] [face_recognition]: Publishing video frame: 238
+[face_detection-1] [INFO] [1684468452.027369023] [face_recognition]: Publishing video frame: 239
+[face_detection-1] [INFO] [1684468452.150564957] [face_recognition]: Publishing video frame: 240
+[face_detection-1] [INFO] [1684468452.350407251] [face_recognition]: Publishing video frame: 241
+[face_detection-1] [INFO] [1684468452.584236433] [face_recognition]: Publishing video frame: 242
+[face_detection-1] [INFO] [1684468452.772602418] [face_recognition]: Publishing video frame: 243
+[face_detection-1] [INFO] [1684468452.884586799] [face_recognition]: Publishing video frame: 244
+[face_detection-1] [INFO] [1684468453.073853023] [face_recognition]: Publishing video frame: 245
+[face_detection-1] [INFO] [1684468453.213901068] [face_recognition]: Publishing video frame: 246
+[face_detection-1] [INFO] [1684468453.484522118] [face_recognition]: Publishing video frame: 247
+[emotion_detection-2] [INFO] [1684468453.641713120] [emotion_detection]: predicted emotion: Surprised
+[action_client-3] [INFO] [1684468453.646700979] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468453.658196239] [face_recognition]: Publishing video frame: 248
+[face_detection-1] [INFO] [1684468453.870089484] [face_recognition]: Publishing video frame: 249
+[action_client-3] [INFO] [1684468453.876903381] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468453.883364249] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468455.886294119] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468457.889398625] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468457.893879201] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468459.898059266] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468459.898981088] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468459.905588348] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468460.151107733] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468460.485031353] [face_recognition]: Publishing video frame: 250
+[face_detection-1] [INFO] [1684468460.633541244] [face_recognition]: Publishing video frame: 251
+[face_detection-1] [INFO] [1684468460.815486377] [face_recognition]: Publishing video frame: 252
+[face_detection-1] [INFO] [1684468460.955867322] [face_recognition]: Publishing video frame: 253
+[face_detection-1] [INFO] [1684468461.153089598] [face_recognition]: Publishing video frame: 254
+[face_detection-1] [INFO] [1684468461.286079734] [face_recognition]: Publishing video frame: 255
+[face_detection-1] [INFO] [1684468461.476519071] [face_recognition]: Publishing video frame: 256
+[emotion_detection-2] [INFO] [1684468461.636732318] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468461.657859321] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468461.694754081] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468461.715126433] [face_recognition]: Publishing video frame: 257
+[face_detection-1] [INFO] [1684468461.890741672] [face_recognition]: Publishing video frame: 258
+[face_detection-1] [INFO] [1684468462.070678181] [face_recognition]: Publishing video frame: 259
+[face_detection-1] [INFO] [1684468462.221377145] [face_recognition]: Publishing video frame: 260
+[face_detection-1] [INFO] [1684468462.381949685] [face_recognition]: Publishing video frame: 261
+[face_detection-1] [INFO] [1684468462.497389729] [face_recognition]: Publishing video frame: 262
+[face_detection-1] [INFO] [1684468462.604212667] [face_recognition]: Publishing video frame: 263
+[face_detection-1] [INFO] [1684468462.734578671] [face_recognition]: Publishing video frame: 264
+[emotion_detection-2] [INFO] [1684468462.781896271] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468462.793870275] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468462.854952128] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468462.886970214] [face_recognition]: Publishing video frame: 265
+[face_detection-1] [INFO] [1684468463.017219176] [face_recognition]: Publishing video frame: 266
+[face_detection-1] [INFO] [1684468463.173409534] [face_recognition]: Publishing video frame: 267
+[face_detection-1] [INFO] [1684468463.370194180] [face_recognition]: Publishing video frame: 268
+[face_detection-1] [INFO] [1684468463.493485450] [face_recognition]: Publishing video frame: 269
+[face_detection-1] [INFO] [1684468463.659814096] [face_recognition]: Publishing video frame: 270
+[face_detection-1] [INFO] [1684468463.815594127] [face_recognition]: Publishing video frame: 271
+[face_detection-1] [INFO] [1684468464.006302175] [face_recognition]: Publishing video frame: 272
+[emotion_detection-2] [INFO] [1684468464.099454118] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468464.106267739] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468464.196248723] [face_recognition]: Publishing video frame: 273
+[face_detection-1] [INFO] [1684468464.346263032] [face_recognition]: Publishing video frame: 274
+[action_client-3] [INFO] [1684468464.379246235] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468464.396201238] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468466.388781769] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468468.392707434] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468468.396384213] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468470.399247638] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468470.400206071] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468470.404329500] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468470.620768936] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468470.990164625] [face_recognition]: Publishing video frame: 275
+[face_detection-1] [INFO] [1684468471.134295916] [face_recognition]: Publishing video frame: 276
+[face_detection-1] [INFO] [1684468471.300397428] [face_recognition]: Publishing video frame: 277
+[face_detection-1] [INFO] [1684468471.449977997] [face_recognition]: Publishing video frame: 278
+[face_detection-1] [INFO] [1684468471.668867217] [face_recognition]: Publishing video frame: 279
+[face_detection-1] [INFO] [1684468471.820459991] [face_recognition]: Publishing video frame: 280
+[emotion_detection-2] [INFO] [1684468472.056026320] [emotion_detection]: predicted emotion: Happy
+[face_detection-1] [INFO] [1684468472.075916114] [face_recognition]: Publishing video frame: 281
+[action_client-3] [INFO] [1684468472.084391289] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468472.295312306] [face_recognition]: Publishing video frame: 282
+[face_detection-1] [INFO] [1684468472.449525976] [face_recognition]: Publishing video frame: 283
+[action_client-3] [INFO] [1684468472.473671707] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468472.490374791] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468474.482255947] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468476.485082162] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468476.489638421] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468478.491869886] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468478.492868883] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468478.497330063] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468478.707673833] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468479.035097776] [face_recognition]: Publishing video frame: 284
+[face_detection-1] [INFO] [1684468479.144945488] [face_recognition]: Publishing video frame: 285
+[face_detection-1] [INFO] [1684468479.334177151] [face_recognition]: Publishing video frame: 286
+[face_detection-1] [INFO] [1684468479.516969909] [face_recognition]: Publishing video frame: 287
+[face_detection-1] [INFO] [1684468479.666912562] [face_recognition]: Publishing video frame: 288
+[face_detection-1] [INFO] [1684468479.848350155] [face_recognition]: Publishing video frame: 289
+[face_detection-1] [INFO] [1684468480.019551869] [face_recognition]: Publishing video frame: 290
+[emotion_detection-2] [INFO] [1684468480.125240296] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468480.135615907] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468480.219476585] [face_recognition]: Publishing video frame: 291
+[face_detection-1] [INFO] [1684468480.337732110] [face_recognition]: Publishing video frame: 292
+[action_client-3] [INFO] [1684468480.368676545] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468480.383616871] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468482.380741924] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468484.385207150] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468484.390229033] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468486.392000720] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468486.393548902] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468486.396611042] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468486.614022009] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468486.929848474] [face_recognition]: Publishing video frame: 293
+[face_detection-1] [INFO] [1684468487.093556628] [face_recognition]: Publishing video frame: 294
+[face_detection-1] [INFO] [1684468487.273706670] [face_recognition]: Publishing video frame: 295
+[face_detection-1] [INFO] [1684468487.481434582] [face_recognition]: Publishing video frame: 296
+[face_detection-1] [INFO] [1684468487.727076648] [face_recognition]: Publishing video frame: 297
+[emotion_detection-2] [INFO] [1684468487.877743735] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468487.886637997] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468487.919461578] [face_recognition]: Publishing video frame: 298
+[face_detection-1] [INFO] [1684468488.072556848] [face_recognition]: Publishing video frame: 299
+[action_client-3] [INFO] [1684468488.081298324] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468488.108767427] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468490.090959959] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468492.096472288] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468492.102135751] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468494.102880470] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468494.104981010] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468494.109687936] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468494.336209681] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468494.696569881] [face_recognition]: Publishing video frame: 300
+[face_detection-1] [INFO] [1684468494.939216727] [face_recognition]: Publishing video frame: 301
+[face_detection-1] [INFO] [1684468495.117117719] [face_recognition]: Publishing video frame: 302
+[face_detection-1] [INFO] [1684468495.368686531] [face_recognition]: Publishing video frame: 303
+[face_detection-1] [INFO] [1684468495.602805565] [face_recognition]: Publishing video frame: 304
+[face_detection-1] [INFO] [1684468495.884870813] [face_recognition]: Publishing video frame: 305
+[face_detection-1] [INFO] [1684468496.192564802] [face_recognition]: Publishing video frame: 306
+[emotion_detection-2] [INFO] [1684468496.248255825] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468496.300770104] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468496.484936837] [face_recognition]: Publishing video frame: 307
+[face_detection-1] [INFO] [1684468496.661150269] [face_recognition]: Publishing video frame: 308
+[action_client-3] [INFO] [1684468496.685429123] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468496.692005449] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468498.692504020] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468500.696580120] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468500.700458070] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468502.718291494] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468502.726930276] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468502.748793446] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468503.028031415] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468503.419168749] [face_recognition]: Publishing video frame: 309
+[face_detection-1] [INFO] [1684468503.614175027] [face_recognition]: Publishing video frame: 310
+[face_detection-1] [INFO] [1684468503.914767582] [face_recognition]: Publishing video frame: 311
+[face_detection-1] [INFO] [1684468504.312306249] [face_recognition]: Publishing video frame: 312
+[face_detection-1] [INFO] [1684468504.707645838] [face_recognition]: Publishing video frame: 313
+[face_detection-1] [INFO] [1684468505.008115615] [face_recognition]: Publishing video frame: 314
+[emotion_detection-2] [INFO] [1684468505.371337744] [emotion_detection]: predicted emotion: Happy
+[face_detection-1] [INFO] [1684468505.373516066] [face_recognition]: Publishing video frame: 315
+[action_client-3] [INFO] [1684468505.376710438] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468505.537825990] [face_recognition]: Publishing video frame: 316
+[face_detection-1] [INFO] [1684468505.877598651] [face_recognition]: Publishing video frame: 317
+[action_client-3] [INFO] [1684468505.915953775] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468505.951090508] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468507.935593220] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468509.947497099] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468509.966128953] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468511.983800233] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468511.985849397] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468511.998522295] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468512.292977663] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468512.824837428] [face_recognition]: Publishing video frame: 318
+[face_detection-1] [INFO] [1684468513.076309226] [face_recognition]: Publishing video frame: 319
+[face_detection-1] [INFO] [1684468513.312748075] [face_recognition]: Publishing video frame: 320
+[face_detection-1] [INFO] [1684468513.620926917] [face_recognition]: Publishing video frame: 321
+[emotion_detection-2] [INFO] [1684468513.803319596] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468513.832671484] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468513.865956755] [face_recognition]: Publishing video frame: 322
+[face_detection-1] [INFO] [1684468514.025590670] [face_recognition]: Publishing video frame: 323
+[action_client-3] [INFO] [1684468514.034510103] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468514.059686725] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468516.048343007] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468518.051777751] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468518.058376071] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468520.061975622] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468520.063385931] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468520.067632615] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468520.295315285] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468520.688720910] [face_recognition]: Publishing video frame: 324
+[face_detection-1] [INFO] [1684468520.837465201] [face_recognition]: Publishing video frame: 325
+[face_detection-1] [INFO] [1684468521.033041130] [face_recognition]: Publishing video frame: 326
+[face_detection-1] [INFO] [1684468521.193885869] [face_recognition]: Publishing video frame: 327
+[face_detection-1] [INFO] [1684468521.397081332] [face_recognition]: Publishing video frame: 328
+[face_detection-1] [INFO] [1684468521.594597255] [face_recognition]: Publishing video frame: 329
+[face_detection-1] [INFO] [1684468521.729657739] [face_recognition]: Publishing video frame: 330
+[emotion_detection-2] [INFO] [1684468521.770296430] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468521.814623916] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468521.932521170] [face_recognition]: Publishing video frame: 331
+[face_detection-1] [INFO] [1684468522.174214396] [face_recognition]: Publishing video frame: 332
+[action_client-3] [INFO] [1684468522.201307745] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468522.220710034] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468524.218037191] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468526.225262865] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468526.241325695] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468528.268657301] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468528.269857737] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468528.291385939] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468528.523149102] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468528.929859405] [face_recognition]: Publishing video frame: 333
+[face_detection-1] [INFO] [1684468529.272498431] [face_recognition]: Publishing video frame: 334
+[face_detection-1] [INFO] [1684468529.453546297] [face_recognition]: Publishing video frame: 335
+[face_detection-1] [INFO] [1684468529.615529832] [face_recognition]: Publishing video frame: 336
+[face_detection-1] [INFO] [1684468529.848356834] [face_recognition]: Publishing video frame: 337
+[face_detection-1] [INFO] [1684468530.307805424] [face_recognition]: Publishing video frame: 338
+[face_detection-1] [INFO] [1684468530.638108859] [face_recognition]: Publishing video frame: 339
+[face_detection-1] [INFO] [1684468530.927191212] [face_recognition]: Publishing video frame: 340
+[emotion_detection-2] [INFO] [1684468531.232867599] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468531.244693464] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468531.252785564] [face_recognition]: Publishing video frame: 341
+[face_detection-1] [INFO] [1684468531.449816993] [face_recognition]: Publishing video frame: 342
+[action_client-3] [INFO] [1684468531.467322781] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468531.500012279] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468533.486151218] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468535.490264651] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468535.496632269] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468537.499063950] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468537.499900138] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468537.504065802] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468537.728212657] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468538.061845710] [face_recognition]: Publishing video frame: 343
+[face_detection-1] [INFO] [1684468538.308424171] [face_recognition]: Publishing video frame: 344
+[face_detection-1] [INFO] [1684468538.450970894] [face_recognition]: Publishing video frame: 345
+[face_detection-1] [INFO] [1684468538.712933630] [face_recognition]: Publishing video frame: 346
+[face_detection-1] [INFO] [1684468538.926167722] [face_recognition]: Publishing video frame: 347
+[face_detection-1] [INFO] [1684468539.137943437] [face_recognition]: Publishing video frame: 348
+[face_detection-1] [INFO] [1684468539.344303979] [face_recognition]: Publishing video frame: 349
+[face_detection-1] [INFO] [1684468539.483561418] [face_recognition]: Publishing video frame: 350
+[emotion_detection-2] [INFO] [1684468539.692533354] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468539.707852545] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468539.719286011] [face_recognition]: Publishing video frame: 351
+[face_detection-1] [INFO] [1684468539.975620653] [face_recognition]: Publishing video frame: 352
+[action_client-3] [INFO] [1684468539.992823653] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468540.019314507] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468542.019068625] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468544.021535519] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468544.029089956] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468546.031052205] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468546.033039826] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468546.037850845] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468546.257856473] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468546.644595611] [face_recognition]: Publishing video frame: 353
+[face_detection-1] [INFO] [1684468546.805965602] [face_recognition]: Publishing video frame: 354
+[face_detection-1] [INFO] [1684468547.039134063] [face_recognition]: Publishing video frame: 355
+[face_detection-1] [INFO] [1684468547.307313787] [face_recognition]: Publishing video frame: 356
+[face_detection-1] [INFO] [1684468547.526719968] [face_recognition]: Publishing video frame: 357
+[face_detection-1] [INFO] [1684468547.807925174] [face_recognition]: Publishing video frame: 358
+[face_detection-1] [INFO] [1684468548.076799938] [face_recognition]: Publishing video frame: 359
+[emotion_detection-2] [INFO] [1684468548.342670234] [emotion_detection]: predicted emotion: Happy
+[face_detection-1] [INFO] [1684468548.347727275] [face_recognition]: Publishing video frame: 360
+[action_client-3] [INFO] [1684468548.438711314] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468548.617095313] [face_recognition]: Publishing video frame: 361
+[face_detection-1] [INFO] [1684468548.825464774] [face_recognition]: Publishing video frame: 362
+[action_client-3] [INFO] [1684468548.840488992] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468548.857006950] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468550.857104170] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468552.864697340] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468552.887588390] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468554.876870400] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468554.878812750] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468554.885795426] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468555.116202878] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468555.492995294] [face_recognition]: Publishing video frame: 363
+[face_detection-1] [INFO] [1684468555.732740963] [face_recognition]: Publishing video frame: 364
+[face_detection-1] [INFO] [1684468555.928032849] [face_recognition]: Publishing video frame: 365
+[face_detection-1] [INFO] [1684468556.212995023] [face_recognition]: Publishing video frame: 366
+[face_detection-1] [INFO] [1684468556.421684976] [face_recognition]: Publishing video frame: 367
+[face_detection-1] [INFO] [1684468556.634716821] [face_recognition]: Publishing video frame: 368
+[face_detection-1] [INFO] [1684468556.977903422] [face_recognition]: Publishing video frame: 369
+[emotion_detection-2] [INFO] [1684468557.030978761] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468557.033838394] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468557.181354041] [face_recognition]: Publishing video frame: 370
+[face_detection-1] [INFO] [1684468557.348506286] [face_recognition]: Publishing video frame: 371
+[action_client-3] [INFO] [1684468557.358789435] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468557.408253806] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468559.368798747] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468561.375177749] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468561.385474701] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468563.387391671] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468563.390344444] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468563.399331157] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468563.620295085] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468564.023126270] [face_recognition]: Publishing video frame: 372
+[face_detection-1] [INFO] [1684468564.197097140] [face_recognition]: Publishing video frame: 373
+[face_detection-1] [INFO] [1684468564.359714012] [face_recognition]: Publishing video frame: 374
+[face_detection-1] [INFO] [1684468564.501944558] [face_recognition]: Publishing video frame: 375
+[face_detection-1] [INFO] [1684468564.821168713] [face_recognition]: Publishing video frame: 376
+[face_detection-1] [INFO] [1684468565.105540801] [face_recognition]: Publishing video frame: 377
+[emotion_detection-2] [INFO] [1684468565.308773282] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468565.317407137] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468565.443070027] [face_recognition]: Publishing video frame: 378
+[face_detection-1] [INFO] [1684468565.634007602] [face_recognition]: Publishing video frame: 379
+[action_client-3] [INFO] [1684468565.669954820] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468565.720174812] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468567.702744656] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468569.705342268] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468569.708656004] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468571.719266075] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468571.720220715] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468571.723013484] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468571.942305141] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468572.353548638] [face_recognition]: Publishing video frame: 380
+[face_detection-1] [INFO] [1684468572.654561031] [face_recognition]: Publishing video frame: 381
+[face_detection-1] [INFO] [1684468572.843681287] [face_recognition]: Publishing video frame: 382
+[face_detection-1] [INFO] [1684468572.989549890] [face_recognition]: Publishing video frame: 383
+[face_detection-1] [INFO] [1684468573.133654738] [face_recognition]: Publishing video frame: 384
+[face_detection-1] [INFO] [1684468573.337958342] [face_recognition]: Publishing video frame: 385
+[face_detection-1] [INFO] [1684468573.555740298] [face_recognition]: Publishing video frame: 386
+[face_detection-1] [INFO] [1684468573.778845233] [face_recognition]: Publishing video frame: 387
+[emotion_detection-2] [INFO] [1684468574.053011129] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468574.059307231] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468574.127365171] [face_recognition]: Publishing video frame: 388
+[face_detection-1] [INFO] [1684468574.339333794] [face_recognition]: Publishing video frame: 389
+[action_client-3] [INFO] [1684468574.346027312] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468574.353344516] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468576.372086677] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468578.384753215] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468578.417802444] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468580.420455156] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468580.421491657] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468580.428177655] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468580.644956701] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468581.067612998] [face_recognition]: Publishing video frame: 390
+[face_detection-1] [INFO] [1684468581.224992672] [face_recognition]: Publishing video frame: 391
+[face_detection-1] [INFO] [1684468581.428055623] [face_recognition]: Publishing video frame: 392
+[face_detection-1] [INFO] [1684468581.625115520] [face_recognition]: Publishing video frame: 393
+[face_detection-1] [INFO] [1684468581.864411917] [face_recognition]: Publishing video frame: 394
+[face_detection-1] [INFO] [1684468582.054180707] [face_recognition]: Publishing video frame: 395
+[face_detection-1] [INFO] [1684468582.281039242] [face_recognition]: Publishing video frame: 396
+[emotion_detection-2] [INFO] [1684468582.522798411] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468582.525984164] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468582.583967013] [face_recognition]: Publishing video frame: 397
+[face_detection-1] [INFO] [1684468582.792665335] [face_recognition]: Publishing video frame: 398
+[action_client-3] [INFO] [1684468582.821430707] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468582.834786011] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468584.836018954] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468586.840667266] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468586.849749607] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468588.860828641] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468588.861758549] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468588.866310805] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468589.100779107] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468589.453032570] [face_recognition]: Publishing video frame: 399
+[face_detection-1] [INFO] [1684468589.579600048] [face_recognition]: Publishing video frame: 400
+[face_detection-1] [INFO] [1684468589.724465419] [face_recognition]: Publishing video frame: 401
+[face_detection-1] [INFO] [1684468589.992657240] [face_recognition]: Publishing video frame: 402
+[face_detection-1] [INFO] [1684468590.139816937] [face_recognition]: Publishing video frame: 403
+[face_detection-1] [INFO] [1684468590.266562940] [face_recognition]: Publishing video frame: 404
+[face_detection-1] [INFO] [1684468590.519276880] [face_recognition]: Publishing video frame: 405
+[face_detection-1] [INFO] [1684468590.772558429] [face_recognition]: Publishing video frame: 406
+[face_detection-1] [INFO] [1684468590.946703184] [face_recognition]: Publishing video frame: 407
+[emotion_detection-2] [INFO] [1684468591.111365874] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468591.117762131] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468591.131895443] [face_recognition]: Publishing video frame: 408
+[face_detection-1] [INFO] [1684468591.335194087] [face_recognition]: Publishing video frame: 409
+[action_client-3] [INFO] [1684468591.346191460] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468591.385915592] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468593.355978242] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468595.359250750] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468595.364825021] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468596.369663396] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468596.370648473] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468596.376152348] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468596.616527931] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468596.957640429] [face_recognition]: Publishing video frame: 410
+[face_detection-1] [INFO] [1684468597.153802187] [face_recognition]: Publishing video frame: 411
+[face_detection-1] [INFO] [1684468597.383596124] [face_recognition]: Publishing video frame: 412
+[face_detection-1] [INFO] [1684468597.563022674] [face_recognition]: Publishing video frame: 413
+[face_detection-1] [INFO] [1684468597.807397799] [face_recognition]: Publishing video frame: 414
+[face_detection-1] [INFO] [1684468598.055568080] [face_recognition]: Publishing video frame: 415
+[face_detection-1] [INFO] [1684468598.245594750] [face_recognition]: Publishing video frame: 416
+[face_detection-1] [INFO] [1684468598.471442262] [face_recognition]: Publishing video frame: 417
+[face_detection-1] [INFO] [1684468598.677236484] [face_recognition]: Publishing video frame: 418
+[emotion_detection-2] [INFO] [1684468598.847323961] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468598.849739852] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468598.945371187] [face_recognition]: Publishing video frame: 419
+[face_detection-1] [INFO] [1684468599.156400049] [face_recognition]: Publishing video frame: 420
+[action_client-3] [INFO] [1684468599.180031678] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468599.196580126] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468601.186179228] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468603.189290498] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468603.223825045] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468605.225419454] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468605.226323992] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468605.232063250] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468605.463456980] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468605.833968625] [face_recognition]: Publishing video frame: 421
+[face_detection-1] [INFO] [1684468606.000087802] [face_recognition]: Publishing video frame: 422
+[face_detection-1] [INFO] [1684468606.245888590] [face_recognition]: Publishing video frame: 423
+[face_detection-1] [INFO] [1684468606.456056327] [face_recognition]: Publishing video frame: 424
+[face_detection-1] [INFO] [1684468606.655704814] [face_recognition]: Publishing video frame: 425
+[face_detection-1] [INFO] [1684468606.949397430] [face_recognition]: Publishing video frame: 426
+[face_detection-1] [INFO] [1684468607.232928275] [face_recognition]: Publishing video frame: 427
+[emotion_detection-2] [INFO] [1684468607.447863650] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468607.470138118] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468607.531100927] [face_recognition]: Publishing video frame: 428
+[face_detection-1] [INFO] [1684468607.660808147] [face_recognition]: Publishing video frame: 429
+[action_client-3] [INFO] [1684468607.685860653] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468607.714238885] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468609.699948550] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468611.706377154] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468611.732446740] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468613.726416257] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468613.728228981] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468613.733130740] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468613.979203474] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468614.396158199] [face_recognition]: Publishing video frame: 430
+[face_detection-1] [INFO] [1684468614.599219677] [face_recognition]: Publishing video frame: 431
+[face_detection-1] [INFO] [1684468614.830112430] [face_recognition]: Publishing video frame: 432
+[face_detection-1] [INFO] [1684468614.972869539] [face_recognition]: Publishing video frame: 433
+[face_detection-1] [INFO] [1684468615.177786432] [face_recognition]: Publishing video frame: 434
+[face_detection-1] [INFO] [1684468615.446032097] [face_recognition]: Publishing video frame: 435
+[face_detection-1] [INFO] [1684468615.703193506] [face_recognition]: Publishing video frame: 436
+[emotion_detection-2] [INFO] [1684468615.870829266] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468615.874092223] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468615.938021770] [face_recognition]: Publishing video frame: 437
+[face_detection-1] [INFO] [1684468616.262728223] [face_recognition]: Publishing video frame: 438
+[action_client-3] [INFO] [1684468616.280467412] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468616.305344617] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468618.297528824] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468620.300108620] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468620.312689713] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468622.307001300] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468622.307915663] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468622.313833820] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468622.524576443] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468622.896311548] [face_recognition]: Publishing video frame: 439
+[face_detection-1] [INFO] [1684468623.088620221] [face_recognition]: Publishing video frame: 440
+[face_detection-1] [INFO] [1684468623.250664748] [face_recognition]: Publishing video frame: 441
+[face_detection-1] [INFO] [1684468623.462343731] [face_recognition]: Publishing video frame: 442
+[face_detection-1] [INFO] [1684468623.744593240] [face_recognition]: Publishing video frame: 443
+[face_detection-1] [INFO] [1684468624.000844647] [face_recognition]: Publishing video frame: 444
+[face_detection-1] [INFO] [1684468624.206091219] [face_recognition]: Publishing video frame: 445
+[face_detection-1] [INFO] [1684468624.411204407] [face_recognition]: Publishing video frame: 446
+[face_detection-1] [INFO] [1684468624.643318758] [face_recognition]: Publishing video frame: 447
+[emotion_detection-2] [INFO] [1684468624.648826167] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468624.673547624] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468624.934194932] [face_recognition]: Publishing video frame: 448
+[face_detection-1] [INFO] [1684468625.131729040] [face_recognition]: Publishing video frame: 449
+[action_client-3] [INFO] [1684468625.139270128] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468625.146881062] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468627.149549768] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468629.153443007] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468629.160478420] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468631.164192383] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468631.165032418] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468631.168105706] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468631.387937845] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468631.713373401] [face_recognition]: Publishing video frame: 450
+[face_detection-1] [INFO] [1684468631.906574753] [face_recognition]: Publishing video frame: 451
+[face_detection-1] [INFO] [1684468632.141456101] [face_recognition]: Publishing video frame: 452
+[face_detection-1] [INFO] [1684468632.413136090] [face_recognition]: Publishing video frame: 453
+[face_detection-1] [INFO] [1684468632.698636768] [face_recognition]: Publishing video frame: 454
+[face_detection-1] [INFO] [1684468632.994662540] [face_recognition]: Publishing video frame: 455
+[emotion_detection-2] [INFO] [1684468633.244174406] [emotion_detection]: predicted emotion: Happy
+[face_detection-1] [INFO] [1684468633.257821357] [face_recognition]: Publishing video frame: 456
+[action_client-3] [INFO] [1684468633.333645792] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468633.500867976] [face_recognition]: Publishing video frame: 457
+[face_detection-1] [INFO] [1684468633.678867857] [face_recognition]: Publishing video frame: 458
+[action_client-3] [INFO] [1684468633.693174659] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468633.751472545] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468635.718818058] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468637.724881422] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468637.730143684] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468639.734923486] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468639.737078591] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468639.740803954] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468639.960455618] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468640.344436819] [face_recognition]: Publishing video frame: 459
+[face_detection-1] [INFO] [1684468640.536359211] [face_recognition]: Publishing video frame: 460
+[face_detection-1] [INFO] [1684468640.719438170] [face_recognition]: Publishing video frame: 461
+[face_detection-1] [INFO] [1684468640.983724053] [face_recognition]: Publishing video frame: 462
+[face_detection-1] [INFO] [1684468641.206809710] [face_recognition]: Publishing video frame: 463
+[face_detection-1] [INFO] [1684468641.458994810] [face_recognition]: Publishing video frame: 464
+[face_detection-1] [INFO] [1684468641.639365376] [face_recognition]: Publishing video frame: 465
+[face_detection-1] [INFO] [1684468641.884044331] [face_recognition]: Publishing video frame: 466
+[face_detection-1] [INFO] [1684468642.108877676] [face_recognition]: Publishing video frame: 467
+[emotion_detection-2] [INFO] [1684468642.209509691] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684468642.231922690] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684468642.378670418] [face_recognition]: Publishing video frame: 468
+[face_detection-1] [INFO] [1684468642.642662473] [face_recognition]: Publishing video frame: 469
+[action_client-3] [INFO] [1684468642.669724218] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684468642.706121200] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468644.681157306] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468646.683348569] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684468646.691181207] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684468648.693484576] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684468648.694444595] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684468648.698636386] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684468648.927363541] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684468649.366500230] [face_recognition]: Publishing video frame: 470
+[face_detection-1] [INFO] [1684468649.540571457] [face_recognition]: Publishing video frame: 471
+[face_detection-1] [INFO] [1684468649.745449604] [face_recognition]: Publishing video frame: 472
+[face_detection-1] [INFO] [1684468649.926061028] [face_recognition]: Publishing video frame: 473
+[face_detection-1] [INFO] [1684468650.144210233] [face_recognition]: Publishing video frame: 474
+[face_detection-1] [INFO] [1684468650.411685439] [face_recognition]: Publishing video frame: 475
+[face_detection-1] [INFO] [1684468650.624799731] [face_recognition]: Publishing video frame: 476
+[face_detection-1] [INFO] [1684468650.925023145] [face_recognition]: Publishing video frame: 477
+[emotion_detection-2] [INFO] [1684468651.052356668] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468651.058408544] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468651.099196935] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468651.298292381] [face_recognition]: Publishing video frame: 478
+[face_detection-1] [INFO] [1684468651.446280617] [face_recognition]: Publishing video frame: 479
+[face_detection-1] [INFO] [1684468651.621894458] [face_recognition]: Publishing video frame: 480
+[face_detection-1] [INFO] [1684468651.957563163] [face_recognition]: Publishing video frame: 481
+[face_detection-1] [INFO] [1684468652.176393785] [face_recognition]: Publishing video frame: 482
+[emotion_detection-2] [INFO] [1684468652.363030319] [emotion_detection]: predicted emotion: Neutral
+[face_detection-1] [INFO] [1684468652.420537722] [face_recognition]: Publishing video frame: 483
+[action_client-3] [INFO] [1684468652.426898561] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468652.436743045] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468652.617280228] [face_recognition]: Publishing video frame: 484
+[face_detection-1] [INFO] [1684468652.791880908] [face_recognition]: Publishing video frame: 485
+[face_detection-1] [INFO] [1684468653.024127610] [face_recognition]: Publishing video frame: 486
+[face_detection-1] [INFO] [1684468653.244777479] [face_recognition]: Publishing video frame: 487
+[emotion_detection-2] [INFO] [1684468653.563871783] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468653.571766134] [action_client]: Emotion denied -> exiting...
+[face_detection-1] [INFO] [1684468653.600957110] [face_recognition]: Publishing video frame: 488
+[emotion_detection-2] [INFO] [1684468653.634584338] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468653.852941291] [face_recognition]: Publishing video frame: 489
+[face_detection-1] [INFO] [1684468654.139117114] [face_recognition]: Publishing video frame: 490
+[face_detection-1] [INFO] [1684468654.418075654] [face_recognition]: Publishing video frame: 491
+[face_detection-1] [INFO] [1684468654.696354821] [face_recognition]: Publishing video frame: 492
+[face_detection-1] [INFO] [1684468654.978361983] [face_recognition]: Publishing video frame: 493
+[emotion_detection-2] [INFO] [1684468655.200449412] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468655.214360932] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468655.242005333] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468655.290492045] [face_recognition]: Publishing video frame: 494
+[face_detection-1] [INFO] [1684468655.480251085] [face_recognition]: Publishing video frame: 495
+[face_detection-1] [INFO] [1684468655.761265288] [face_recognition]: Publishing video frame: 496
+[face_detection-1] [INFO] [1684468656.006639717] [face_recognition]: Publishing video frame: 497
+[face_detection-1] [INFO] [1684468656.274790552] [face_recognition]: Publishing video frame: 498
+[emotion_detection-2] [INFO] [1684468656.327664469] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468656.362722956] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468656.404692435] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468656.541376906] [face_recognition]: Publishing video frame: 499
+[face_detection-1] [INFO] [1684468656.763419641] [face_recognition]: Publishing video frame: 500
+[face_detection-1] [INFO] [1684468656.966423296] [face_recognition]: Publishing video frame: 501
+[face_detection-1] [INFO] [1684468657.251735392] [face_recognition]: Publishing video frame: 502
+[emotion_detection-2] [INFO] [1684468657.275995266] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684468657.288325741] [action_client]: Emotion denied -> exiting...
+[emotion_detection-2] [INFO] [1684468657.313643380] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684468657.426462183] [face_recognition]: Publishing video frame: 503
+[face_detection-1] [INFO] [1684468657.646474371] [face_recognition]: Publishing video frame: 504
+[face_detection-1] [INFO] [1684468657.893579688] [face_recognition]: Publishing video frame: 505
+[face_detection-1] [INFO] [1684468658.190851162] [face_recognition]: Publishing video frame: 506
+[face_detection-1] [INFO] [1684468658.478862112] [face_recognition]: Publishing video frame: 507
+[face_detection-1] [INFO] [1684468658.811410938] [face_recognition]: Publishing video frame: 508
+[emotion_detection-2] [INFO] [1684468659.104912297] [emotion_detection]: predicted emotion: Neutral
+[emotion_detection-2] [INFO] [1684468659.133544440] [emotion_detection]: emotion declined!
+[action_client-3] [INFO] [1684468659.114059146] [action_client]: Emotion denied -> exiting...
+[face_detection-1] [INFO] [1684468659.190966743] [face_recognition]: Publishing video frame: 509
+[face_detection-1] [INFO] [1684468659.431209071] [face_recognition]: Publishing video frame: 510
+^C[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[action_client-3] [INFO] [1684468659.652621609] [action_client]: exiting...
+[face_detection-1] [INFO] [1684468659.679538465] [face_recognition]: exiting...
+[emotion_detection-2] [INFO] [1684468659.700352518] [emotion_detection]: CTRL + C, exiting...
+[action_client-3] Exception ignored in: <function ActionClient.__del__ at 0x7f47578d65e0>
+[action_client-3] Traceback (most recent call last):
+[action_client-3]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/action/client.py", line 596, in __del__
+[action_client-3]     self.destroy()
+[action_client-3]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/action/client.py", line 589, in destroy
+[action_client-3]     with self._node.handle as node_capsule:
+[action_client-3]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/handle.py", line 124, in __enter__
+[action_client-3]     return self._get_capsule()
+[action_client-3]   File "/opt/ros/foxy/lib/python3.8/site-packages/rclpy/handle.py", line 106, in _get_capsule
+[action_client-3]     raise InvalidHandle('Tried to use a handle that has been destroyed.')
+[action_client-3] rclpy.handle.InvalidHandle: Tried to use a handle that has been destroyed.
+[emotion_detection-2] [INFO] [1684468660.013892148] [emotion_detection]: predicted emotion: Neutral
+[INFO] [action_client-3]: process has finished cleanly [pid 2533]
+[INFO] [face_detection-1]: process has finished cleanly [pid 2529]
+[emotion_detection-2] [INFO] [1684468660.517941287] [emotion_detection]: detected_emotion service not available, waiting again...
+[emotion_detection-2] The following exception was never retrieved: Tried to use a handle that has been destroyed.
+[INFO] [emotion_detection-2]: process has finished cleanly [pid 2531]
+

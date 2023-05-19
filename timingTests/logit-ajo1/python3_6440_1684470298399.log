@@ -1,0 +1,87 @@
+[INFO] [1684470300.434960125] [emotion_detection]: [*] Initializing emotion_detection node...
+[INFO] [1684470303.551835298] [emotion_detection]: [*] Initializing emotion_detection node DONE!
+[INFO] [1684470306.276675478] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470306.308346293] [emotion_detection]: emotion declined!
+[INFO] [1684470307.728693831] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470315.727497205] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684470323.550028992] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684470331.624031223] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470331.650003902] [emotion_detection]: emotion declined!
+[INFO] [1684470332.301615783] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470332.412040115] [emotion_detection]: emotion declined!
+[INFO] [1684470333.143231224] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470333.272397864] [emotion_detection]: emotion declined!
+[INFO] [1684470334.219287772] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470334.271586086] [emotion_detection]: emotion declined!
+[INFO] [1684470335.161793416] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470335.197403286] [emotion_detection]: emotion declined!
+[INFO] [1684470336.710992747] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684470344.639750649] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470344.676806586] [emotion_detection]: emotion declined!
+[INFO] [1684470345.553661531] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470345.605394021] [emotion_detection]: emotion declined!
+[INFO] [1684470346.324835511] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470346.353486342] [emotion_detection]: emotion declined!
+[INFO] [1684470347.374887392] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470347.427773456] [emotion_detection]: emotion declined!
+[INFO] [1684470348.505639913] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470348.593952253] [emotion_detection]: emotion declined!
+[INFO] [1684470349.779914664] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470349.814312235] [emotion_detection]: emotion declined!
+[INFO] [1684470351.594624577] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470351.628977325] [emotion_detection]: emotion declined!
+[INFO] [1684470352.737661846] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470352.784758212] [emotion_detection]: emotion declined!
+[INFO] [1684470353.318731769] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470353.344921861] [emotion_detection]: emotion declined!
+[INFO] [1684470354.630691963] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470354.646158947] [emotion_detection]: emotion declined!
+[INFO] [1684470356.285881926] [emotion_detection]: predicted emotion: Fear
+[INFO] [1684470356.320591946] [emotion_detection]: emotion declined!
+[INFO] [1684470359.188179502] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470359.210746441] [emotion_detection]: emotion declined!
+[INFO] [1684470360.055785781] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470360.112744718] [emotion_detection]: emotion declined!
+[INFO] [1684470360.658494984] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470360.671080343] [emotion_detection]: emotion declined!
+[INFO] [1684470361.910233363] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470361.924059493] [emotion_detection]: emotion declined!
+[INFO] [1684470362.997757932] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470363.012217047] [emotion_detection]: emotion declined!
+[INFO] [1684470364.914308527] [emotion_detection]: predicted emotion: Angry
+[INFO] [1684470373.176882129] [emotion_detection]: predicted emotion: Sad
+[INFO] [1684470381.230157099] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470381.247063902] [emotion_detection]: emotion declined!
+[INFO] [1684470381.900163110] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470381.931973373] [emotion_detection]: emotion declined!
+[INFO] [1684470382.797706731] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470382.833752242] [emotion_detection]: emotion declined!
+[INFO] [1684470383.535794762] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470383.577588774] [emotion_detection]: emotion declined!
+[INFO] [1684470384.895826886] [emotion_detection]: predicted emotion: Sad
+[INFO] [1684470392.923000795] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470401.016929228] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470409.582951403] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470417.634066660] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470425.703907820] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470433.929149751] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470441.744002558] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470449.642304836] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470460.708894881] [emotion_detection]: predicted emotion: Neutral
+[INFO] [1684470460.738494289] [emotion_detection]: emotion declined!
+[INFO] [1684470463.067342298] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470471.001799097] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470479.435102444] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470487.677361990] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470495.981299020] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470504.126158969] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470512.612789558] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470520.742845675] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470528.804655419] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470536.820739617] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470546.107035942] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470554.308213952] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470562.491562895] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470579.703164950] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470587.845807369] [emotion_detection]: predicted emotion: Happy
+[INFO] [1684470592.753455492] [emotion_detection]: CTRL + C, exiting...

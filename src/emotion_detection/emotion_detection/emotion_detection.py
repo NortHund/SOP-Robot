@@ -1,6 +1,7 @@
 # Python libraries
 import numpy as np
 import os
+import time
 from itertools import groupby
 from collections import deque
 from threading import Lock
@@ -35,7 +36,7 @@ class EmotionDetection(Node):
     def	__init__(self):
         super().__init__("emotion_detection")
         self.logger = self.get_logger()
-        self.logger.info("[*] Initializing emotion_detection node...")
+        self.logger.info("[*] init Initializing-emotion_detection-node...")
 
         self.cv_bridge = CvBridge()
         # circular buffer 
@@ -87,7 +88,7 @@ class EmotionDetection(Node):
             callback_group=self.cb_group3 	# callback group
         )
 
-        self.logger.info("[*] Initializing emotion_detection node DONE!")
+        self.logger.info("[*] init Initializing-emotion_detection-node_DONE!")
 
 
 
@@ -115,12 +116,14 @@ class EmotionDetection(Node):
         if self.sending_emotion == True:
             #self.logger.info("EXIT before running inference")
             return
-
+        
+        start_time = time.time()
+        
         # convert image message back to image
         try:
             cv_img = self.cv_bridge.imgmsg_to_cv2(image_msg)
         except CvBridgeError:
-            self.logger.error("[*] CvBridgeError")
+            self.logger.error("[*] fail CvBridgeError")
             return
         
         # run the inference
@@ -128,8 +131,10 @@ class EmotionDetection(Node):
         pixels = np.expand_dims(pixels, axis=0)
         predictions = self.FER_model.predict(pixels/255, verbose=0)
         index = np.argmax(predictions[0])
-
-
+        
+        self.logger.info('message emotion_analyse Analyzed_emotion_from_an_image')
+        self.logger.info('timer emotion_analysis %s' % (time.time() - start_time) )
+        
         # allow only 1 thread at a time to modify the circular buffer
         with self.emotion_buffer_lock:
 
@@ -145,7 +150,7 @@ class EmotionDetection(Node):
                 len(self.predicted_emotions) >= self._buffsize and 
                 not self.sending_emotion
             ):
-                self.logger.info(f"predicted emotion: {self.emotions[index]}")
+                self.logger.info(f"message predicted_emotion {self.emotions[index]}")
                 self.sending_emotion = True	# stop other threads from doing uneccessary work (inference)
                 self.emotion = self.emotions[index]
                 self.predicted_emotions.clear()
@@ -158,7 +163,7 @@ class EmotionDetection(Node):
         
         # wait for action_service to be available
         while not self.action_client.wait_for_service(timeout_sec=0.5):
-            self.logger.info("detected_emotion service not available, waiting again...")
+            self.logger.info("message wait detected_emotion-service_not_available,_waiting_again...")
 
         # send emotion to robot_action_client
         self.action_req.string_value = self.emotion # build request message
@@ -169,7 +174,7 @@ class EmotionDetection(Node):
         # check if emotion was in the accepted list
         # otherwise keep sending emotions untill one is found
         if result.bool_value == False:
-            self.logger.info("emotion declined!")
+            self.logger.info("message decline emotion_declined!")
             self.sending_emotion = False	
 
 
@@ -195,7 +200,7 @@ def main(args=None):
 
         emotion_detection = EmotionDetection()
         if executor.add_node(emotion_detection) == False:
-            emotion_detection.logger.fatal("[*] Failed to add a node to the executor")
+            emotion_detection.logger.fatal("[*] fail Failed_to_add_a_node_to_the_executor")
             sys.exit(1)
 
         try:
@@ -204,7 +209,7 @@ def main(args=None):
                 executor.spin_once()
 
         except KeyboardInterrupt:
-            emotion_detection.logger.info("CTRL + C, exiting...")
+            emotion_detection.logger.info("message exit CTRL_+_C,_exiting...")
 
         finally:
             # unnecessary kinda

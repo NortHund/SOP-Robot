@@ -14,7 +14,17 @@ from ament_index_python.packages import get_package_share_directory
 # ROS 2 services/messages
 from std_msgs.msg import String
 
+    async def log_msg_callback(self, message, response):
+        '''
+        This callback is called when a log message is received.
+        1.) Write received message into log file
+        '''
 
+
+
+        response.bool_value = True
+
+        return response
 
 def main(args=None):
     # Initialize context

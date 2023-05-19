@@ -32,16 +32,8 @@ def generate_launch_description():
         # emulate_tty=True,
     )
 
-    logger_node = Node(
-        package=package_name,
-        executable="logger",
-        # output='screen',
-        # emulate_tty=True,
-    )
-
     launch_description.add_action(face_detection_node)
     launch_description.add_action(emotion_detection_node)
     launch_description.add_action(action_client_node)
-    launch_description.add_action(logger_node)
 
     return launch_description

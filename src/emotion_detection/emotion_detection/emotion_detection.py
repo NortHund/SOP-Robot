@@ -126,6 +126,7 @@ class EmotionDetection(Node):
             return
             
         start_time = time.time()
+        #self.logger.info('starting emotion analysis %s' % (time.time()) )
         
         # run the inference
         pixels = img_to_array(cv_img)
@@ -135,6 +136,7 @@ class EmotionDetection(Node):
         
         #self.logger.info('message emotion_analyse Analyzed_emotion_from_an_image')
         self.logger.info('timing e_a %s' % (time.time() - start_time) )
+        #self.logger.info('starting time was %s' % (start_time) )
         
         # allow only 1 thread at a time to modify the circular buffer
         with self.emotion_buffer_lock:

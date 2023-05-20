@@ -1,0 +1,382 @@
+[face_detection-1] [INFO] [1684519168.611503212] [face_recognition]: Publishing video frame: 1
+[face_detection-1] [INFO] [1684519168.613466684] [face_recognition]: timing f_p 0.15114879608154297
+[face_detection-1] [INFO] [1684519168.778080563] [face_recognition]: Publishing video frame: 2
+[face_detection-1] [INFO] [1684519168.779316223] [face_recognition]: timing f_p 0.16329383850097656
+[face_detection-1] [INFO] [1684519168.928440507] [face_recognition]: Publishing video frame: 3
+[face_detection-1] [INFO] [1684519168.930581081] [face_recognition]: timing f_p 0.14847326278686523
+[face_detection-1] [INFO] [1684519169.070044397] [face_recognition]: Publishing video frame: 4
+[face_detection-1] [INFO] [1684519169.073011693] [face_recognition]: timing f_p 0.13907456398010254
+[face_detection-1] [INFO] [1684519169.210431967] [face_recognition]: Publishing video frame: 5
+[face_detection-1] [INFO] [1684519169.211461840] [face_recognition]: timing f_p 0.1362910270690918
+[face_detection-1] [INFO] [1684519169.329692881] [face_recognition]: Publishing video frame: 6
+[face_detection-1] [INFO] [1684519169.334042892] [face_recognition]: timing f_p 0.11792445182800293
+[face_detection-1] [INFO] [1684519169.470412923] [face_recognition]: Publishing video frame: 7
+[face_detection-1] [INFO] [1684519169.472104016] [face_recognition]: timing f_p 0.13520479202270508
+[face_detection-1] [INFO] [1684519169.620911827] [face_recognition]: Publishing video frame: 8
+[face_detection-1] [INFO] [1684519169.622384860] [face_recognition]: timing f_p 0.14798855781555176
+[face_detection-1] [INFO] [1684519169.770164904] [face_recognition]: Publishing video frame: 9
+[face_detection-1] [INFO] [1684519169.772047293] [face_recognition]: timing f_p 0.14713788032531738
+[face_detection-1] [INFO] [1684519169.920312102] [face_recognition]: Publishing video frame: 10
+[face_detection-1] [INFO] [1684519169.922197956] [face_recognition]: timing f_p 0.14798498153686523
+[face_detection-1] [INFO] [1684519170.068017964] [face_recognition]: Publishing video frame: 11
+[face_detection-1] [INFO] [1684519170.070591570] [face_recognition]: timing f_p 0.14645886421203613
+[face_detection-1] [INFO] [1684519170.189940863] [face_recognition]: Publishing video frame: 12
+[face_detection-1] [INFO] [1684519170.192477783] [face_recognition]: timing f_p 0.11879801750183105
+[face_detection-1] [INFO] [1684519170.355878074] [face_recognition]: Publishing video frame: 13
+[face_detection-1] [INFO] [1684519170.357869773] [face_recognition]: timing f_p 0.163421630859375
+[face_detection-1] [INFO] [1684519170.548293084] [face_recognition]: Publishing video frame: 14
+[face_detection-1] [INFO] [1684519170.549355713] [face_recognition]: timing f_p 0.18886613845825195
+[face_detection-1] [INFO] [1684519170.674062568] [face_recognition]: Publishing video frame: 15
+[face_detection-1] [INFO] [1684519170.675451504] [face_recognition]: timing f_p 0.12420773506164551
+[face_detection-1] [INFO] [1684519170.841146331] [face_recognition]: Publishing video frame: 16
+[face_detection-1] [INFO] [1684519170.842126190] [face_recognition]: timing f_p 0.16491365432739258
+[face_detection-1] [INFO] [1684519170.972420743] [face_recognition]: Publishing video frame: 17
+[face_detection-1] [INFO] [1684519170.978159521] [face_recognition]: timing f_p 0.13320374488830566
+[face_detection-1] [INFO] [1684519171.097903329] [face_recognition]: Publishing video frame: 18
+[face_detection-1] [INFO] [1684519171.100115813] [face_recognition]: timing f_p 0.11838674545288086
+[face_detection-1] [INFO] [1684519171.220053937] [face_recognition]: Publishing video frame: 19
+[face_detection-1] [INFO] [1684519171.221147853] [face_recognition]: timing f_p 0.11877822875976562
+[face_detection-1] [INFO] [1684519171.370191909] [face_recognition]: Publishing video frame: 20
+[face_detection-1] [INFO] [1684519171.371041665] [face_recognition]: timing f_p 0.14848828315734863
+[face_detection-1] [INFO] [1684519171.519303354] [face_recognition]: Publishing video frame: 21
+[face_detection-1] [INFO] [1684519171.520569966] [face_recognition]: timing f_p 0.14806079864501953
+[face_detection-1] [INFO] [1684519171.644033855] [face_recognition]: Publishing video frame: 22
+[face_detection-1] [INFO] [1684519171.645387571] [face_recognition]: timing f_p 0.12270259857177734
+[face_detection-1] [INFO] [1684519171.791791705] [face_recognition]: Publishing video frame: 23
+[face_detection-1] [INFO] [1684519171.795958530] [face_recognition]: timing f_p 0.1470339298248291
+[face_detection-1] [INFO] [1684519171.966668470] [face_recognition]: Publishing video frame: 24
+[face_detection-1] [INFO] [1684519171.967877072] [face_recognition]: timing f_p 0.16387629508972168
+[face_detection-1] [INFO] [1684519172.199825511] [face_recognition]: Publishing video frame: 25
+[face_detection-1] [INFO] [1684519172.201573540] [face_recognition]: timing f_p 0.23149967193603516
+[face_detection-1] [INFO] [1684519172.351855732] [face_recognition]: Publishing video frame: 26
+[face_detection-1] [INFO] [1684519172.362341622] [face_recognition]: timing f_p 0.1492166519165039
+[face_detection-1] [INFO] [1684519172.610813197] [face_recognition]: Publishing video frame: 27
+[face_detection-1] [INFO] [1684519172.611988359] [face_recognition]: timing f_p 0.2468094825744629
+[face_detection-1] [INFO] [1684519172.797092664] [face_recognition]: Publishing video frame: 28
+[face_detection-1] [INFO] [1684519172.798836280] [face_recognition]: timing f_p 0.18482398986816406
+[face_detection-1] [INFO] [1684519172.940214642] [face_recognition]: Publishing video frame: 29
+[face_detection-1] [INFO] [1684519172.941901583] [face_recognition]: timing f_p 0.1403512954711914
+[face_detection-1] [INFO] [1684519173.121401987] [face_recognition]: Publishing video frame: 30
+[face_detection-1] [INFO] [1684519173.122955609] [face_recognition]: timing f_p 0.17892193794250488
+[face_detection-1] [INFO] [1684519173.340999918] [face_recognition]: Publishing video frame: 31
+[face_detection-1] [INFO] [1684519173.342153378] [face_recognition]: timing f_p 0.2172870635986328
+[face_detection-1] [INFO] [1684519173.583821099] [face_recognition]: Publishing video frame: 32
+[face_detection-1] [INFO] [1684519173.586491768] [face_recognition]: timing f_p 0.24106383323669434
+[face_detection-1] [INFO] [1684519173.783601525] [face_recognition]: Publishing video frame: 33
+[face_detection-1] [INFO] [1684519173.792286291] [face_recognition]: timing f_p 0.19618654251098633
+[face_detection-1] [INFO] [1684519173.927091326] [face_recognition]: Publishing video frame: 34
+[face_detection-1] [INFO] [1684519173.928211278] [face_recognition]: timing f_p 0.13412165641784668
+[face_detection-1] [INFO] [1684519174.104857057] [face_recognition]: Publishing video frame: 35
+[face_detection-1] [INFO] [1684519174.105774622] [face_recognition]: timing f_p 0.17606520652770996
+[face_detection-1] [INFO] [1684519174.224257377] [face_recognition]: Publishing video frame: 36
+[face_detection-1] [INFO] [1684519174.226219518] [face_recognition]: timing f_p 0.11816287040710449
+[face_detection-1] [INFO] [1684519174.389643395] [face_recognition]: Publishing video frame: 37
+[face_detection-1] [INFO] [1684519174.390659455] [face_recognition]: timing f_p 0.1629173755645752
+[face_detection-1] [INFO] [1684519174.542578822] [face_recognition]: Publishing video frame: 38
+[face_detection-1] [INFO] [1684519174.544033226] [face_recognition]: timing f_p 0.1514592170715332
+[face_detection-1] [INFO] [1684519174.688647626] [face_recognition]: Publishing video frame: 39
+[face_detection-1] [INFO] [1684519174.690376789] [face_recognition]: timing f_p 0.14409112930297852
+[face_detection-1] [INFO] [1684519174.834642275] [face_recognition]: Publishing video frame: 40
+[face_detection-1] [INFO] [1684519174.836517203] [face_recognition]: timing f_p 0.1436936855316162
+[face_detection-1] [INFO] [1684519174.980377937] [face_recognition]: Publishing video frame: 41
+[face_detection-1] [INFO] [1684519174.981696219] [face_recognition]: timing f_p 0.14292311668395996
+[face_detection-1] [INFO] [1684519175.134356773] [face_recognition]: Publishing video frame: 42
+[face_detection-1] [INFO] [1684519175.137449701] [face_recognition]: timing f_p 0.15207242965698242
+[face_detection-1] [INFO] [1684519175.248234850] [face_recognition]: Publishing video frame: 43
+[face_detection-1] [INFO] [1684519175.248879838] [face_recognition]: timing f_p 0.10989713668823242
+[face_detection-1] [INFO] [1684519175.377832293] [face_recognition]: Publishing video frame: 44
+[face_detection-1] [INFO] [1684519175.379705123] [face_recognition]: timing f_p 0.12820720672607422
+[face_detection-1] [INFO] [1684519175.533767895] [face_recognition]: Publishing video frame: 45
+[face_detection-1] [INFO] [1684519175.536220050] [face_recognition]: timing f_p 0.15467166900634766
+[face_detection-1] [INFO] [1684519175.668650887] [face_recognition]: Publishing video frame: 46
+[face_detection-1] [INFO] [1684519175.671115368] [face_recognition]: timing f_p 0.1302340030670166
+[face_detection-1] [INFO] [1684519175.810795960] [face_recognition]: Publishing video frame: 47
+[face_detection-1] [INFO] [1684519175.812853459] [face_recognition]: timing f_p 0.13889646530151367
+[face_detection-1] [INFO] [1684519175.928300804] [face_recognition]: Publishing video frame: 48
+[face_detection-1] [INFO] [1684519175.928991243] [face_recognition]: timing f_p 0.1144416332244873
+[face_detection-1] [INFO] [1684519176.099970144] [face_recognition]: Publishing video frame: 49
+[face_detection-1] [INFO] [1684519176.100918034] [face_recognition]: timing f_p 0.17041301727294922
+[face_detection-1] [INFO] [1684519176.232265502] [face_recognition]: Publishing video frame: 50
+[face_detection-1] [INFO] [1684519176.233659505] [face_recognition]: timing f_p 0.13024282455444336
+[face_detection-1] [INFO] [1684519176.399419655] [face_recognition]: Publishing video frame: 51
+[face_detection-1] [INFO] [1684519176.402345509] [face_recognition]: timing f_p 0.16650080680847168
+[face_detection-1] [INFO] [1684519176.521442959] [face_recognition]: Publishing video frame: 52
+[face_detection-1] [INFO] [1684519176.522655222] [face_recognition]: timing f_p 0.11838579177856445
+[face_detection-1] [INFO] [1684519176.656567253] [face_recognition]: Publishing video frame: 53
+[face_detection-1] [INFO] [1684519176.658518835] [face_recognition]: timing f_p 0.13321924209594727
+[face_detection-1] [INFO] [1684519176.815127721] [face_recognition]: Publishing video frame: 54
+[face_detection-1] [INFO] [1684519176.820071408] [face_recognition]: timing f_p 0.1555013656616211
+[face_detection-1] [INFO] [1684519177.014595311] [face_recognition]: Publishing video frame: 55
+[face_detection-1] [INFO] [1684519177.016461661] [face_recognition]: timing f_p 0.19416403770446777
+[face_detection-1] [INFO] [1684519177.128362271] [face_recognition]: Publishing video frame: 56
+[face_detection-1] [INFO] [1684519177.129213219] [face_recognition]: timing f_p 0.11060786247253418
+[face_detection-1] [INFO] [1684519177.357203321] [face_recognition]: Publishing video frame: 57
+[face_detection-1] [INFO] [1684519177.359719679] [face_recognition]: timing f_p 0.22889065742492676
+[face_detection-1] [INFO] [1684519177.480271409] [face_recognition]: Publishing video frame: 58
+[face_detection-1] [INFO] [1684519177.482793989] [face_recognition]: timing f_p 0.12003517150878906
+[face_detection-1] [INFO] [1684519177.634823503] [face_recognition]: Publishing video frame: 59
+[face_detection-1] [INFO] [1684519177.638824071] [face_recognition]: timing f_p 0.1484065055847168
+[emotion_detection-2] [INFO] [1684519177.672094184] [emotion_detection]: [*] Initializing emotion_detection node...
+[face_detection-1] [INFO] [1684519177.795701566] [face_recognition]: Publishing video frame: 60
+[face_detection-1] [INFO] [1684519177.796686893] [face_recognition]: timing f_p 0.1538994312286377
+[face_detection-1] [INFO] [1684519177.955745603] [face_recognition]: Publishing video frame: 61
+[face_detection-1] [INFO] [1684519177.957716931] [face_recognition]: timing f_p 0.15869498252868652
+[face_detection-1] [INFO] [1684519178.136921547] [face_recognition]: Publishing video frame: 62
+[face_detection-1] [INFO] [1684519178.137985756] [face_recognition]: timing f_p 0.17827630043029785
+[face_detection-1] [INFO] [1684519178.269369157] [face_recognition]: Publishing video frame: 63
+[face_detection-1] [INFO] [1684519178.273840015] [face_recognition]: timing f_p 0.13220930099487305
+[face_detection-1] [INFO] [1684519178.420267686] [face_recognition]: Publishing video frame: 64
+[face_detection-1] [INFO] [1684519178.422500790] [face_recognition]: timing f_p 0.14502859115600586
+[face_detection-1] [INFO] [1684519178.553725089] [face_recognition]: Publishing video frame: 65
+[face_detection-1] [INFO] [1684519178.560826281] [face_recognition]: timing f_p 0.13414955139160156
+[face_detection-1] [INFO] [1684519178.718285702] [face_recognition]: Publishing video frame: 66
+[face_detection-1] [INFO] [1684519178.721294795] [face_recognition]: timing f_p 0.15492558479309082
+[face_detection-1] [INFO] [1684519178.859963303] [face_recognition]: Publishing video frame: 67
+[face_detection-1] [INFO] [1684519178.861074799] [face_recognition]: timing f_p 0.13405609130859375
+[face_detection-1] [INFO] [1684519179.049594097] [face_recognition]: Publishing video frame: 68
+[face_detection-1] [INFO] [1684519179.051405559] [face_recognition]: timing f_p 0.187957763671875
+[face_detection-1] [INFO] [1684519179.176762855] [face_recognition]: Publishing video frame: 69
+[face_detection-1] [INFO] [1684519179.179822445] [face_recognition]: timing f_p 0.1264350414276123
+[face_detection-1] [INFO] [1684519179.330834032] [face_recognition]: Publishing video frame: 70
+[face_detection-1] [INFO] [1684519179.333534767] [face_recognition]: timing f_p 0.14989519119262695
+[face_detection-1] [INFO] [1684519179.505410990] [face_recognition]: Publishing video frame: 71
+[face_detection-1] [INFO] [1684519179.506475333] [face_recognition]: timing f_p 0.17079377174377441
+[face_detection-1] [INFO] [1684519179.628551044] [face_recognition]: Publishing video frame: 72
+[face_detection-1] [INFO] [1684519179.634060984] [face_recognition]: timing f_p 0.12162137031555176
+[face_detection-1] [INFO] [1684519179.796432797] [face_recognition]: Publishing video frame: 73
+[face_detection-1] [INFO] [1684519179.797447690] [face_recognition]: timing f_p 0.16138386726379395
+[face_detection-1] [INFO] [1684519179.928236324] [face_recognition]: Publishing video frame: 74
+[face_detection-1] [INFO] [1684519179.931703463] [face_recognition]: timing f_p 0.13186311721801758
+[face_detection-1] [INFO] [1684519180.071837567] [face_recognition]: Publishing video frame: 75
+[face_detection-1] [INFO] [1684519180.073505753] [face_recognition]: timing f_p 0.1373908519744873
+[face_detection-1] [INFO] [1684519180.199803863] [face_recognition]: Publishing video frame: 76
+[face_detection-1] [INFO] [1684519180.201596418] [face_recognition]: timing f_p 0.12577581405639648
+[face_detection-1] [INFO] [1684519180.350282506] [face_recognition]: Publishing video frame: 77
+[face_detection-1] [INFO] [1684519180.351733598] [face_recognition]: timing f_p 0.14775943756103516
+[face_detection-1] [INFO] [1684519180.480879379] [face_recognition]: Publishing video frame: 78
+[face_detection-1] [INFO] [1684519180.482236378] [face_recognition]: timing f_p 0.12867331504821777
+[face_detection-1] [INFO] [1684519180.651633484] [face_recognition]: Publishing video frame: 79
+[face_detection-1] [INFO] [1684519180.652435657] [face_recognition]: timing f_p 0.16875386238098145
+[face_detection-1] [INFO] [1684519180.767702697] [face_recognition]: Publishing video frame: 80
+[face_detection-1] [INFO] [1684519180.768818574] [face_recognition]: timing f_p 0.11501288414001465
+[face_detection-1] [INFO] [1684519180.909867076] [face_recognition]: Publishing video frame: 81
+[face_detection-1] [INFO] [1684519180.911119087] [face_recognition]: timing f_p 0.14043974876403809
+[emotion_detection-2] [INFO] [1684519181.028040606] [emotion_detection]: [*] Initializing emotion_detection node DONE!
+[face_detection-1] [INFO] [1684519181.091242933] [face_recognition]: Publishing video frame: 82
+[face_detection-1] [INFO] [1684519181.094878150] [face_recognition]: timing f_p 0.17959356307983398
+[emotion_detection-2] [INFO] [1684519181.124474436] [emotion_detection]: starting emotion analysis 1684519181.1009674
+[face_detection-1] [INFO] [1684519181.297291566] [face_recognition]: Publishing video frame: 83
+[face_detection-1] [INFO] [1684519181.298669021] [face_recognition]: timing f_p 0.201371431350708
+[emotion_detection-2] [INFO] [1684519181.390630806] [emotion_detection]: starting emotion analysis 1684519181.3037512
+[face_detection-1] [INFO] [1684519181.472999342] [face_recognition]: Publishing video frame: 84
+[face_detection-1] [INFO] [1684519181.474583017] [face_recognition]: timing f_p 0.17358136177062988
+[emotion_detection-2] [INFO] [1684519181.519426475] [emotion_detection]: starting emotion analysis 1684519181.4866004
+[face_detection-1] [INFO] [1684519181.666007069] [face_recognition]: Publishing video frame: 85
+[face_detection-1] [INFO] [1684519181.672980301] [face_recognition]: timing f_p 0.19608283042907715
+[face_detection-1] [INFO] [1684519181.840130610] [face_recognition]: Publishing video frame: 86
+[face_detection-1] [INFO] [1684519181.846386650] [face_recognition]: timing f_p 0.16687250137329102
+[face_detection-1] [INFO] [1684519182.062379983] [face_recognition]: Publishing video frame: 87
+[face_detection-1] [INFO] [1684519182.065318535] [face_recognition]: timing f_p 0.21493744850158691
+[face_detection-1] [INFO] [1684519182.252964404] [face_recognition]: Publishing video frame: 88
+[face_detection-1] [INFO] [1684519182.254023567] [face_recognition]: timing f_p 0.1858386993408203
+[face_detection-1] [INFO] [1684519182.424570475] [face_recognition]: Publishing video frame: 89
+[face_detection-1] [INFO] [1684519182.426080255] [face_recognition]: timing f_p 0.17000055313110352
+[face_detection-1] [INFO] [1684519182.556047097] [face_recognition]: Publishing video frame: 90
+[face_detection-1] [INFO] [1684519182.558756626] [face_recognition]: timing f_p 0.12948131561279297
+[face_detection-1] [INFO] [1684519182.717969641] [face_recognition]: Publishing video frame: 91
+[face_detection-1] [INFO] [1684519182.721774870] [face_recognition]: timing f_p 0.16095781326293945
+[face_detection-1] [INFO] [1684519182.852842974] [face_recognition]: Publishing video frame: 92
+[face_detection-1] [INFO] [1684519182.855384135] [face_recognition]: timing f_p 0.13070392608642578
+[face_detection-1] [INFO] [1684519183.026535454] [face_recognition]: Publishing video frame: 93
+[face_detection-1] [INFO] [1684519183.029753691] [face_recognition]: timing f_p 0.1709582805633545
+[face_detection-1] [INFO] [1684519183.242493659] [face_recognition]: Publishing video frame: 94
+[face_detection-1] [INFO] [1684519183.246064603] [face_recognition]: timing f_p 0.2106332778930664
+[face_detection-1] [INFO] [1684519183.476914872] [face_recognition]: Publishing video frame: 95
+[face_detection-1] [INFO] [1684519183.477934667] [face_recognition]: timing f_p 0.23047542572021484
+[emotion_detection-2] [INFO] [1684519183.617870175] [emotion_detection]: timing e_a 2.310434579849243
+[emotion_detection-2] [INFO] [1684519183.619289746] [emotion_detection]: starting time was 1684519181.303748
+[emotion_detection-2] [INFO] [1684519183.623083356] [emotion_detection]: timing e_a 2.1268069744110107
+[emotion_detection-2] [INFO] [1684519183.637370646] [emotion_detection]: starting time was 1684519181.4865956
+[emotion_detection-2] [INFO] [1684519183.648213966] [emotion_detection]: timing e_a 2.5264008045196533
+[emotion_detection-2] [INFO] [1684519183.651667422] [emotion_detection]: starting time was 1684519181.1009645
+[emotion_detection-2] [INFO] [1684519183.662971966] [emotion_detection]: starting emotion analysis 1684519183.6206672
+[face_detection-1] [INFO] [1684519183.693767066] [face_recognition]: Publishing video frame: 96
+[face_detection-1] [INFO] [1684519183.697957426] [face_recognition]: timing f_p 0.21546053886413574
+[emotion_detection-2] [INFO] [1684519183.698060594] [emotion_detection]: starting emotion analysis 1684519183.6944025
+[face_detection-1] [INFO] [1684519183.834267950] [face_recognition]: Publishing video frame: 97
+[face_detection-1] [INFO] [1684519183.837462513] [face_recognition]: timing f_p 0.13731956481933594
+[emotion_detection-2] [INFO] [1684519183.842598496] [emotion_detection]: starting emotion analysis 1684519183.8404756
+[face_detection-1] [INFO] [1684519184.003947530] [face_recognition]: Publishing video frame: 98
+[face_detection-1] [INFO] [1684519184.004830650] [face_recognition]: timing f_p 0.16425395011901855
+[face_detection-1] [INFO] [1684519184.138648704] [face_recognition]: Publishing video frame: 99
+[face_detection-1] [INFO] [1684519184.140062555] [face_recognition]: timing f_p 0.13338994979858398
+[face_detection-1] [INFO] [1684519184.289761691] [face_recognition]: Publishing video frame: 100
+[face_detection-1] [INFO] [1684519184.290937395] [face_recognition]: timing f_p 0.1490035057067871
+[face_detection-1] [INFO] [1684519184.399258956] [face_recognition]: Publishing video frame: 101
+[face_detection-1] [INFO] [1684519184.402125159] [face_recognition]: timing f_p 0.10784316062927246
+[face_detection-1] [INFO] [1684519184.546837276] [face_recognition]: Publishing video frame: 102
+[face_detection-1] [INFO] [1684519184.548367824] [face_recognition]: timing f_p 0.14371156692504883
+[emotion_detection-2] [INFO] [1684519184.666883321] [emotion_detection]: timing e_a 0.9706752300262451
+[emotion_detection-2] [INFO] [1684519184.679220924] [emotion_detection]: starting time was 1684519183.6943974
+[emotion_detection-2] [INFO] [1684519184.682841136] [emotion_detection]: starting emotion analysis 1684519184.6809392
+[emotion_detection-2] [INFO] [1684519184.712020869] [emotion_detection]: timing e_a 1.0440418720245361
+[face_detection-1] [INFO] [1684519184.714078292] [face_recognition]: Publishing video frame: 103
+[face_detection-1] [INFO] [1684519184.715380169] [face_recognition]: timing f_p 0.16505026817321777
+[emotion_detection-2] [INFO] [1684519184.739841231] [emotion_detection]: starting time was 1684519183.6206641
+[emotion_detection-2] [INFO] [1684519184.784279102] [emotion_detection]: starting emotion analysis 1684519184.7408702
+[emotion_detection-2] [INFO] [1684519184.893274844] [emotion_detection]: timing e_a 1.0344011783599854
+[emotion_detection-2] [INFO] [1684519184.894244744] [emotion_detection]: starting time was 1684519183.840472
+[emotion_detection-2] [INFO] [1684519184.895146837] [emotion_detection]: predicted emotion: Sad
+[action_client-3] [INFO] [1684519184.909246684] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684519184.979297815] [face_recognition]: Publishing video frame: 104
+[face_detection-1] [INFO] [1684519184.982515921] [face_recognition]: timing f_p 0.2628200054168701
+[face_detection-1] [INFO] [1684519185.147071790] [face_recognition]: Publishing video frame: 105
+[face_detection-1] [INFO] [1684519185.149993226] [face_recognition]: timing f_p 0.16339635848999023
+[action_client-3] [INFO] [1684519185.170346287] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684519185.171523273] [action_client]: timing e_r 17.329745054244995
+[action_client-3] [INFO] [1684519185.185797794] [action_client]: Goal accepted :)
+[emotion_detection-2] [INFO] [1684519185.322239717] [emotion_detection]: timing e_a 0.6392078399658203
+[emotion_detection-2] [INFO] [1684519185.327196886] [emotion_detection]: starting time was 1684519184.6809344
+[emotion_detection-2] [INFO] [1684519185.332514091] [emotion_detection]: timing e_a 0.5907063484191895
+[emotion_detection-2] [INFO] [1684519185.333108987] [emotion_detection]: starting time was 1684519184.7408676
+[action_client-3] [INFO] [1684519187.180609427] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684519189.182743623] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684519189.190681761] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684519191.190749044] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684519191.191894120] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684519191.195458121] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684519191.417839910] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684519191.750663834] [face_recognition]: Publishing video frame: 106
+[emotion_detection-2] [INFO] [1684519191.757492381] [emotion_detection]: starting emotion analysis 1684519191.7541194
+[face_detection-1] [INFO] [1684519191.760369390] [face_recognition]: timing f_p 0.23548030853271484
+[face_detection-1] [INFO] [1684519191.928431330] [face_recognition]: Publishing video frame: 107
+[face_detection-1] [INFO] [1684519191.930177312] [face_recognition]: timing f_p 0.16747021675109863
+[emotion_detection-2] [INFO] [1684519191.948683820] [emotion_detection]: starting emotion analysis 1684519191.9297001
+[face_detection-1] [INFO] [1684519192.074314574] [face_recognition]: Publishing video frame: 108
+[face_detection-1] [INFO] [1684519192.075589398] [face_recognition]: timing f_p 0.14313054084777832
+[emotion_detection-2] [INFO] [1684519192.078370442] [emotion_detection]: starting emotion analysis 1684519192.0764644
+[face_detection-1] [INFO] [1684519192.208134717] [face_recognition]: Publishing video frame: 109
+[face_detection-1] [INFO] [1684519192.216263956] [face_recognition]: timing f_p 0.13197898864746094
+[face_detection-1] [INFO] [1684519192.371084770] [face_recognition]: Publishing video frame: 110
+[face_detection-1] [INFO] [1684519192.375205364] [face_recognition]: timing f_p 0.15671062469482422
+[emotion_detection-2] [INFO] [1684519192.402609700] [emotion_detection]: timing e_a 0.6272275447845459
+[emotion_detection-2] [INFO] [1684519192.425900819] [emotion_detection]: starting time was 1684519191.7541165
+[emotion_detection-2] [INFO] [1684519192.433340339] [emotion_detection]: starting emotion analysis 1684519192.4321046
+[face_detection-1] [INFO] [1684519192.617714053] [face_recognition]: Publishing video frame: 111
+[face_detection-1] [INFO] [1684519192.623896716] [face_recognition]: timing f_p 0.24161291122436523
+[face_detection-1] [INFO] [1684519192.828118000] [face_recognition]: Publishing video frame: 112
+[face_detection-1] [INFO] [1684519192.831136190] [face_recognition]: timing f_p 0.20302057266235352
+[emotion_detection-2] [INFO] [1684519192.893598016] [emotion_detection]: timing e_a 0.9626424312591553
+[emotion_detection-2] [INFO] [1684519192.894629444] [emotion_detection]: starting time was 1684519191.929698
+[emotion_detection-2] [INFO] [1684519192.905069805] [emotion_detection]: starting emotion analysis 1684519192.8956695
+[face_detection-1] [INFO] [1684519193.075647576] [face_recognition]: Publishing video frame: 113
+[face_detection-1] [INFO] [1684519193.078761944] [face_recognition]: timing f_p 0.24498391151428223
+[emotion_detection-2] [INFO] [1684519193.179541159] [emotion_detection]: timing e_a 1.1011271476745605
+[emotion_detection-2] [INFO] [1684519193.182432208] [emotion_detection]: starting time was 1684519192.0764616
+[emotion_detection-2] [INFO] [1684519193.190787182] [emotion_detection]: predicted emotion: Neutral
+[action_client-3] [INFO] [1684519193.210941560] [action_client]: Emotion denied -> exiting...
+[action_client-3] [INFO] [1684519193.213016594] [action_client]: timing e_r 1.7931339740753174
+[emotion_detection-2] [INFO] [1684519193.248218872] [emotion_detection]: emotion declined!
+[face_detection-1] [INFO] [1684519193.357547270] [face_recognition]: Publishing video frame: 114
+[emotion_detection-2] [INFO] [1684519193.362241585] [emotion_detection]: starting emotion analysis 1684519193.3598945
+[face_detection-1] [INFO] [1684519193.362650204] [face_recognition]: timing f_p 0.2764265537261963
+[emotion_detection-2] [INFO] [1684519193.466223278] [emotion_detection]: timing e_a 1.0226123332977295
+[emotion_detection-2] [INFO] [1684519193.479822244] [emotion_detection]: starting time was 1684519192.4321003
+[emotion_detection-2] [INFO] [1684519193.544974328] [emotion_detection]: timing e_a 0.6478743553161621
+[emotion_detection-2] [INFO] [1684519193.552747269] [emotion_detection]: starting time was 1684519192.895666
+[face_detection-1] [INFO] [1684519193.647206238] [face_recognition]: Publishing video frame: 115
+[face_detection-1] [INFO] [1684519193.660159844] [face_recognition]: timing f_p 0.2880692481994629
+[emotion_detection-2] [INFO] [1684519193.667404618] [emotion_detection]: starting emotion analysis 1684519193.6604064
+[face_detection-1] [INFO] [1684519193.862130026] [face_recognition]: Publishing video frame: 116
+[emotion_detection-2] [INFO] [1684519193.868342673] [emotion_detection]: timing e_a 0.5001537799835205
+[face_detection-1] [INFO] [1684519193.869766628] [face_recognition]: timing f_p 0.20294833183288574
+[emotion_detection-2] [INFO] [1684519193.888922468] [emotion_detection]: starting emotion analysis 1684519193.8620963
+[emotion_detection-2] [INFO] [1684519193.896573336] [emotion_detection]: starting time was 1684519193.3598168
+[face_detection-1] [INFO] [1684519194.008106594] [face_recognition]: Publishing video frame: 117
+[face_detection-1] [INFO] [1684519194.009607136] [face_recognition]: timing f_p 0.13710880279541016
+[emotion_detection-2] [INFO] [1684519194.018549857] [emotion_detection]: starting emotion analysis 1684519194.0174205
+[face_detection-1] [INFO] [1684519194.178017248] [face_recognition]: Publishing video frame: 118
+[face_detection-1] [INFO] [1684519194.180172199] [face_recognition]: timing f_p 0.1675736904144287
+[emotion_detection-2] [INFO] [1684519194.324299487] [emotion_detection]: timing e_a 0.6621172428131104
+[emotion_detection-2] [INFO] [1684519194.333503963] [emotion_detection]: starting time was 1684519193.6604009
+[emotion_detection-2] [INFO] [1684519194.367544490] [emotion_detection]: starting emotion analysis 1684519194.3344028
+[face_detection-1] [INFO] [1684519194.482558258] [face_recognition]: Publishing video frame: 119
+[face_detection-1] [INFO] [1684519194.488169287] [face_recognition]: timing f_p 0.30162668228149414
+[emotion_detection-2] [INFO] [1684519194.598202061] [emotion_detection]: timing e_a 0.7347702980041504
+[emotion_detection-2] [INFO] [1684519194.599696505] [emotion_detection]: starting time was 1684519193.862093
+[emotion_detection-2] [INFO] [1684519194.607181872] [emotion_detection]: starting emotion analysis 1684519194.6006196
+[face_detection-1] [INFO] [1684519194.673527445] [face_recognition]: Publishing video frame: 120
+[face_detection-1] [INFO] [1684519194.674585818] [face_recognition]: timing f_p 0.18456745147705078
+[face_detection-1] [INFO] [1684519194.801979995] [face_recognition]: Publishing video frame: 121
+[face_detection-1] [INFO] [1684519194.803061293] [face_recognition]: timing f_p 0.11992478370666504
+[emotion_detection-2] [INFO] [1684519194.959618332] [emotion_detection]: timing e_a 0.9235296249389648
+[emotion_detection-2] [INFO] [1684519194.966418014] [emotion_detection]: starting time was 1684519194.0174158
+[emotion_detection-2] [INFO] [1684519194.978455138] [emotion_detection]: starting emotion analysis 1684519194.9681513
+[face_detection-1] [INFO] [1684519195.088690375] [face_recognition]: Publishing video frame: 122
+[face_detection-1] [INFO] [1684519195.090032370] [face_recognition]: timing f_p 0.2849595546722412
+[emotion_detection-2] [INFO] [1684519195.234167150] [emotion_detection]: timing e_a 0.862201452255249
+[emotion_detection-2] [INFO] [1684519195.240542045] [emotion_detection]: starting time was 1684519194.3344002
+[emotion_detection-2] [INFO] [1684519195.241721862] [emotion_detection]: predicted emotion: Angry
+[face_detection-1] [INFO] [1684519195.241881515] [face_recognition]: Publishing video frame: 123
+[face_detection-1] [INFO] [1684519195.243652162] [face_recognition]: timing f_p 0.15149641036987305
+[action_client-3] [INFO] [1684519195.252685282] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684519195.393165433] [face_recognition]: Publishing video frame: 124
+[face_detection-1] [INFO] [1684519195.398621202] [face_recognition]: timing f_p 0.13680577278137207
+[action_client-3] [INFO] [1684519195.466019050] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684519195.474171387] [action_client]: timing e_r 2.2529897689819336
+[action_client-3] [INFO] [1684519195.483337710] [action_client]: Goal accepted :)
+[emotion_detection-2] [INFO] [1684519195.530793678] [emotion_detection]: timing e_a 0.9124555587768555
+[emotion_detection-2] [INFO] [1684519195.532062970] [emotion_detection]: starting time was 1684519194.6006165
+[emotion_detection-2] [INFO] [1684519195.633935975] [emotion_detection]: timing e_a 0.6621952056884766
+[emotion_detection-2] [INFO] [1684519195.635266385] [emotion_detection]: starting time was 1684519194.9681468
+[action_client-3] [INFO] [1684519197.481383603] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684519199.483532252] [action_client]: Resetting robot to original position
+[action_client-3] [INFO] [1684519199.486888281] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684519201.487813952] [action_client]: Goal succeeded!
+[action_client-3] [INFO] [1684519201.488437210] [action_client]: Resetting robot done!
+[action_client-3] [INFO] [1684519201.490474084] [action_client]: Started emotion node!
+[action_client-3] [INFO] [1684519201.701543906] [action_client]: Timer restarted!
+[face_detection-1] [INFO] [1684519202.027518080] [face_recognition]: Publishing video frame: 125
+[emotion_detection-2] [INFO] [1684519202.028936068] [emotion_detection]: starting emotion analysis 1684519202.026898
+[face_detection-1] [INFO] [1684519202.029383923] [face_recognition]: timing f_p 0.2291107177734375
+[face_detection-1] [INFO] [1684519202.161383760] [face_recognition]: Publishing video frame: 126
+[face_detection-1] [INFO] [1684519202.162874649] [face_recognition]: timing f_p 0.131439208984375
+[emotion_detection-2] [INFO] [1684519202.162030422] [emotion_detection]: starting emotion analysis 1684519202.1613958
+[face_detection-1] [INFO] [1684519202.365907944] [face_recognition]: Publishing video frame: 127
+[face_detection-1] [INFO] [1684519202.367235242] [face_recognition]: timing f_p 0.2023148536682129
+[emotion_detection-2] [INFO] [1684519202.398081942] [emotion_detection]: starting emotion analysis 1684519202.360368
+[face_detection-1] [INFO] [1684519202.553727007] [face_recognition]: Publishing video frame: 128
+[face_detection-1] [INFO] [1684519202.558923746] [face_recognition]: timing f_p 0.18870902061462402
+[emotion_detection-2] [INFO] [1684519202.699312495] [emotion_detection]: timing e_a 0.669684648513794
+[emotion_detection-2] [INFO] [1684519202.700625675] [emotion_detection]: starting time was 1684519202.026894
+[emotion_detection-2] [INFO] [1684519202.715380600] [emotion_detection]: starting emotion analysis 1684519202.7016013
+[face_detection-1] [INFO] [1684519202.821715686] [face_recognition]: Publishing video frame: 129
+[face_detection-1] [INFO] [1684519202.825865743] [face_recognition]: timing f_p 0.26202845573425293
+[face_detection-1] [INFO] [1684519202.992089116] [face_recognition]: Publishing video frame: 130
+[emotion_detection-2] [INFO] [1684519202.992581297] [emotion_detection]: timing e_a 0.8155388832092285
+[face_detection-1] [INFO] [1684519203.002940262] [face_recognition]: timing f_p 0.16285061836242676
+[emotion_detection-2] [INFO] [1684519203.074799528] [emotion_detection]: starting time was 1684519202.1613913
+[emotion_detection-2] [INFO] [1684519203.107441110] [emotion_detection]: starting emotion analysis 1684519203.075886
+[face_detection-1] [INFO] [1684519203.134974176] [face_recognition]: Publishing video frame: 131
+[face_detection-1] [INFO] [1684519203.150974158] [face_recognition]: timing f_p 0.14325857162475586
+[face_detection-1] [INFO] [1684519203.282739018] [face_recognition]: Publishing video frame: 132
+[face_detection-1] [INFO] [1684519203.287001212] [face_recognition]: timing f_p 0.11943721771240234
+[face_detection-1] [INFO] [1684519203.434344766] [face_recognition]: Publishing video frame: 133
+[face_detection-1] [INFO] [1684519203.436292818] [face_recognition]: timing f_p 0.14501333236694336
+[emotion_detection-2] [INFO] [1684519203.445874932] [emotion_detection]: timing e_a 1.0770714282989502
+[emotion_detection-2] [INFO] [1684519203.448775089] [emotion_detection]: starting time was 1684519202.3603659
+[emotion_detection-2] [INFO] [1684519203.453655519] [emotion_detection]: predicted emotion: Happy
+[action_client-3] [INFO] [1684519203.459305858] [action_client]: Emotion accepted -> proceeding...
+[face_detection-1] [INFO] [1684519203.596281317] [face_recognition]: Publishing video frame: 134
+[face_detection-1] [INFO] [1684519203.600098209] [face_recognition]: timing f_p 0.16083693504333496
+[emotion_detection-2] [INFO] [1684519203.738288268] [emotion_detection]: timing e_a 1.0350239276885986
+[emotion_detection-2] [INFO] [1684519203.739607883] [emotion_detection]: starting time was 1684519202.701599
+[face_detection-1] [INFO] [1684519203.781173051] [face_recognition]: Publishing video frame: 135
+[face_detection-1] [INFO] [1684519203.788654400] [face_recognition]: timing f_p 0.1850566864013672
+[action_client-3] [INFO] [1684519203.835519097] [action_client]: Timer turned off
+[action_client-3] [INFO] [1684519203.836538230] [action_client]: timing e_r 2.1339633464813232
+[emotion_detection-2] [INFO] [1684519203.835604634] [emotion_detection]: timing e_a 0.748603105545044
+[emotion_detection-2] [INFO] [1684519203.836614275] [emotion_detection]: starting time was 1684519203.0758836
+[action_client-3] [INFO] [1684519203.842351867] [action_client]: Goal accepted :)
+[action_client-3] [INFO] [1684519205.842488996] [action_client]: Goal succeeded!
+

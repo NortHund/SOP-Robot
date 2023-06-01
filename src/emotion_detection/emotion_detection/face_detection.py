@@ -167,9 +167,10 @@ class FaceDetection(Node):
 
                 else:
                     # publish image of face to topic
+                    #self.logger.info('timing face_detected %s' % (time.time() - start_time) )
                     self._image_publisher.publish(image_msg)
                     self.logger.info(f'Publishing video frame: {self.frame_count}')	
-                    self.logger.info('timing f_p %s' % (time.time() - start_time) )
+
 
     def open_webcam(self):
         '''

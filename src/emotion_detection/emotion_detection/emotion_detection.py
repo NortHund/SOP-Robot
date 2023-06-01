@@ -135,7 +135,7 @@ class EmotionDetection(Node):
         index = np.argmax(predictions[0])
         
         #self.logger.info('message emotion_analyse Analyzed_emotion_from_an_image')
-        self.logger.info('timing e_a %s' % (time.time() - start_time) )
+        #self.logger.info('timing emotion_analysed %s' % (time.time() - start_time) )
         #self.logger.info('starting time was %s' % (start_time) )
         
         # allow only 1 thread at a time to modify the circular buffer

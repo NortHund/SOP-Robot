@@ -35,6 +35,7 @@ class MainActionClient(Node):
         self.should_reset = True
         # list to prevent garbage collectons from deleting task refrences
         self.background_tasks = []
+        self.panServoAngle = 0.0
 
         self.start_timer_req = SetBool.Request(data=True)
         self.stop_timer_req = SetBool.Request(data=False)
@@ -45,19 +46,16 @@ class MainActionClient(Node):
         # action message constantsgit
         self.duration = Duration(sec=1,nanosec=0)
         self.head_joints = [
-            'head_pan_joint', 
-            'head_tilt_right_joint', 
-            'head_tilt_left_joint', 
-            'head_tilt_vertical_joint'
+            'head_pan_joint'
         ]
 
         # only head pan movement can be simulated
         self.positions_dict = {
-            "Original": [0.0, 0.0, 0.0, 0.0],
-            "Happy": [0.5, 0.0, 0.0, 0.0], 		# look right
-            "Angry":[-0.5, 0.0, 0.0, 0.0], 		# look left
-            "Sad": [0.0, 0.0, 0.0, -0.2], 		# look down
-            "Surprised": [0.0, -0.5, 0.5, 0.0]	# tilt to side
+            "Original": [0.0 + self.panServoAngle],
+            "Happy": [0.5 + self.panServoAngle], 		# look right
+            "Angry":[-0.5 + self.panServoAngle], 		# look left
+            "Sad": [-0.2 + self.panServoAngle], 		# look slightly left
+            "Surprised": [0.2 + self.panServoAngle]	# look slightly right
         }
 
         # control robot movements
@@ -121,7 +119,7 @@ class MainActionClient(Node):
             timer_result = await timer_future
             if timer_result.success == True:
                 self.logger.info("Timer turned off")
-                self.logger.info('timing e_r %s' % (time.time() - self.start_time) )
+                #self.logger.info('timing emotion_received %s' % (time.time() - self.start_time) )
             else:
                 self.logger.info("Failed to close timer")
         
@@ -131,7 +129,7 @@ class MainActionClient(Node):
 
         else:
             self.logger.info("Emotion denied -> exiting...")
-            self.logger.info('timing e_r %s' % (time.time() - self.start_time) )
+            #self.logger.info('timing emotion_received %s' % (time.time() - self.start_time) )
             self.start_time = time.time()
             response.bool_value = False		
 

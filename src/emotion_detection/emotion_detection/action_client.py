@@ -88,7 +88,6 @@ class MainActionClient(Node):
             callback_group=self.cb_group1 	# callback group
         )
         
-        self.start_time = time.time()
 
         self.logger.info("[*] Initializing action_client node DONE!")
 
@@ -119,7 +118,6 @@ class MainActionClient(Node):
             timer_result = await timer_future
             if timer_result.success == True:
                 self.logger.info("Timer turned off")
-                #self.logger.info('timing emotion_received %s' % (time.time() - self.start_time) )
             else:
                 self.logger.info("Failed to close timer")
         
@@ -129,8 +127,6 @@ class MainActionClient(Node):
 
         else:
             self.logger.info("Emotion denied -> exiting...")
-            #self.logger.info('timing emotion_received %s' % (time.time() - self.start_time) )
-            self.start_time = time.time()
             response.bool_value = False		
 
         return response

@@ -42,9 +42,6 @@ class EmotionDetection(Node):
         # circular buffer 
         self._buffsize = 3
         self.predicted_emotions = deque([], maxlen=self._buffsize) 
-
-        #self.emotions = ("Angry", "Disgust", "Fear", "Happy",
-        #                    "Sad", "Surprised", "Neutral")
         
         self.emotions = ("Angry", "Fear", "Happy",
                             "Neutral", "Sad", "Surprised")
@@ -114,7 +111,7 @@ class EmotionDetection(Node):
         '''
 
         if self.sending_emotion == True:
-            #self.logger.info("EXIT before running inference")
+            #EXIT before running inference
             return
         
         
@@ -124,25 +121,18 @@ class EmotionDetection(Node):
         except CvBridgeError:
             self.logger.error("[*] CvBridgeError")
             return
-            
-        start_time = time.time()
-        #self.logger.info('starting emotion analysis %s' % (time.time()) )
-        
+          
         # run the inference
         pixels = img_to_array(cv_img)
         pixels = np.expand_dims(pixels, axis=0)
         predictions = self.FER_model.predict(pixels/255, verbose=0)
         index = np.argmax(predictions[0])
         
-        #self.logger.info('message emotion_analyse Analyzed_emotion_from_an_image')
-        #self.logger.info('timing emotion_analysed %s' % (time.time() - start_time) )
-        #self.logger.info('starting time was %s' % (start_time) )
-        
         # allow only 1 thread at a time to modify the circular buffer
         with self.emotion_buffer_lock:
 
             if self.sending_emotion == True:
-                #self.logger.info("EXIT after aquiring lock and doing nothing")
+                #EXIT after aquiring lock and doing nothing
                 return 
 
             # add emotion into circular list/buffer
@@ -160,8 +150,6 @@ class EmotionDetection(Node):
                 
             else:
                 # exit callback if three consecutive emotions are not the same
-                #self.logger.info("EXIT after aquiring lock and checking buffer")
-                #self.logger.info(f"{self.predicted_emotions}\n")
                 return
         
         # wait for action_service to be available
@@ -172,7 +160,6 @@ class EmotionDetection(Node):
         self.action_req.string_value = self.emotion # build request message
         future = self.action_client.call_async(self.action_req)
         result = await future
-        #print(f"emotion boolean: {result.bool_value}")
 
         # check if emotion was in the accepted list
         # otherwise keep sending emotions untill one is found

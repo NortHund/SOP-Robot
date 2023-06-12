@@ -122,7 +122,6 @@ class FaceDetection(Node):
         Timer callback that publishes 48x48 grayscale image of detected face
         to 'face_img' topic. 
         '''
-        start_time = time.time()
         
         try:
             # Capture a frame from webcam
@@ -138,8 +137,6 @@ class FaceDetection(Node):
 
         else:
             self.frame_count += 1	
-            # display the message on the console
-            #self.logger.info(f'frames read: {self.frame_count}')
     
             # detect faces from image
             faces_list = self.YUNET_model.infer(frame)
@@ -150,13 +147,13 @@ class FaceDetection(Node):
                 # find largest face from list of detected faces
                 face_coords = self.find_largest_image(faces_list) # can maybe simplify check face_coordinates truth value
                 if face_coords is None:
-                    #self.logger.error(f"[*] Failed to find largest image, frame {self.frame_count} lost")
+                    #Failed to find largest image, frame lost
                     return
 
                 # crop 48x48 grayscale face out of original frame
                 face = self.crop_face_image(frame, face_coords, padding=4)
                 if face is None:
-                    #self.logger.error(f"[*] Failed to crop face image, frame {self.frame_count} lost")
+                    #Failed to crop face image, frame lost
                     return
 
                 try:
@@ -167,7 +164,6 @@ class FaceDetection(Node):
 
                 else:
                     # publish image of face to topic
-                    #self.logger.info('timing face_detected %s' % (time.time() - start_time) )
                     self._image_publisher.publish(image_msg)
                     self.logger.info(f'Publishing video frame: {self.frame_count}')	
 
